@@ -1,0 +1,204 @@
+/*************************************************
+**************************************************
+
+Website Name: fluc
+Website URL: fluc.com
+Website Author: Aaron Cheng
+Author URL: chengfolio.com
+Copyright 2014. All Rights Reserved.
+
+Color Guide
+***************
+0287E5 - Blue(Highlight)
+F6F6F6 - Light Gray
+B9BBC5 - Mid Gray
+303338 - Dark Gray
+808a97 - Blue Gray(For text)
+
+*************************************************/
+
+/************************************************
+*************************************************
+0. CSS Reset -------------------- index.html
+1. Header Styles -------------------- index.html
+2. Body Styles ---------------------- index.html
+3. Footer Styles ------------------- index.html
+*************************************************
+************************************************/
+
+/*----------------------------------------------
+------------------------------------------------
+0. CSS Reset
+------------------------------------------------
+----------------------------------------------*/
+body  {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.428571429;
+  color: #808a97;
+}
+
+ul,ol,li{
+list-style-type:none;
+padding:0;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+font-weight:300;
+}
+
+a{
+color: #808a97;
+}
+
+a:hover, a:focus{
+color: #808a97;
+text-decoration: none;
+}
+
+/*----------------------------------------------
+------------------------------------------------
+1. Header Styles
+------------------------------------------------
+----------------------------------------------*/
+
+.logo{
+	margin-top: 20px;
+}
+
+.btn_login{
+	margin-top: 20px;
+}
+/*----------------------------------------------
+------------------------------------------------
+2. Body Styles
+------------------------------------------------
+----------------------------------------------*/
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+
+.btn-highlight {
+	background-color: #FFF;
+	border-width: 0;
+	color: #000;
+	display:block;
+	font-weight:400;
+	height: 30px;
+	line-height: 30px;
+	margin-top:15px;
+	text-align:center;
+	width: 100%;
+	border-width: 0px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.btn-highlight:hover{
+	opacity: 0.9;
+}
+
+.img_background{
+	position: absolute;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	overflow:hidden;
+}
+
+.img_background img{
+	position:relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+	text-align:center;
+	color: #FFF;
+	font-size: 48px;
+	margin-top: 60px;
+}
+
+h1 span{
+	font-weight: 700;
+}
+
+.visible-xs h1{
+	font-size: 24px;
+	margin-top: 40px;
+}
+
+.input_address{
+	background-color: #B9BBC5;
+	padding: 4px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	margin-top: 60px;
+}
+
+.input_address input{
+	height: 50px;
+	font-size: 18px;
+	border-width: 0;
+}
+
+.input_address input.col-sm-4{
+	color: #FFF;
+	background-color: #0287E5;
+	font-weight: 700;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#btn_download{
+	background-color: #0287E5;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+#btn_skip_app{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#btn_skip_app a{
+	color: #FFF;
+}
+/*----------------------------------------------
+------------------------------------------------
+3. Footer Styles
+------------------------------------------------
+----------------------------------------------*/
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer ul li{
+	line-height:30px;
+	float: left;
+	margin-left: 20px;
+}
+
+footer ul li a{
+	color: #000;
+}

@@ -1,0 +1,16 @@
+{
+  "vars": {},
+  "css": [
+    "print.less",
+    "type.less",
+    "grid.less",
+    "carousel.less",
+    "utilities.less",
+    "responsive-utilities.less",
+    "component-animations.less"
+  ],
+  "js": [
+    "carousel.js",
+    "transition.js"
+  ]
+}

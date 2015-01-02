@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Colorize your Google Map." />
+		<meta name="keywords" content="RGB, HEX, HSL, Google Maps, JavaScript, API, Tool" />
+		<title>Google Maps Colorizr</title>
+		<link rel="shortcut icon" href="fileadmin/setup/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script type="text/javascript" src="javascript/ZeroClipboard.js"></script>
+		<script type='text/javascript' src="javascript/googlemapscolorizr.js"></script>
+	</head>
+	<body onload="gmc.init()">
+		<div id="middle">
+			<div id="left">
+				<div id="items"></div>
+				<input id="add" type="button" name="addStyle" value="+" onclick="gmc.appendItemDiv()">
+			</div>
+			<div id="map">
+			</div>
+			<div id="right" style="display:none;">
+				<div id="json"></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,620 @@
+html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1064px;
+	min-height: 438px;
+	padding-bottom: 165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#master-header
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	margin-top: 20px;
+	left: 20px;
+}
+
+#u9485-6
+{
+	z-index: 3;
+	width: 456px;
+	min-height: 23px;
+	margin-right: -456px;
+}
+
+#pu7975
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	margin-top: 130px;
+	left: 143px;
+}
+
+#u7975
+{
+	z-index: 11;
+	width: 200px;
+	margin-right: -200px;
+}
+
+#u7714
+{
+	z-index: 10;
+	width: 200px;
+	margin-right: -200px;
+	margin-top: 159px;
+	left: 273px;
+}
+
+#pu9110
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -1px;
+	margin-top: 75px;
+	left: -27px;
+}
+
+#u9110
+{
+	z-index: 75;
+	width: 47px;
+	min-height: 18px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 8px;
+	left: 50%;
+	margin-left: 224px;
+}
+
+#u9112
+{
+	z-index: 76;
+	width: 200px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 8px;
+	left: 50%;
+	margin-left: 314px;
+}
+
+#u9114
+{
+	z-index: 77;
+	width: 200px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: fixed;
+	top: 8px;
+	left: 50%;
+	margin-left: 409px;
+}
+
+#slideshowu6370
+{
+	z-index: 13;
+	width: 0.01px;
+	height: 0px;
+	padding-bottom: 680px;
+	position: relative;
+}
+
+#u6425
+{
+	position: absolute;
+	z-index: 14;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	left: 47px;
+}
+
+#u6588
+{
+	z-index: 15;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6597
+{
+	z-index: 17;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6606
+{
+	z-index: 19;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6615
+{
+	z-index: 21;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6624
+{
+	z-index: 23;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6633
+{
+	z-index: 25;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6642
+{
+	z-index: 27;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6651
+{
+	z-index: 29;
+	width: 1024px;
+	height: 540px;
+	background-color: transparent;
+	margin-right: -1024px;
+	position: relative;
+}
+
+#u6588_img,#u6597_img,#u6606_img,#u6615_img,#u6624_img,#u6633_img,#u6642_img,#u6651_img
+{
+	vertical-align: top;
+}
+
+#u6377
+{
+	position: absolute;
+	z-index: 31;
+	width: 548px;
+	top: 570px;
+	left: 284px;
+}
+
+#u6591
+{
+	z-index: 32;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+}
+
+#u6600
+{
+	z-index: 34;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 69px;
+}
+
+#u6609
+{
+	z-index: 36;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 138px;
+}
+
+#u6618
+{
+	z-index: 38;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 207px;
+}
+
+#u6627
+{
+	z-index: 40;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 276px;
+}
+
+#u6636
+{
+	z-index: 42;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 345px;
+}
+
+#u6645
+{
+	z-index: 44;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 414px;
+}
+
+#u6654
+{
+	z-index: 46;
+	width: 65px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -65px;
+	left: 483px;
+}
+
+#u6591.SSSlideLinkSelected,#u6600.SSSlideLinkSelected,#u6609.SSSlideLinkSelected,#u6618.SSSlideLinkSelected,#u6627.SSSlideLinkSelected,#u6636.SSSlideLinkSelected,#u6645.SSSlideLinkSelected,#u6654.SSSlideLinkSelected
+{
+	margin: 0px -65px 0px 0px;
+}
+
+#u6591_clip,#u6600_clip,#u6609_clip,#u6618_clip,#u6627_clip,#u6636_clip,#u6645_clip,#u6654_clip
+{
+	overflow: hidden;
+	width: 65px;
+	height: 50px;
+}
+
+#u6591_img,#u6600_img,#u6609_img,#u6618_img,#u6627_img,#u6636_img,#u6645_img,#u6654_img
+{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+#u6374-4
+{
+	position: absolute;
+	z-index: 48;
+	width: 45px;
+	min-height: 58px;
+	padding: 6px;
+	text-align: right;
+	color: #39393A;
+	font-size: 48px;
+	font-family: Consolas, Lucida Console, Monaco, monospace;
+	font-weight: normal;
+	top: 234px;
+}
+
+#u6371-4
+{
+	position: absolute;
+	z-index: 52;
+	width: 40px;
+	min-height: 58px;
+	padding: 6px;
+	text-align: right;
+	color: #39393A;
+	font-size: 48px;
+	font-family: Consolas, Lucida Console, Monaco, monospace;
+	top: 235px;
+	left: 1048px;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background-image: url("../images/loading.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#pamphletu8522
+{
+	z-index: 57;
+	width: 0.01px;
+	height: 0px;
+	padding-bottom: 68px;
+	position: fixed;
+	bottom: 120px;
+	left: 50%;
+	margin-left: -97px;
+}
+
+#u8533
+{
+	position: absolute;
+	z-index: 58;
+	width: 107px;
+}
+
+#u8534
+{
+	z-index: 59;
+	width: 107px;
+	height: 68px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	-moz-border-radius: 30px 30px 0px 30px ;
+	-webkit-border-radius: 30px 30px 0px 30px ;
+	-khtml-border-radius: 30px 30px 0px 30px ;
+	border-radius: 30px 30px 0px 30px ;
+	position: relative;
+	margin-right: -107px;
+}
+
+#u8535-4
+{
+	z-index: 60;
+	width: 104px;
+	min-height: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	position: relative;
+	margin-right: -104px;
+	margin-top: 23px;
+	left: 2px;
+}
+
+#u8523
+{
+	z-index: 64;
+	position: relative;
+	width: 0px;
+	margin-top: -185px;
+	left: -107px;
+}
+
+#u8524
+{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	border-style: none;
+	border-color: transparent;
+	top: 201px;
+	left: 195px;
+	background: transparent url("../images/next-u8356-fr.png") no-repeat center center;
+}
+
+#u8524:hover
+{
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin: 0px;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton,.PamphletWidget .ThumbGroup .Thumb, .PamphletNextButton, .PamphletPrevButton, .PamphletCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+#pamphletu8536
+{
+	z-index: 66;
+	width: 0.01px;
+	height: 0px;
+	padding-bottom: 68px;
+	position: fixed;
+	bottom: 120px;
+	left: 50%;
+	margin-left: 426px;
+}
+
+#u8545
+{
+	position: absolute;
+	z-index: 67;
+	width: 107px;
+	left: 13px;
+}
+
+#u8546
+{
+	z-index: 68;
+	width: 107px;
+	height: 68px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	-moz-border-radius: 30px 30px 0px 30px ;
+	-webkit-border-radius: 30px 30px 0px 30px ;
+	-khtml-border-radius: 30px 30px 0px 30px ;
+	border-radius: 30px 30px 0px 30px ;
+	position: relative;
+	margin-right: -107px;
+}
+
+#u8547-4
+{
+	z-index: 69;
+	width: 104px;
+	min-height: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	position: relative;
+	margin-right: -104px;
+	margin-top: 23px;
+	left: 2px;
+}
+
+#u8539
+{
+	z-index: 73;
+	position: relative;
+	width: 0px;
+	margin-top: -185px;
+	left: -195px;
+}
+
+#u8540
+{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	border-style: none;
+	border-color: transparent;
+	top: 201px;
+	left: 195px;
+	background: transparent url("../images/next2-u8372-fr.png") no-repeat center center;
+}
+
+#u8524:active,#u8540:hover
+{
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin: 0px;
+}
+
+#u8540:active
+{
+	background-size: contain !important;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-khtml-background-size: contain;
+	-ms-background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin: 0px;
+}
+
+#u5954
+{
+	z-index: 56;
+	width: 8999px;
+	height: 39px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #000000;
+	position: fixed;
+	bottom: 136px;
+	left: 50%;
+	margin-left: -4532px;
+}
+
+#u9457
+{
+	z-index: 78;
+	position: fixed;
+	bottom: 141px;
+	left: 50%;
+	margin-left: -411px;
+}
+
+#u9457_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u9458-4
+{
+	z-index: 79;
+	width: 101px;
+	min-height: 23px;
+	color: #FFFFFF;
+	font-size: 14px;
+	position: fixed;
+	bottom: 142px;
+	left: 50%;
+	margin-left: -512px;
+}
+
+#u9459-4
+{
+	z-index: 83;
+	width: 101px;
+	min-height: 23px;
+	color: #FFFFFF;
+	font-size: 14px;
+	position: fixed;
+	bottom: 142px;
+	left: 50%;
+	margin-left: -373px;
+}
+
