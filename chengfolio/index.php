@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ambassador</title>
+    <title>Aaron Cheng's Portfolio</title>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
 	<meta name="description" content="Aaron Cheng is a multi award&#45;winning UI designer + Product designer, who has been commissioned to design user interface for several companies."/>
 	<meta name="keywords" content="ui, ux, user experience, startup, interface, hci, graphic design, animation, portfolio, design, architecture, website, aaron cheng"/>
@@ -47,109 +47,98 @@
 	</script>
 	<!-- Google Analytics end-->
   </head>
+  <?php include 'component/blog.php';?>
   <body>
 	<!-- mask creates a trigger to close menu when tap anywhere on the screen -->
 	<div class="maskwrapper">
 		<div class="mask visible-xs visible-sm"></div>
 	</div>
-	
-	<div class="ambassador">
-		<div class="background"></div>
-		<div class="background-mobile visible-xs"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-offset-1 col-lg-3">
-					<img src="img/ambassador/ambassador.png" class="img-responsive logo" alt="Responsive image">
-				</div>
-				<div class="col-xs-12 col-sm-9 col-md-9 col-lg-7">
-					<img src="img/ambassador/cover.png" class="img-responsive home" alt="Responsive image">
-				</div>
-			</div>
+	<!-- slideshow -->
+	<div class="container slideshow">
+		<div class="visible-xs row">
+			<a href="parkinghousing.html"><span>AARON CHENG</span> PORTFOLIO</a>
 		</div>
-	</div>
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="description col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-				<p>Brand ambassadors are usually celebrities,  however, Ambassador is trying to expanded the term beyond celebrity branding to self branding or personal brand management. Ambassador provides a platform where users can share the brands they like to their friends or the public, and become the ambassador of those famous brands. The idea behind this APP is to reinvent the way of branding and advertising. </p>
-			</div>
+		<div class="visible-xs row">
+			<a class="col-xs-12" href="ivylla.html">
+				<img src="img/home/ivylla.png" class="center-block img-responsive" alt="Responsive image">
+			</a>
+			<a class="col-xs-12" href="ambassador.html">
+				<img src="img/home/ambassador.png" class="center-block img-responsive" alt="Responsive image">
+			</a>			
+			<a class="col-xs-12" href="hummingbird.html">
+				<img src="img/home/hummingbird.png" class="center-block img-responsive" alt="Responsive image">
+			</a>
+			<a class="col-xs-12" href="agilecredit.html">
+				<img src="img/home/agilecredit.png" class="center-block img-responsive" alt="Responsive image">
+			</a>
+			<a class="col-xs-12" href="digitalcloset.html">
+				<img src="img/home/digitalcloset.png" class="center-block img-responsive" alt="Responsive image">
+			</a>			
+			<a class="col-xs-12" href="boutiquesui.html">
+				<img src="img/home/boutiquesui.png" class="center-block img-responsive" alt="Responsive image">
+			</a>
+			<a class="col-xs-12" href="aerofs.html">
+				<img src="img/home/aerofs.png" class="center-block img-responsive" alt="Responsive image">
+			</a>
+			<a class="col-xs-12" href="leap.html">
+				<img src="img/home/leapmotion.png" class="center-block img-responsive" alt="Responsive image">
+			</a>			
+			<a class="col-xs-12" href="chengfolio.html">
+				<img src="img/home/chengfolio.png" class="center-block img-responsive" alt="Responsive image">
+			</a>	
 		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Home</h2>
-			</div>
-			<div class="col-md-12 col-lg-offset-1 col-lg-10">
-				<img src="img/ambassador/home.jpg" class="img-responsive contents" alt="Responsive image">
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Brand</h2>
-			</div>
-			<div class="col-md-12 col-lg-offset-1 col-lg-10">
-				<img src="img/ambassador/brand.jpg" class="img-responsive contents" alt="Responsive image">
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Items</h2>
-			</div>
-			<div class="col-md-12 col-lg-offset-1 col-lg-10">
-				<img src="img/ambassador/items.jpg" class="img-responsive contents" alt="Responsive image">
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Buttons</h2>
-			</div>
-			<div class="col-md-12 col-lg-offset-1 col-lg-10">
-				<img src="img/ambassador/buttons.jpg" class="img-responsive contents" alt="Responsive image">
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Profile</h2>
-			</div>
-			<div class="col-md-12 col-lg-offset-1 col-lg-10">
-				<img src="img/ambassador/profile.jpg" class="img-responsive contents" alt="Responsive image">
-			</div>
-		</div>
-
-		<div class="footer row">
+		<div class="row hidden-xs">
 			<div class="col-md-12">
-				<h3>Thank you!</h3>
-				<p>Share my design with:</p>
+				<div id="slideshow" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active">
+							<a class="col-sm-4 col-md-4" href="ivylla.html">
+								<img src="img/home/ivylla.png" class="img-responsive" alt="Responsive image">
+							</a>
+							<a class="col-sm-4 col-md-4" href="ambassador.html">
+								<img src="img/home/ambassador.png" class="img-responsive" alt="Responsive image">
+							</a>			
+							<a class="col-sm-4 col-md-4" href="hummingbird.html">
+								<img src="img/home/hummingbird.png" class="img-responsive" alt="Responsive image">
+							</a>	
+						</div>
+						<div class="item">
+							<a class="col-sm-4 col-md-4" href="agilecredit.html">
+								<img src="img/home/agilecredit.png" class="img-responsive" alt="Responsive image">
+							</a>
+							<a class="col-sm-4 col-md-4" href="digitalcloset.html">
+								<img src="img/home/digitalcloset.png" class="img-responsive" alt="Responsive image">
+							</a>			
+							<a class="col-sm-4 col-md-4" href="boutiquesui.html">
+								<img src="img/home/boutiquesui.png" class="img-responsive" alt="Responsive image">
+							</a>	
+						</div>
+						<div class="item">
+							<a class="col-sm-4 col-md-4" href="aerofs.html">
+								<img src="img/home/aerofs.png" class="img-responsive" alt="Responsive image">
+							</a>
+							<a class="col-sm-4 col-md-4" href="leap.html">
+								<img src="img/home/leapmotion.png" class="img-responsive" alt="Responsive image">
+							</a>			
+							<a class="col-sm-4 col-md-4" href="chengfolio.html">
+								<img src="img/home/chengfolio.png" class="img-responsive" alt="Responsive image">
+							</a>	
+						</div>
+					</div>
+
+					<ol class="carousel-indicators">
+						<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+						<li data-target="#slideshow" data-slide-to="1"></li>
+						<li data-target="#slideshow" data-slide-to="2"></li>
+					</ol>
+				</div>
 			</div>
-			
-			<!--social buttons-->
-			<div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
-				<div class="row">
-				<!--facebook-->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<div class="fb-like" data-href="http://chengfolio.com" data-send="false" data-layout="button_count" data-width="300" data-show-faces="true" data-font="arial"></div>
-				</div>
-				<!--twitter-->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.chengfolio.com" data-via="ChengFolio">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-				<!-- google+ -->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-				<g:plusone size="medium" annotation="inline" width="120" href="http://www.chengfolio.com"></g:plusone>
-				</div>
-				</div>
-			</div>
-			<!--social buttons-->
 		</div>
 	</div>
+	<!-- slideshow end-->
 
 	<!--navigation bar-->
-	<nav class="container menu-mobile visible-xs visible-sm">
+	<nav class="container-fluid menu-mobile visible-xs visible-sm">
 		<div class="row">
 			<div class="menu work col-xs-12 col-sm-12">
 				<ul class="text-center">
