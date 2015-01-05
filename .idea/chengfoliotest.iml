@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="google-appengine-python" name="Google App Engine (Python)">
       <configuration>
-        <option name="rootFolder" value="E:\work\Website\Personal Website\ver2\GAE\chengfoliotest" />
+        <option name="rootFolder" value="E:\work\Website\Personal Website\v3\code\chengfolio" />
         <option name="sdkFolder" value="D:\application\google_appengine" />
         <option name="templatesFolder" value="" />
         <option name="email" value="aaron@chengfolio.com" />
