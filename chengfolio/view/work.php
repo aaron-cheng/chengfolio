@@ -80,167 +80,171 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12">
-				<h1 class="txt--title margin--section_top">Mobile Application Design</h1>
-			</div>
-		</div>
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="txt--title margin--section_top">Mobile Application Design</h1>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="Ivylla Home Page">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="Ivylla Home Page">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="heymneu.php" target="_top">
-					<img src="../img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="heymneu.php" target="_top">
+							<img src="../img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_ambassador.png" class="img-responsive center-block" alt="Ambassador Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_ambassador.png" class="img-responsive center-block" alt="Ambassador Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_digital-closet.png" class="img-responsive center-block" alt="Digital Closet Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-		</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_digital-closet.png" class="img-responsive center-block" alt="Digital Closet Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="txt--title margin--section_top">Website Design</h1>
-			</div>
-		</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="txt--title margin--section_top">Website Design</h1>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_borderxlab.png" class="img-responsive center-block" alt="Ivylla Home Page">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_borderxlab.png" class="img-responsive center-block" alt="Ivylla Home Page">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_agilecredit.png" class="img-responsive center-block" alt="Agile Credit Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_aerofs.png" class="img-responsive center-block" alt="AeroFS Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-		</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_agilecredit.png" class="img-responsive center-block" alt="Agile Credit Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_aerofs.png" class="img-responsive center-block" alt="AeroFS Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="txt--title margin--section_top">Industrial Design</h1>
-			</div>
-		</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="txt--title margin--section_top">Industrial Design</h1>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_reclink.png" class="img-responsive center-block" alt="Ivylla Home Page">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_reclink.png" class="img-responsive center-block" alt="Ivylla Home Page">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Ivylla Home Page">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Ivylla Home Page">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_grabbymouse.png" class="img-responsive center-block" alt="Agile Credit Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_unisextoilet.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-		</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_grabbymouse.png" class="img-responsive center-block" alt="Agile Credit Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_unisextoilet.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="txt--title margin--section_top">Architecture And Urban Planning</h1>
-			</div>
-		</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="txt--title margin--section_top">Architecture And Urban Planning</h1>
+					</div>
+				</div>
 
-		<div class="row">
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_urban-weaving.png" class="img-responsive center-block" alt="Urban Weaving">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_urban-weaving.png" class="img-responsive center-block" alt="Urban Weaving">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl" >
-				<a href="ivylla.php" target="_top">
-					<img src="../img/work/work_img_floating-pavilion.png" class="img-responsive center-block" alt="Floating Pavilion">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl" >
+						<a href="ivylla.php" target="_top">
+							<img src="../img/work/work_img_floating-pavilion.png" class="img-responsive center-block" alt="Floating Pavilion">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
 
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_energy-efficiency-vs-architectural-design.png" class="img-responsive center-block" alt="Energy Efficiency vs Architectural Design">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_high-density-residential-district.png" class="img-responsive center-block" alt="High-density Residential District">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_high-density-vs-low-density.png" class="img-responsive center-block" alt="High-density vs Low-density">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
-			</div>
-			
-			<div class="col-sm-6 col-md-4 margin--element_top_xl">
-				<a href="ambassador.php" target="_top">
-					<img src="../img/work/work_img_water-town-revitalization.png" class="img-responsive center-block" alt="Water Town Revitalization">
-					<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
-				</a>
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_energy-efficiency-vs-architectural-design.png" class="img-responsive center-block" alt="Energy Efficiency vs Architectural Design">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_high-density-residential-district.png" class="img-responsive center-block" alt="High-density Residential District">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_high-density-vs-low-density.png" class="img-responsive center-block" alt="High-density vs Low-density">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 margin--element_top_xl">
+						<a href="ambassador.php" target="_top">
+							<img src="../img/work/work_img_water-town-revitalization.png" class="img-responsive center-block" alt="Water Town Revitalization">
+							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
