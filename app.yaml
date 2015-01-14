@@ -11,5 +11,24 @@ handlers:
   - url: /js
     static_dir: chengfolio/js
 
+  - url: /img
+    static_dir: chengfolio/img
+
+  # - url: /img/(.+)/(.+)
+  #   static_files: /img/\1/\2
+  #   upload: chengfolio/img/(.+)/(.+)
+
   - url: /
     script: chengfolio/view/index.php
+
+  - url: /view/(.+)
+    script: chengfolio/view/\1
+
+  - url: /view/component/(.+)
+    script: chengfolio/view/component/\1
+
+  - url: /view/work/(.+)
+    script: chengfolio/view/work/\1
+
+  - url: /view/blog/(.+)
+    script: chengfolio/view/blog/\1

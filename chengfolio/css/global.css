@@ -9,10 +9,11 @@ Copyright 2015. All Rights Reserved.
 
 Color Guide
 ***************
-D2D2D2 - Lightest Gray(nav text)
+
 F6F6F6 - Light Gray(background color)
 999 - Gray(Default text)
 3E3E3E - Dark Gray(Highlight text)
+262829 - Dark Gray(work header background)
 
 *************************************************/
 
@@ -33,9 +34,9 @@ F6F6F6 - Light Gray(background color)
 ----------------------------------------------*/
 body  {
   font-family: "Open Sans", Microsoft YaHei, Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 1.428571429;
+  line-height: 1.8;
   color: #999;
   background-color: #F6F6F6;
 }
@@ -99,7 +100,7 @@ a:hover, a:focus{
 }
 
 .txt--lg{
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 36px;
 }
 
@@ -109,10 +110,17 @@ a:hover, a:focus{
 }
 
 .txt--title{
-	font-size: 36px;
+	font-size: 32px;
 	line-height: 48px;
 	font-weight: 300;
-	text-align: center;
+	color: #3E3E3E;
+}
+
+.txt--subtitle{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #3E3E3E;
 }
 
 .txt--primary_on_dark{
@@ -120,7 +128,7 @@ a:hover, a:focus{
 }
 
 .txt--primary_on_light{
-	color: #000;
+	color: #3E3E3E;
 }
 /*----------------------------------------------
 ------------------------------------------------
@@ -318,16 +326,19 @@ nav {
 	left: 0;
 	right: 0;
 	top: 0;	
-	padding-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 5px;
 	z-index: 100;
+	opacity: 0.95;
+	background-color: #F6F6F6;
 }
 
 .nav__txt{
-	font-size: 18px;
-	line-height: 18px;
+	font-size: 14px;
+	line-height: 14px;
 	margin-left: 50px;
 	font-weight: 400;
-	color: #D2D2D2;
+	color: #999;
 }
 
 .nav__txt--mobile{
@@ -376,17 +387,22 @@ nav {
 	margin-left: 40px;
 }
 
+footer{
+
+	background-color: #F0F0F0;
+}
+
 /*----------------------------------------------
 ------------------------------------------------
-7. home Styles
+7. work Styles
 ------------------------------------------------
 ----------------------------------------------*/
-.home__img_hero{
-	height: 450px;
-	background: url(../img/home/home_img_hero.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
+.work__header__wrapper{
+/*	background-color: #262829;*/
+}
+
+.work__background--differentiator{
+	background-color: #FFF;
 }
 /*----------------------------------------------
 ------------------------------------------------
