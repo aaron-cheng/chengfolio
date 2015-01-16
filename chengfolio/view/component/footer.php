@@ -13,7 +13,7 @@
 
 				<div class="col-xs-4 col-sm-1 margin--element_bottom_xs">
 					<a href="https://www.linkedin.com/in/chengfolio" target="_top">
-						<img src="/img/global/icon_Linkedin.png" class="img-responsive center-block" alt="Linkedin Icon">
+						<img src="/img/global/icon_linkedin.png" class="img-responsive center-block" alt="Linkedin Icon">
 					</a>
 				</div>
 

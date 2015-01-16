@@ -17,7 +17,7 @@
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 margin--section_top">
 				<h1 class="text-left txt--title">HeyMenu</h1>
-				<p class="margin--element_top_sm">Hummingbird provides hardware and software solutions to make both restaurants and guests’ lives much easier. For restaurants, Hummingbird makes tablets to replace paper menu, which allows guests to view pictures of the entire menu, place orders, and pay their checks without having to wait for the waitresses. For restaurants, computerized ordering systems, in which servers take orders on an electronic device and send it immediately to the kitchen, have helped restaurants become more efficient.</p>
+				<p class="margin--element_top_sm">HeyMenu provides hardware and software solutions to make both restaurants and guests’ lives much easier. For restaurants, HeyMenu makes tablets to replace paper menu, which allows guests to view pictures of the entire menu, place orders, and pay their checks without having to wait for the waitresses. For restaurants, computerized ordering systems, in which servers take orders on an electronic device and send it immediately to the kitchen, have helped restaurants become more efficient.</p>
 			</div>
 
 			<div class="col-md-6 col-lg-5 margin--section_top">
@@ -252,6 +252,13 @@
 			</div>			
 		</div>
 	</div>
+
+	<div class="container padding--element_lg">
+
+<?php include '../component/social.php';?>
+
+	</div>
+
 <?php include '../component/footer.php';?>
 
 <?php include '../component/script.php';?>

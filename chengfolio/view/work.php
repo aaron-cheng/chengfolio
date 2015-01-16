@@ -13,7 +13,7 @@
 
 <?php include 'component/nav.php';?>
 
-	<div class="container-fluid margin--section_top">
+	<div class="container-fluid padding--element_lg">
 <!-- 	<div class="row">
 			<div class="col-md-10 col-md-offset-1"> -->
 				<div class="row">
@@ -31,7 +31,7 @@
 					</div>
 
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="heymneu.php" target="_top">
+						<a href="/view/work/heymenu.php" target="_top">
 							<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
 							<h2 class="text-center margin--element_top_xs">HeyMenu</h2>
 						</a>
