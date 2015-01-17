@@ -13,58 +13,60 @@
 
 <?php include '../component/nav.php';?>
 
-	<div class="container-fluid work__header__wrapper">
+	<div class="container work__header__wrapper">
 		<div class="row">
-			<div class="col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2 margin--section_top">
+			<div class="col-md-5 col-md-offset-1 margin--section_top">
 				<h1 class="text-left txt--title">HeyMenu</h1>
 				<p class="margin--element_top_sm">HeyMenu provides hardware and software solutions to make both restaurants and guests’ lives much easier. For restaurants, HeyMenu makes tablets to replace paper menu, which allows guests to view pictures of the entire menu, place orders, and pay their checks without having to wait for the waitresses. For restaurants, computerized ordering systems, in which servers take orders on an electronic device and send it immediately to the kitchen, have helped restaurants become more efficient.</p>
 			</div>
 
-			<div class="col-md-6 col-lg-5 margin--section_top">
+			<div class="col-md-6 margin--section_top">
 				<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid margin--section_top padding--element_lg work__background--differentiator">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Logo Design</h2>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 margin--element_top" >
-						<img src="/img/work/heymenu/heymenu_logo.png" class="img-responsive center-block" alt="HeyMenu logo design process">
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6 margin--element_top_sm" >
-						<p class="margin--element_top">In the dictionary, ‘Hey’ is used to attract someone's attention or to express surprise, joy, or anger. Based on this idea, the design combines the speech bubble and the word ‘hey’ to create a friendly cartoonish symbol.</p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-5  margin--element_top_lg" >						
-						<img src="/img/work/heymenu/heymenu_menu_launch-img.png" class="img-responsive center-block" alt="Launch image">
-						<p class="txt--primary_on_light text-center margin--element_top_xs">Launch Image</p>
+	<div class="work__background--differentiator">
+		<div class="container margin--section_top padding--element_lg ">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-1">
+							<h2 class="txt--subtitle">Logo Design</h2>
+						</div>
 					</div>
 
-					<div class="col-md-5 col-md-offset-2 margin--element_top_lg" >					
-						<img src="/img/work/heymenu/heymenu_menu_login.png" class="img-responsive center-block" alt="Login page">
-						<p class="txt--primary_on_light text-center margin--element_top_xs">Login page</p>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 margin--element_top" >
+							<img src="/img/work/heymenu/heymenu_logo.png" class="img-responsive center-block" alt="HeyMenu logo design process">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 col-md-offset-1 margin--element_top_sm" >
+							<p class="margin--element_top">In the dictionary, ‘Hey’ is used to attract someone's attention or to express surprise, joy, or anger. Based on this idea, the design combines the speech bubble and the word ‘hey’ to create a friendly cartoonish symbol.</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1 margin--element_top_lg" >						
+							<img src="/img/work/heymenu/heymenu_menu_launch-img.png" class="img-responsive center-block" alt="Launch image">
+							<p class="txt--primary_on_light text-center margin--element_top_xs">Launch Image</p>
+						</div>
+
+						<div class="col-md-5 margin--element_top_lg" >					
+							<img src="/img/work/heymenu/heymenu_menu_login.png" class="img-responsive center-block" alt="Login page">
+							<p class="txt--primary_on_light text-center margin--element_top_xs">Login page</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg">
+	<div class="container padding--element_top_lg">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">User Interface - Waitress</h2>
@@ -78,7 +80,8 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
+	<div class="container-fluid padding--element_bottom_lg">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="col-md-4 margin--element_top" >
@@ -96,17 +99,20 @@
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg work__background--differentiator">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Menu Display</h2>
+	<div class="work__background--differentiator">
+		<div class="container padding--element_top_lg">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="txt--subtitle">Menu Display</h2>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
+		</div>	
+	</div>
+	<div class="container-fluid padding--element_bottom_lg work__background--differentiator">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="col-md-4 margin--element_top" >
@@ -127,9 +133,9 @@
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg">
+	<div class="container padding--element_top_lg">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">User Interface - Place Order</h2>
@@ -137,7 +143,8 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
+	<div class="container-fluid padding--element_bottom_lg">
 		<div class="row">
 			<div class="col-md-3 margin--element_top" >
 				<img src="/img/work/heymenu/heymenu_menu_confirm-order.png" class="img-responsive center-block" alt="View Order Screenshot">
@@ -161,23 +168,26 @@
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg work__background--differentiator">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Admin Web Application - Order/Table Status</h2>
+	<div class="work__background--differentiator">
+		<div class="container padding--element_top_lg">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="txt--subtitle">Admin Web Application - Order/Table Status</h2>
+						</div>
 					</div>
-				</div>
 
-				<div class="row">
-					<div class="col-md-6 margin--element_top_sm" >
-						<p class="">Regular users and admin users have different user interface: regular users can only manage daily operations, admin users have access to higher level settings.</p>
+					<div class="row">
+						<div class="col-md-6 margin--element_top_sm" >
+							<p class="">Regular users and admin users have different user interface: regular users can only manage daily operations, admin users have access to higher level settings.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
+		</div>	
+	</div>
+	<div class="container-fluid padding--element_bottom_lg work__background--differentiator">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="col-md-6 margin--element_top" >
@@ -193,9 +203,9 @@
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg">
+	<div class="container padding--element_top_lg">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="col-md-offset-1 col-md-10">
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">Menu</h2>
@@ -203,7 +213,8 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
+	<div class="container-fluid padding--element_bottom_lg">
 		<div class="row">
 			<div class="margin--element_top" >
 				<img src="/img/work/heymenu/heymenu_admin_menu.jpg" class="img-responsive center-block img__wrapper" alt="Dish Item List Screenshot">
@@ -219,37 +230,44 @@
 		</div>
 	</div>
 
-	<div class="container-fluid padding--element_lg work__background--differentiator">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Transaction</h2>
+	<div class="work__background--differentiator">
+		<div class="container padding--element_top_lg">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="txt--subtitle">Transaction</h2>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
+		</div>	
+	</div>
+	<div class="container-fluid padding--element_bottom_lg work__background--differentiator">
 		<div class="row">
-			<div class="col-md-3 margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_transaction-summary.jpg" class="img-responsive center-block img__wrapper" alt="Summary Screenshot">
-				<p class="txt--primary_on_light text-center margin--element_top_xs">Summary</p>
-			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-6 margin--element_top" >
+						<img src="/img/work/heymenu/heymenu_admin_transaction-summary.jpg" class="img-responsive center-block img__wrapper" alt="Summary Screenshot">
+						<p class="txt--primary_on_light text-center margin--element_top_xs">Summary</p>
+					</div>
 
-			<div class="col-md-3 margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_transaction-item.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by item Screenshot">
-				<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by item</p>
-			</div>
+					<div class="col-md-6 margin--element_top" >
+						<img src="/img/work/heymenu/heymenu_admin_transaction-item.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by item Screenshot">
+						<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by item</p>
+					</div>
 
-			<div class="col-md-3 margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_transaction-category.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by category Screenshot">
-				<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by category</p>
-			</div>
+					<div class="col-md-6 margin--element_top" >
+						<img src="/img/work/heymenu/heymenu_admin_transaction-category.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by category Screenshot">
+						<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by category</p>
+					</div>
 
-			<div class="col-md-3 margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_transaction-activities.jpg" class="img-responsive center-block img__wrapper" alt="Activities Screenshot">
-				<p class="txt--primary_on_light text-center margin--element_top_xs">Activities</p>
-			</div>			
+					<div class="col-md-6 margin--element_top" >
+						<img src="/img/work/heymenu/heymenu_admin_transaction-activities.jpg" class="img-responsive center-block img__wrapper" alt="Activities Screenshot">
+						<p class="txt--primary_on_light text-center margin--element_top_xs">Activities</p>
+					</div>			
+				</div>
+			</div>
 		</div>
 	</div>
 

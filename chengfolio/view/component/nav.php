@@ -1,4 +1,5 @@
-	<nav class="container-fluid nav">
+<div class="nav">
+	<nav class="container">
 		<div class="row ">
 			<div class="nav__logo col-md-3 col-md-offset-1 col-xs-10">
 				<a href="index.html">
@@ -56,3 +57,4 @@
 			
 		</div> -->
 	</nav>	
+</div>	

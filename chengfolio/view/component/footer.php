@@ -1,7 +1,7 @@
 	<footer>
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row margin--element_top_xs">
-				<div class="col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-1 col-lg-offset-1 col-lg-7 margin--element_bottom_xs">
+				<div class="col-sm-9 margin--element_bottom_xs">
 					<p class="footer__copyright">Copyright &#169 2015, Aaron Cheng's Portfolio, All rights reserved.</p>
 				</div>
 

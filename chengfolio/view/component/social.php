@@ -19,7 +19,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="col-md-10 col-md-offset-1">
 				<!-- disqus start -->
 			    <div id="disqus_thread"></div>
 			    <script type="text/javascript">

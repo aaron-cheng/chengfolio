@@ -235,6 +235,14 @@ a:hover, a:focus{
 	padding-bottom: 120px;
 }
 
+.padding--element_top_lg{
+	padding-top: 120px;	
+}
+
+.padding--element_bottom_lg{
+	padding-bottom: 120px;
+}
+
 .padding--element_md{
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -326,7 +334,7 @@ a:hover, a:focus{
 6. Nav/Footer Styles
 ------------------------------------------------
 ----------------------------------------------*/
-nav {
+.nav {
 	position: fixed;
 	left: 0;
 	right: 0;
