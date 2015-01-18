@@ -29,9 +29,9 @@
 	<div class="work__background--differentiator">
 		<div class="container margin--section_top padding--element_lg ">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-1">
+						<div class="col-md-12">
 							<h2 class="txt--subtitle">Logo Design</h2>
 						</div>
 					</div>
@@ -43,18 +43,18 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-6 col-md-offset-1 margin--element_top_sm" >
+						<div class="col-md-8 margin--element_top_sm" >
 							<p class="margin--element_top">In the dictionary, ‘Hey’ is used to attract someone's attention or to express surprise, joy, or anger. Based on this idea, the design combines the speech bubble and the word ‘hey’ to create a friendly cartoonish symbol.</p>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-md-5 col-md-offset-1 margin--element_top_lg" >						
+						<div class="col-md-6 margin--element_top_lg" >						
 							<img src="/img/work/heymenu/heymenu_menu_launch-img.png" class="img-responsive center-block" alt="Launch image">
 							<p class="txt--primary_on_light text-center margin--element_top_xs">Launch Image</p>
 						</div>
 
-						<div class="col-md-5 margin--element_top_lg" >					
+						<div class="col-md-6 margin--element_top_lg" >					
 							<img src="/img/work/heymenu/heymenu_menu_login.png" class="img-responsive center-block" alt="Login page">
 							<p class="txt--primary_on_light text-center margin--element_top_xs">Login page</p>
 						</div>
@@ -74,7 +74,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-6 margin--element_top_sm" >
+					<div class="col-md-8 margin--element_top_sm" >
 						<p class="">This is part is for the servers to open/change tables, which is not visible for customers. Switching from menu to table-editing page requires passcode</p>
 					</div>
 				</div>
@@ -179,7 +179,7 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-6 margin--element_top_sm" >
+						<div class="col-md-8 margin--element_top_sm">
 							<p class="">Regular users and admin users have different user interface: regular users can only manage daily operations, admin users have access to higher level settings.</p>
 						</div>
 					</div>
@@ -191,12 +191,20 @@
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="col-md-6 margin--element_top" >
-					<img src="/img/work/heymenu/heymenu_admin_order.jpg" class="img-responsive center-block img__wrapper" alt="What Regular User see in 'order' page.">
+					<div class="img__wrapper">
+						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+						<div class="divider--horizontal--even"></div>
+						<img src="/img/work/heymenu/heymenu_admin_order.jpg" class="img-responsive center-block" alt="What Regular User see in 'order' page.">
+					</div>
 					<p class="txt--primary_on_light text-center margin--element_top_xs">Regular User</p>
 				</div>
 
 				<div class="col-md-6 margin--element_top" >
-					<img src="/img/work/heymenu/heymenu_admin_order-admin.jpg" class="img-responsive center-block img__wrapper" alt="What Admin User see in 'order' page.">
+					<div class="img__wrapper">
+						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+						<div class="divider--horizontal--even"></div>
+						<img src="/img/work/heymenu/heymenu_admin_order-admin.jpg" class="img-responsive center-block" alt="What Admin User see in 'order' page.">
+					</div>
 					<p class="txt--primary_on_light text-center margin--element_top_xs">Admin User</p>
 				</div>
 			</div>
@@ -214,17 +222,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid padding--element_bottom_lg">
+	<div class="container padding--element_bottom_lg">
 		<div class="row">
-			<div class="margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_menu.jpg" class="img-responsive center-block img__wrapper" alt="Dish Item List Screenshot">
+			<div class="margin--element_top col-md-10 col-md-offset-1">
+				<div class="img__wrapper">
+					<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+					<div class="divider--horizontal--even"></div>
+					<img src="/img/work/heymenu/heymenu_admin_menu.jpg" class="img-responsive center-block" alt="Dish Item List Screenshot">
+				</div>			
 				<p class="txt--primary_on_light text-center margin--element_top_xs">Dish Item List</p>
 			</div>		
 		</div>
 
 		<div class="row">
-			<div class="margin--element_top" >
-				<img src="/img/work/heymenu/heymenu_admin_add-dish.jpg" class="img-responsive center-block img__wrapper" alt="Add Dish Item Screenshot">
+			<div class="margin--element_top col-md-10 col-md-offset-1" >
+				<div class="img__wrapper">
+					<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+					<div class="divider--horizontal--even"></div>
+					<img src="/img/work/heymenu/heymenu_admin_add-dish.jpg" class="img-responsive center-block" alt="Add Dish Item Screenshot">
+				</div>	
 				<p class="txt--primary_on_light text-center margin--element_top_xs">Add Dish Item</p>
 			</div>		
 		</div>
@@ -248,22 +264,42 @@
 			<div class="col-md-10 col-md-offset-1">
 				<div class="row">
 					<div class="col-md-6 margin--element_top" >
-						<img src="/img/work/heymenu/heymenu_admin_transaction-summary.jpg" class="img-responsive center-block img__wrapper" alt="Summary Screenshot">
+						<div class="img__wrapper">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="divider--horizontal--even"></div>
+							<img src="/img/work/heymenu/heymenu_admin_transaction-summary.jpg" class="img-responsive center-block" alt="Summary Screenshot">
+						</div>	
+
 						<p class="txt--primary_on_light text-center margin--element_top_xs">Summary</p>
 					</div>
 
 					<div class="col-md-6 margin--element_top" >
-						<img src="/img/work/heymenu/heymenu_admin_transaction-item.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by item Screenshot">
+						<div class="img__wrapper">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="divider--horizontal--even"></div>
+							<img src="/img/work/heymenu/heymenu_admin_transaction-item.jpg" class="img-responsive center-block" alt="Transaction by item Screenshot">
+						</div>	
+
 						<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by item</p>
 					</div>
 
 					<div class="col-md-6 margin--element_top" >
-						<img src="/img/work/heymenu/heymenu_admin_transaction-category.jpg" class="img-responsive center-block img__wrapper" alt="Transaction by category Screenshot">
+						<div class="img__wrapper">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="divider--horizontal--even"></div>
+							<img src="/img/work/heymenu/heymenu_admin_transaction-category.jpg" class="img-responsive center-block" alt="Transaction by category Screenshot">
+						</div>	
+						
 						<p class="txt--primary_on_light text-center margin--element_top_xs">Transaction by category</p>
 					</div>
 
 					<div class="col-md-6 margin--element_top" >
-						<img src="/img/work/heymenu/heymenu_admin_transaction-activities.jpg" class="img-responsive center-block img__wrapper" alt="Activities Screenshot">
+						<div class="img__wrapper">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="divider--horizontal--even"></div>
+							<img src="/img/work/heymenu/heymenu_admin_transaction-activities.jpg" class="img-responsive center-block" alt="Activities Screenshot">
+						</div>	
+	
 						<p class="txt--primary_on_light text-center margin--element_top_xs">Activities</p>
 					</div>			
 				</div>
