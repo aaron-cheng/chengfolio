@@ -31,7 +31,7 @@
 					</div>
 
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="/view/work/heymenu.php" target="_top">
+						<a href="/work/heymenu" target="_top">
 							<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
 							<h2 class="text-center margin--element_top_xs">HeyMenu</h2>
 						</a>
@@ -67,7 +67,7 @@
 					</div>
 
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="ivylla.php" target="_top">
+						<a href="/work/ivylla" target="_top">
 							<img src="/img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
 						</a>

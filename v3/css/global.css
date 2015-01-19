@@ -176,15 +176,21 @@ a:hover, a:focus{
 	width: 100%;
 }
 
-.img__wrapper{
-	box-shadow: 0 1px 6px rgba(0,0,0,.1);
-	background-color: #F8F8F8;
-}
-
 .divider--horizontal--even{
 	height: 1px;
 	background-color: #F6F6F6;
 	width: 100%;
+}
+
+.img__wrapper{
+	box-shadow: 0 1px 6px rgba(0,0,0,.1);
+/*	border-width: 1px;
+	border-style: solid;
+	border-color: #F6F6F6;*/
+}
+
+.web-view__browser_head{
+	background-color: #F8F8F8;	
 }
 
 /*----------------------------------------------

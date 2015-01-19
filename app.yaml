@@ -1,34 +1,43 @@
 application: chengfoliotest
-version: 1
+version: 3
 runtime: php
 api_version: 1
 
 handlers:
 
   - url: /css
-    static_dir: chengfolio/css
+    static_dir: v3/css
 
   - url: /js
-    static_dir: chengfolio/js
+    static_dir: v3/js
 
   - url: /img
-    static_dir: chengfolio/img
+    static_dir: v3/img
 
   # - url: /img/(.+)/(.+)
   #   static_files: /img/\1/\2
-  #   upload: chengfolio/img/(.+)/(.+)
+  #   upload: v3/img/(.+)/(.+)
 
   - url: /
-    script: chengfolio/view/index.php
+    script: v3/view/index.php
+
+  - url: /work
+    script: v3/view/work.php
 
   - url: /view/(.+)
-    script: chengfolio/view/\1
+    script: v3/view/\1
 
   - url: /view/component/(.+)
-    script: chengfolio/view/component/\1
+    script: v3/view/component/\1
+
+  - url: /work/heymenu
+    script: v3/view/work/heymenu.php
+
+  - url: /work/ivylla
+    script: v3/view/work/ivylla.php
 
   - url: /view/work/(.+)
-    script: chengfolio/view/work/\1
+    script: v3/view/work/\1
 
   - url: /view/blog/(.+)
-    script: chengfolio/view/blog/\1
+    script: v3/view/blog/\1

@@ -15,13 +15,23 @@
 
 	<div class="container work__header__wrapper">
 		<div class="row">
-			<div class="col-md-5 col-md-offset-1 margin--section_top">
-				<h1 class="text-left txt--title">HeyMenu</h1>
-				<p class="margin--element_top_sm">HeyMenu provides hardware and software solutions to make both restaurants and guests’ lives much easier. For restaurants, HeyMenu makes tablets to replace paper menu, which allows guests to view pictures of the entire menu, place orders, and pay their checks without having to wait for the waitresses. For restaurants, computerized ordering systems, in which servers take orders on an electronic device and send it immediately to the kitchen, have helped restaurants become more efficient.</p>
-			</div>
+			<div class="col-md-3 col-md-offset-1 margin--element_top_lg">
+				<img src="/img/work/heymenu/heymenu_logo.png" class="img-responsive center-block margin--element_top_lg" alt="HeyMenu Logo">
+			</div>			
 
-			<div class="col-md-6 margin--section_top">
+			<div class="col-md-8 margin--element_top">
 				<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-8">
+						<h1 class="text-left txt--title">HeyMenu</h1>
+						<p class="margin--element_top_sm">HeyMenu provides hardware and software solutions to make both restaurants and guests’ lives much easier. For restaurants, HeyMenu makes tablets to replace paper menu, which allows guests to view pictures of the entire menu, place orders, and pay their checks without having to wait for the waitresses. For restaurants, computerized ordering systems, in which servers take orders on an electronic device and send it immediately to the kitchen, have helped restaurants become more efficient.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -38,7 +48,7 @@
 
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/heymenu/heymenu_logo.png" class="img-responsive center-block" alt="HeyMenu logo design process">
+							<img src="/img/work/heymenu/heymenu_logo_design.png" class="img-responsive center-block" alt="HeyMenu logo design process">
 						</div>
 					</div>
 
@@ -192,8 +202,11 @@
 			<div class="col-md-offset-1 col-md-10">
 				<div class="col-md-6 margin--element_top" >
 					<div class="img__wrapper">
-						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+						<div class="web-view__browser_head">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+						</div>
 						<div class="divider--horizontal--even"></div>
+
 						<img src="/img/work/heymenu/heymenu_admin_order.jpg" class="img-responsive center-block" alt="What Regular User see in 'order' page.">
 					</div>
 					<p class="txt--primary_on_light text-center margin--element_top_xs">Regular User</p>
@@ -201,8 +214,11 @@
 
 				<div class="col-md-6 margin--element_top" >
 					<div class="img__wrapper">
-						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+						<div class="web-view__browser_head">
+							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+						</div>
 						<div class="divider--horizontal--even"></div>
+
 						<img src="/img/work/heymenu/heymenu_admin_order-admin.jpg" class="img-responsive center-block" alt="What Admin User see in 'order' page.">
 					</div>
 					<p class="txt--primary_on_light text-center margin--element_top_xs">Admin User</p>
@@ -226,8 +242,11 @@
 		<div class="row">
 			<div class="margin--element_top col-md-10 col-md-offset-1">
 				<div class="img__wrapper">
-					<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+					<div class="web-view__browser_head">
+						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+					</div>
 					<div class="divider--horizontal--even"></div>
+
 					<img src="/img/work/heymenu/heymenu_admin_menu.jpg" class="img-responsive center-block" alt="Dish Item List Screenshot">
 				</div>			
 				<p class="txt--primary_on_light text-center margin--element_top_xs">Dish Item List</p>
@@ -237,8 +256,11 @@
 		<div class="row">
 			<div class="margin--element_top col-md-10 col-md-offset-1" >
 				<div class="img__wrapper">
-					<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+					<div class="web-view__browser_head">
+						<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+					</div>
 					<div class="divider--horizontal--even"></div>
+
 					<img src="/img/work/heymenu/heymenu_admin_add-dish.jpg" class="img-responsive center-block" alt="Add Dish Item Screenshot">
 				</div>	
 				<p class="txt--primary_on_light text-center margin--element_top_xs">Add Dish Item</p>
@@ -265,8 +287,11 @@
 				<div class="row">
 					<div class="col-md-6 margin--element_top" >
 						<div class="img__wrapper">
-							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="web-view__browser_head">
+								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+							</div>
 							<div class="divider--horizontal--even"></div>
+
 							<img src="/img/work/heymenu/heymenu_admin_transaction-summary.jpg" class="img-responsive center-block" alt="Summary Screenshot">
 						</div>	
 
@@ -275,8 +300,11 @@
 
 					<div class="col-md-6 margin--element_top" >
 						<div class="img__wrapper">
-							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="web-view__browser_head">
+								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+							</div>
 							<div class="divider--horizontal--even"></div>
+
 							<img src="/img/work/heymenu/heymenu_admin_transaction-item.jpg" class="img-responsive center-block" alt="Transaction by item Screenshot">
 						</div>	
 
@@ -285,8 +313,11 @@
 
 					<div class="col-md-6 margin--element_top" >
 						<div class="img__wrapper">
-							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="web-view__browser_head">
+								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+							</div>
 							<div class="divider--horizontal--even"></div>
+
 							<img src="/img/work/heymenu/heymenu_admin_transaction-category.jpg" class="img-responsive center-block" alt="Transaction by category Screenshot">
 						</div>	
 						
@@ -295,8 +326,11 @@
 
 					<div class="col-md-6 margin--element_top" >
 						<div class="img__wrapper">
-							<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="What Regular User see in 'order' page.">
+							<div class="web-view__browser_head">
+								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
+							</div>
 							<div class="divider--horizontal--even"></div>
+
 							<img src="/img/work/heymenu/heymenu_admin_transaction-activities.jpg" class="img-responsive center-block" alt="Activities Screenshot">
 						</div>	
 	

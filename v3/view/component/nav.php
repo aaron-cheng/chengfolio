@@ -14,19 +14,19 @@
 
 			<ul class="col-md-7 hidden-xs hidden-sm">
 				<li class="pull-right">		
-					<a class="nav__txt" href="/view/googlemap.php" target="_top">GOOGLE MAP CUSTOMIZER</a>
+					<a class="nav__txt" href="/googlemap" target="_top">GOOGLE MAP CUSTOMIZER</a>
 				</li>
 
 				<li class="pull-right">		
-					<a class="nav__txt" href="/view/ABOUT.php" target="_top">ABOUT</a>
+					<a class="nav__txt" href="/about" target="_top">ABOUT</a>
 				</li>
 
 				<li class="pull-right">
-					<a class="nav__txt " href="/view/work.php">WORK</a>
+					<a class="nav__txt " href="/work">WORK</a>
 				</li>
 
 				<li class="pull-right">		
-					<a class="nav__txt" href="/view/blog.php" target="_top">BLOG</a>
+					<a class="nav__txt" href="/blog" target="_top">BLOG</a>
 				</li>
 			</ul>
 		</div>
@@ -35,19 +35,19 @@
 				<div class="col-xs-12">
 					<ul class="row nav__menu--mobile">
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/view/blog.php" target="_top">BLOG</a>
+							<a class="nav__txt" href="/blog" target="_top">BLOG</a>
 						</li>
 
 						<li class="col-xs-12 text-center nav__txt--mobile">
-							<a class="nav__txt" href="/view/work.php">WORK</a>
+							<a class="nav__txt" href="/work">WORK</a>
 						</li>
 						
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/view/ABOUT.php" target="_top">ABOUT</a>
+							<a class="nav__txt" href="/about" target="_top">ABOUT</a>
 						</li>
 
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/view/googlemap.php" target="_top">GOOGLE MAP CUSTOMIZER</a>
+							<a class="nav__txt" href="/googlemap" target="_top">GOOGLE MAP CUSTOMIZER</a>
 						</li>
 					</ul>
 				</div>
