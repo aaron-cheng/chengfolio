@@ -81,7 +81,7 @@
 					</div>
 					
 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
-						<a href="ambassador.php" target="_top">
+						<a href="/work/boutiquesui" target="_top">
 							<img src="/img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
 							<h2 class="text-center margin--element_top_xs">Boutique Sui Website</h2>
 						</a>

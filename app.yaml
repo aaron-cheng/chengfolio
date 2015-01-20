@@ -36,6 +36,9 @@ handlers:
   - url: /work/ivylla
     script: v3/view/work/ivylla.php
 
+  - url: /work/boutiquesui
+    script: v3/view/work/boutiquesui.php
+
   - url: /view/work/(.+)
     script: v3/view/work/\1
 
