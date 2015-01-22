@@ -39,6 +39,9 @@ handlers:
   - url: /work/boutiquesui
     script: v3/view/work/boutiquesui.php
 
+  - url: /work/pin
+    script: v3/view/work/pin.php
+
   - url: /view/work/(.+)
     script: v3/view/work/\1
 

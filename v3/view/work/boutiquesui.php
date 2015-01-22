@@ -29,6 +29,7 @@
 				<div class="row">
 					<div class="col-md-8">
 						<h1 class="text-left txt--title">Boutique Sui</h1>
+						<a href="http://boutiquesui.com/"><p>www.boutiquesui.com</p></a>
 						<p class="margin--element_top_sm">96% people like the website design according to the survey by Boutique Sui Numeris's marketing company.
 
 Boutique sui Numeris is a high-end retail store in Austin offering luxury dresses. The company's target market is focused on the young generation. So the design style they are going for is ultra modern and elegant.
