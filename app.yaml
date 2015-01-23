@@ -42,6 +42,9 @@ handlers:
   - url: /work/pin
     script: v3/view/work/pin.php
 
+  - url: /work/reclink
+    script: v3/view/work/reclink.php
+
   - url: /view/work/(.+)
     script: v3/view/work/\1
 

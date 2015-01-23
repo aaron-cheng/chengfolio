@@ -103,7 +103,7 @@
 
 				<div class="row">
 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
-						<a href="ivylla.php" target="_top">
+						<a href="/work/pin" target="_top">
 							<img src="/img/work/work_img_pin.png" class="img-responsive center-block" alt="Pin">
 							<h2 class="text-center margin--element_top_xs">Pin</h2>
 						</a>
