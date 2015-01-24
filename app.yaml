@@ -36,14 +36,17 @@ handlers:
   - url: /work/ivylla
     script: v3/view/work/ivylla.php
 
-  - url: /work/boutiquesui
-    script: v3/view/work/boutiquesui.php
+  - url: /work/boutique_sui
+    script: v3/view/work/boutique_sui.php
 
   - url: /work/pin
     script: v3/view/work/pin.php
 
   - url: /work/reclink
     script: v3/view/work/reclink.php
+
+  - url: /work/grabby_mouse
+    script: v3/view/work/grabby_mouse.php
 
   - url: /view/work/(.+)
     script: v3/view/work/\1

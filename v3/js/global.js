@@ -28,6 +28,19 @@ $(document).ready(function(){
 			$(".nav__menu--mobile").css("display","none");
 		}
 	});
+
+//set video heigth based on its width
+	var video_height = $(".video--full-width").width()*0.5625;
+
+	$(".video--full-width").css("height",video_height);
+
+//Resize&Reposition video height when resive window		
+	$(window).resize(function(){
+		var video_height = $(".video--full-width").width()*0.5625;
+			
+		$(".video--full-width").css("height",video_height);
+	});
+
 /*----------------------------------------------
 ------------------------------------------------
 1. Home Page js

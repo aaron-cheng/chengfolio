@@ -429,6 +429,10 @@ footer{
 .work__background--differentiator{
 	background-color: #FFF;
 }
+
+.work__background--black{
+	background-color: #000;	
+}
 /*----------------------------------------------
 ------------------------------------------------
 8. Product Styles

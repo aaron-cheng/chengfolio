@@ -33,6 +33,12 @@
 						Most power bank chargers have attempted to address the problem, but they are too bulky and heavy and require a separate USB cable. This is where RecLink is coming from: we are committed to providing the simplest solution possible. Every RecLink uses a small yet powerful battery that can be fully charged in 1.5 hours. The power is able to charge your phone for up to 9 hours. You will absolutely love it after you try it.</p>
 					</div>
 				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<iframe class="center-block video--full-width margin--element_top_lg" width="100%" height="" src="//www.youtube.com/embed/Kdbvz6DOhL0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
