@@ -20,7 +20,7 @@
 			</div>			
 
 			<div class="col-md-8 margin--element_top_sm">
-				<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Grabby Mouse rendering">
+				<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Parking + Housing rendering">
 			</div>
 		</div>
 
@@ -59,17 +59,17 @@
 					<div class="row">
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>It’s a really far out there idea, but it is really exciting and it is great to see.</q>(Video 1’47’’ - 2’38”)</p>
-							<img src="/img/work/parking_housing/press/parking_housing_travel_channel.jpg" class="img-responsive margin--element_top center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_travel_channel.jpg" class="img-responsive margin--element_top center-block" alt="travel channel logo">
 						</div>
 
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>Cheng envisioned a building that doubles as both residence and garage at alternating times, making use of space that’s often left empty for half of the day.</q></p>
-							<img src="/img/work/parking_housing/press/parking_housing_press_co_design.jpg" class="img-responsive margin--element_top_sm center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_press_co_design.jpg" class="img-responsive margin--element_top_sm center-block" alt="Co Design Logo">
 						</div>
 
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>Now designer Aaron Cheng has invented hot parking, where space is used for parking by day and living by night, with a design for parking spaces that turn into apartments through a very clever transformation.</q></p>
-							<img src="/img/work/parking_housing/press/parking_housing_press_treehugger.jpg" class="img-responsive margin--element_top_xs center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_press_treehugger.jpg" class="img-responsive margin--element_top_xs center-block" alt="Treehugger logo">
 						</div>
 					</div>
 
@@ -77,17 +77,17 @@
 					<div class="row">
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>Cheng’s thoughtful idea opens up a whole new set of pesky questions for urban planners as well as the commuters who would possibly live there.</q></p>
-							<img src="/img/work/parking_housing/press/parking_housing_press_inhabitat.jpg" class="img-responsive margin--element_top_sm center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_press_inhabitat.jpg" class="img-responsive margin--element_top_sm center-block" alt="Inhabitat Logo">
 						</div>
 
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>A new invention by a Rice University student has invented a way for you to park your ride in the middle of your home.</q></p>
-							<img src="/img/work/parking_housing/press/parking_housing_press_crave_online.jpg" class="img-responsive margin--element_top_sm center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_press_crave_online.jpg" class="img-responsive margin--element_top_sm center-block" alt="Crave Online Logo">
 						</div>
 
 						<div class="col-sm-4 margin--element_top_lg">
 							<p class="txt--sm"><q>The presumed willingness of a certain percentage of residents to live in such close quarters has given rise to all kinds of micro apartment ideas.</q></p>
-							<img src="/img/work/parking_housing/press/parking_housing_press_builder.jpg" class="img-responsive margin--element_top_sm center-block" alt="The right most fingers feel pain.">
+							<img src="/img/work/parking_housing/press/parking_housing_press_builder.jpg" class="img-responsive margin--element_top_sm center-block" alt="Builder Logo">
 						</div>
 					</div>
 				</div>
@@ -107,7 +107,7 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/img/work/parking_housing/parking_housing_design_background.jpg" class="img-responsive margin--element_top_lg center-block" alt="perspective view">
+						<img src="/img/work/parking_housing/parking_housing_design_background.jpg" class="img-responsive margin--element_top_lg center-block" alt="Metropolises Rendering">
 					</div>
 				</div>
 			</div>
@@ -126,21 +126,21 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_housing_day.png" class="img-responsive center-block" alt="perspective view">
+							<img src="/img/work/parking_housing/parking_housing_housing_day.png" class="img-responsive center-block" alt="Empty house">
 							<p class="txt--primary_on_light margin--element_top_xs text-center">House - Empty during the daytime.</p>							
 						</div>
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_housing_night.png" class="img-responsive center-block" alt="perspective view">
+							<img src="/img/work/parking_housing/parking_housing_housing_night.png" class="img-responsive center-block" alt="Occupied house">
 							<p class="txt--primary_on_light margin--element_top_xs text-center">House - Occupied at night.</p>							
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_parking_day.png" class="img-responsive center-block" alt="perspective view">
+							<img src="/img/work/parking_housing/parking_housing_parking_day.png" class="img-responsive center-block" alt="Occupied parking">
 							<p class="txt--primary_on_light margin--element_top_xs text-center">Parking - Occupied during the daytime.</p>								
 						</div>
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_parking_night.png" class="img-responsive center-block" alt="perspective view">	
+							<img src="/img/work/parking_housing/parking_housing_parking_night.png" class="img-responsive center-block" alt="Empty parking">	
 							<p class="txt--primary_on_light margin--element_top_xs text-center">Parking - Empty at night.</p>							
 						</div>
 					</div>
@@ -152,11 +152,11 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_day.png" class="img-responsive center-block" alt="perspective view">
+							<img src="/img/work/parking_housing/parking_housing_day.png" class="img-responsive center-block" alt="Parking + Housing - Daytime">
 							<p class="txt--primary_on_light margin--element_top_xs text-center">Parking + Housing - Occupied during the daytime.</p>							
 						</div>
 						<div class="col-sm-6">
-							<img src="/img/work/parking_housing/parking_housing_night.png" class="img-responsive center-block" alt="perspective view">
+							<img src="/img/work/parking_housing/parking_housing_night.png" class="img-responsive center-block" alt="Parking + Housing - Night">
 							<p class="txt--primary_on_light margin--element_top_xs text-center">Parking + Housing - Occupied at night.</p>							
 						</div>
 					</div>
@@ -173,7 +173,7 @@
 						<h2 class="txt--subtitle">Parking During The Daytime</h2>							
 					</div>
 				</div>
-				<img src="/img/work/parking_housing/parking_housing_rendering_day.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">
+				<img src="/img/work/parking_housing/parking_housing_rendering_day.jpg" class="img-responsive center-block margin--element_top_lg" alt="Parking During The Daytime">
 			</div>
 		</div>
 	</div>
@@ -187,7 +187,7 @@
 							<h2 class="txt--subtitle txt--primary_on_dark">Housing At Night</h2>							
 						</div>
 					</div>
-					<img src="/img/work/parking_housing/parking_housing_rendering_night.jpg" class="img-responsive margin--element_top_lg center-block" alt="grabby mouse front view with hand">
+					<img src="/img/work/parking_housing/parking_housing_rendering_night.jpg" class="img-responsive margin--element_top_lg center-block" alt="Housing At Night">
 				</div>
 			</div>
 		</div>
@@ -197,13 +197,13 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6 margin--element_top">
-					<img src="/img/work/parking_housing/parking_housing_iso_1.png" class="img-responsive center-block" alt="grabby mouse front view with hand">				
+					<img src="/img/work/parking_housing/parking_housing_iso_1.png" class="img-responsive center-block" alt="Isometric view - overall">				
 				</div>
 				<div class="col-xs-6 col-sm-3 margin--element_top">
-					<img src="/img/work/parking_housing/parking_housing_iso_2.png" class="img-responsive center-block" alt="grabby mouse front view">				
+					<img src="/img/work/parking_housing/parking_housing_iso_2.png" class="img-responsive center-block" alt="Isometric view - group">				
 				</div>
 				<div class="col-xs-6 col-sm-3 margin--element_top">
-					<img src="/img/work/parking_housing/parking_housing_iso_3.png" class="img-responsive center-block" alt="grabby mouse back view">				
+					<img src="/img/work/parking_housing/parking_housing_iso_3.png" class="img-responsive center-block" alt="Isometric view - Unit">				
 				</div>
 			</div>
 		</div>
@@ -224,15 +224,15 @@
 	<div class="container-fluid padding--element_bottom_lg">
 		<div class="row">
 			<div class="col-md-4">
-				<img src="/img/work/parking_housing/parking_housing_unit_compressed.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">
+				<img src="/img/work/parking_housing/parking_housing_unit_compressed.jpg" class="img-responsive center-block margin--element_top_lg" alt="compressed unit">
 				<p class="txt--primary_on_light margin--element_top_xs text-center">Housing unit is compressed during daytime</p>
 			</div>
 			<div class="col-md-4">
-				<img src="/img/work/parking_housing/parking_housing_unit_expand.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">
+				<img src="/img/work/parking_housing/parking_housing_unit_expand.jpg" class="img-responsive center-block margin--element_top_lg" alt="expanded unit">
 				<p class="txt--primary_on_light margin--element_top_xs text-center">Pneumatic structure is released at night</p>
 			</div>
 			<div class="col-md-4">
-				<img src="/img/work/parking_housing/parking_housing_unit_section.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">
+				<img src="/img/work/parking_housing/parking_housing_unit_section.jpg" class="img-responsive center-block margin--element_top_lg" alt="unit section">
 				<p class="txt--primary_on_light margin--element_top_xs text-center">Pneumatic house provides a nice living space</p>
 			</div>
 		</div>
@@ -242,23 +242,53 @@
 		<div class="container padding--element_bottom_lg">
 			<div class="row">
 				<div class="col-md-12">
-					<img src="/img/work/parking_housing/parking_housing_rendering_1.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">					
+					<img src="/img/work/parking_housing/parking_housing_rendering_1.jpg" class="img-responsive center-block margin--element_top_lg" alt="Parking + Housing rendering">					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<img src="/img/work/parking_housing/parking_housing_rendering_2.jpg" class="img-responsive center-block margin--element_top_lg" alt="grabby mouse front view with hand">					
+					<img src="/img/work/parking_housing/parking_housing_rendering_2.jpg" class="img-responsive center-block margin--element_top_lg" alt="Parking + Housing rendering">					
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="container padding--element_lg">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<div class="col-md-8">
+						<h2 class="txt--subtitle ">FAQ</h2>	
+						<p class="txt--regular txt--primary_on_light margin--element_top">Is this a pragmatic project?</p>
+						<p>'Parking +Housing' is a concept design. The idea is to find two programs that are used in different periods of time during a day and integrate them together to fully utilize the space. The programs are not limited to the parking and housing, for example: the housing part could be hotel and the parking part could be office space.</p>	
+
+						<p class="txt--regular txt--primary_on_light margin--element_top_sm">What are the ideal cities for this idea?</p>
+						<p>'Parking +Housing' is a space efficiency solution to those high-density metropolises like New York and San Francisco or some cities' central area with very high land value.</p>
+
+						<p class="txt--regular txt--primary_on_light margin--element_top_sm">Who is the project designed for?</p>
+						<p>'Parking +Housing' is especially designed for two certain groups of people:﻿ Group 1: Low-income singles who have regular work hours; Group 2: People who don't live nearby and drive to work. During the daytime, Group 1 people leave their apartment and Group 2 people use the space for parking. At night, Group 2 people leave and Group 1 people come back from work and use the space as their apartments.</p>
+						
+						<p class="txt--regular txt--primary_on_light margin--element_top_sm">Where can the residents park their cars?</p>
+						<p>'Parking +Housing' is designed for low-income singles who don't need cars in the metropolises with convenient public transportation.</p>
+						
+						<p class="txt--regular txt--primary_on_light margin--element_top_sm">What does a resident do if they have the day off? </br> What if a driver leaves his car there by accident one day or gets off work late?</p>
+						<p>The garage will be valet parking, if the resident decides to stay at his/her apt, cars can be moved to other places, but he/she might have to pay extra rent for occupying the parking lots. It is similar to the drivers, if they fail to take out their cars on time, their cars will be relocated to other places and they will have to pay extra fee for doing so.</p>
+
+						<p class="txt--regular txt--primary_on_light margin--element_top_sm">Where do the residents put their furniture?</p>
+						<p>The table and some of the other furniture will be integrated into the wall or the storage room. Bed could be air bed.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="work__background--differentiator">
+	<div class="container padding--element_lg">
 
 <?php include '../component/social.php';?>
 
 	</div>
-
+</div>
 
 <?php include '../component/footer.php';?>
 
