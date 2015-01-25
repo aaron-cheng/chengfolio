@@ -30,7 +30,8 @@
 					<div class="col-md-8">
 						<h1 class="text-left txt--title">Grabby Mouse</h1>
 						<p class="margin--element_top_sm">Progressive aching and stiff wrist from extended computer usage expose two main design flaws in current mouse technology: a lack of resting place for right most fingers and the painful abrasion between one's wrist and the table surface from day-to-day use.</br></br>
-						The inspiration for the new design aims to solve current problems by creating a more comfortable form. The new design builds around human hand movements and changes the mouse into a natural extension of one's hand. Specifically, the new design will change the rotation of the mouse for a better fit under the hand and better gripe with more ergonomic movements. In addition to the fundamental change in the form, an extended rest for wrist is integrated into the new design which will greatly reduce overall fatigue.</p>
+						The inspiration for the new design aims to solve current problems by creating a more comfortable form. The new design builds around human hand movements and changes the mouse into a natural extension of one's hand. Specifically, the new design will change the rotation of the mouse for a better fit under the hand and better gripe with more ergonomic movements. In addition to the fundamental change in the form, an extended rest for wrist is integrated into the new design which will greatly reduce overall fatigue.</p></br>
+						<p>Grabby Mouse is published on <a href="http://www.tuvie.com/grabby-mouse-ergonomic-mouse-design-that-prevents-wrist-pain" class="txt--primary_on_light txt--bold">Tuvie</a></p>
 					</div>
 				</div>
 			</div>
@@ -115,16 +116,20 @@
 	<div class="container-fluid padding--element_lg">
 		<div class="row">
 			<div class="col-md-3">
-				<img src="/img/work/grabbymouse/grabbymouse_evolution_1.png" class="img-responsive center-block" alt="ideal way to grab a mouse">
+				<img src="/img/work/grabbymouse/grabbymouse_evolution_1.png" class="img-responsive center-block" alt="comfortable way to grab a mouse">
+				<p class="txt--primary_on_light margin--element_top_xs text-center">The comfortable way to grab a mouse.</p>	
 			</div>
 			<div class="col-md-3">
-				<img src="/img/work/grabbymouse/grabbymouse_evolution_2.png" class="img-responsive center-block" alt="twist the buttons to make them clickable">
+				<img src="/img/work/grabbymouse/grabbymouse_evolution_2.png" class="img-responsive center-block" alt="Changes the rotation of the mouse">
+				<p class="txt--primary_on_light margin--element_top_xs text-center">Changes the rotation of the mouse to fit under your fingers.</p>
 			</div>
 			<div class="col-md-3">
 				<img src="/img/work/grabbymouse/grabbymouse_evolution_3.png" class="img-responsive center-block" alt="add wrist-rest cushion">
+				<p class="txt--primary_on_light margin--element_top_xs text-center">Add an extended rest for wrist</p>
 			</div>
 			<div class="col-md-3">
 				<img src="/img/work/grabbymouse/grabbymouse_evolution_4.png" class="img-responsive center-block" alt="smooth the form">
+				<p class="txt--primary_on_light margin--element_top_xs text-center">Optimize the mouse to more natural form</p>
 			</div>				
 		</div>
 	</div>

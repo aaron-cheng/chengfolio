@@ -48,6 +48,9 @@ handlers:
   - url: /work/grabby_mouse
     script: v3/view/work/grabby_mouse.php
 
+  - url: /work/parking_housing
+    script: v3/view/work/parking_housing.php
+
   - url: /view/work/(.+)
     script: v3/view/work/\1
 

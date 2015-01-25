@@ -66,6 +66,10 @@ a:hover, a:focus{
 	text-decoration: none;
 }
 
+q{
+	font-style: italic;
+}
+
 /*----------------------------------------------
 ------------------------------------------------
 1. Text Styles
@@ -73,6 +77,10 @@ a:hover, a:focus{
 ----------------------------------------------*/
 .txt--highlight{
 	color: #0093CD;
+}
+
+.txt--regular{
+	font-weight: 400;
 }
 
 .txt--bold{
@@ -107,6 +115,7 @@ a:hover, a:focus{
 .txt--sm{
 	font-size: 12px;
 	line-height: 18px;
+	font-weight: 400;
 }
 
 .txt--title{
