@@ -11,9 +11,10 @@ Color Guide
 ***************
 
 F6F6F6 - Light Gray(background color)
+DBDBDB - medium gray
 999 - Gray(Default text)
 3E3E3E - Dark Gray(Highlight text)
-262829 - Dark Gray(work header background)
+F0F0F0 - Footer background color
 
 *************************************************/
 
@@ -102,6 +103,11 @@ q{
 	list-style-position:outside;
 }
 
+.txt--xxl{
+	font-size: 32px;
+	line-height: 48px;
+}
+
 .txt--xl{
 	font-size: 24px;
 	line-height: 36px;
@@ -178,7 +184,7 @@ q{
 }
 
 .divider--horizontal{
-	border-bottom: 1px solid #808a97;
+	border-bottom: 1px solid #F0F0F0;
 	border-left: 26px transparent solid;
 	border-right: 26px transparent solid;
 	border-top-width: 0;
@@ -249,6 +255,10 @@ q{
 
 .margin--element_bottom_xs{
 	margin-bottom: 20px;
+}
+
+.margin--element_left{
+	margin-left: 70px;
 }
 
 .padding--element_lg{

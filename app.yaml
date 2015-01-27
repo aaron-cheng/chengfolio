@@ -24,12 +24,26 @@ handlers:
   - url: /work
     script: v3/view/work.php
 
+  - url: /about
+    script: v3/view/about.php
+
+  - url: /blog
+    script: v3/view/blog.php
+
   - url: /view/(.+)
     script: v3/view/\1
+
+  - url: /view/work/(.+)
+    script: v3/view/work/\1
+
+  - url: /view/blog/(.+)
+    script: v3/view/blog/\1
 
   - url: /view/component/(.+)
     script: v3/view/component/\1
 
+
+# work
   - url: /work/heymenu
     script: v3/view/work/heymenu.php
 
@@ -51,8 +65,6 @@ handlers:
   - url: /work/parking_housing
     script: v3/view/work/parking_housing.php
 
-  - url: /view/work/(.+)
-    script: v3/view/work/\1
-
-  - url: /view/blog/(.+)
-    script: v3/view/blog/\1
+# blog
+  - url: /blog/google_map_customizer
+    script: v3/view/blog/google_map_customizer.php
