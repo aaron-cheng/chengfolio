@@ -14,7 +14,7 @@
 
 			<ul class="col-md-7 hidden-xs hidden-sm">
 				<li class="pull-right">		
-					<a class="nav__txt" href="/googlemap" target="_top">GOOGLE MAP CUSTOMIZER</a>
+					<a class="nav__txt" href="/google_map_customizer" target="_top">GOOGLE MAP CUSTOMIZER</a>
 				</li>
 
 				<li class="pull-right">		
@@ -47,7 +47,7 @@
 						</li>
 
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/googlemap" target="_top">GOOGLE MAP CUSTOMIZER</a>
+							<a class="nav__txt" href="/google_map_customizer" target="_top">GOOGLE MAP CUSTOMIZER</a>
 						</li>
 					</ul>
 				</div>

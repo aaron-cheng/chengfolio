@@ -30,6 +30,19 @@ handlers:
   - url: /blog
     script: v3/view/blog.php
 
+# Google Map Customizer
+  - url: /google_map_customizer
+    script: v3/view/google_map_customizer.php
+
+  - url: /GoogleMapsColorizr
+    script: v3/view/google_map_customizer/GoogleMapsColorizr/index.html
+
+  - url: /GoogleMapsColorizr/css
+    static_dir: v3/view/google_map_customizer/GoogleMapsColorizr/css
+
+  - url: /GoogleMapsColorizr/javascript
+    static_dir: v3/view/google_map_customizer/GoogleMapsColorizr/javascript
+
   - url: /view/(.+)
     script: v3/view/\1
 
