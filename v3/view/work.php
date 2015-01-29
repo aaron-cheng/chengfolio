@@ -24,9 +24,9 @@
 
 				<div class="row">
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=947269781" target="_top">
+						<a href="/work/5th_avenue" target="_top">
 							<img src="/img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="5th Avenue Screenshot">
-							<h2 class="text-center margin--element_top_xs">5th Avenue</h2>
+							<h2 class="text-center margin--element_top_xs">5th Avenue App</h2>
 						</a>
 					</div>
 

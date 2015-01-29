@@ -57,6 +57,9 @@ handlers:
 
 
 # work
+  - url: /work/5th_avenue
+    script: v3/view/work/5th_avenue.php
+
   - url: /work/heymenu
     script: v3/view/work/heymenu.php
 
