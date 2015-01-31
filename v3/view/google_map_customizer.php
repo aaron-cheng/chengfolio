@@ -25,7 +25,7 @@
 		<div class="container">
 			<!-- header displays dimension settings-->
 			<div class="row dimension">
-				<a class="col-xs-10 col-sm-12 col-md-3" href="googlemap.html">
+				<a class="col-xs-10 col-sm-12 col-md-3" href="/google_map_customizer">
 					<h2>Google Map Customizer</h2>
 					<p>By Aaron Cheng</p>
 				</a>
@@ -58,7 +58,7 @@
 			</div>
 			<!-- header displays url settings-->
 			<div class="row customlink">
-				<a class="col-xs-10 col-sm-12 col-md-3" href="googlemap.html">
+				<a class="col-xs-10 col-sm-12 col-md-3" href="/google_map_customizer">
 					<h2>Google Map Customizer</h2>
 					<p>By Aaron Cheng</p>
 				</a>
@@ -104,8 +104,8 @@
 						<li><a class="colorizr-btn" href="#customizablemap">Customizable Map</a></li>
 						<li><a class="satellite-btn" href="#satellitemap">Satellite Map</a></li>
 						<li><a class="customlink-btn" href="#customlink">Custom URL</a></li>
-						<li><a class="help-btn" href="#about">How To Use</a></li>
-						<li><a class="chengfolio-btn" href="index.html">Aaron Cheng Portfolio</a></li>
+						<li><a class="help-btn" href="/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer">How To Use</a></li>
+						<li><a class="chengfolio-btn" href="/">Aaron Cheng Portfolio</a></li>
 						<li><span></span></li>
 					</ul>
 				</div>
@@ -117,7 +117,7 @@
 		<div class="googlemsgtopper visible-sm"></div>
 		<div class="googlemapmsgcontents container">
 			<div class="row">
-				<p class="col-sm-10 col-md-11">Customize the colors on a Google Map and get large, high resolution images. (<a id="screengrabtool">third-party plugin</a> required)<a class="help-btn pull-right hidden-sm" href="#about">Learn More</a></p>
+				<p class="col-sm-10 col-md-11">Customize the colors on a Google Map and get large, high resolution images. (<a id="screengrabtool">third-party plugin</a> required)<a class="help-btn pull-right hidden-sm" href="/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer">Learn More</a></p>
 				<div class="col-sm-2 col-md-1">
 					<div class="closeicon center-block">X</div>
 					<a class="help-btn visible-sm" href="#about">Learn More</a>
@@ -147,154 +147,8 @@
 	</div>
 	
 	<!-- external webpage -->
-	<iframe class="excontent" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://aaronchengportfolio.appspot.com/GoogleMapsColorizr/index.html"></iframe>
+	<iframe class="excontent" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="/GoogleMapsColorizr"></iframe>
 	
-
-	
-	<div class="setting container">
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>What does Google Map Customizer do?</h2>
-			</div>
-			<div class="description col-md-12 col-lg-offset-1 col-lg-10">
-				<p>1. Google Map Customizer is made by <a href="index.html">Aaron Cheng</a>. The code is based on <a href="https://maps.google.com/">Google Maps</a> and <a href="http://software.stadtwerk.org/google_maps_colorizr/">Google Maps Colorizr</a>.</br></br> 
-				2. Google Map Customizer<a id="hexcode" href="#hexcode"></a> lets you customize the colors on a Google Map. You can select customizations for any map aspects you want, such as the natural landscape. For this aspect you can enter the HEX code of the color you want it to be filled with. </br></br>
-				4. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. You can simply zoom into the level of detail you want and setup the window dimensions big enough to capture the site area you need. Then all you need to do is to grab the screen shot.<a id="screenshottools" href="#screenshottools"><p>&ensp;</p></a></p>
-				<p>There are many third-party tools:</br> 
-				<a href="https://addons.mozilla.org/en-US/firefox/addon/screenshoter-fixed/">Screenshoter</a> plugin for Firefox; <a href="https://chrome.google.com/webstore/detail/awesome-screenshot-captur/alelhddbbhepgpmgidjdcjakblofbmce">Awesome Screenshot</a> for Chrome or Adobe Acrobat’ <a href="http://www.adobe.com/products/acrobat/convert-html-to-pdf.html">PDF toolbar</a> to convert HTML to PDF.</p>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>How to use Google Map Customizer?</h2>
-			</div>
-			<div class="title col-md-12">
-				<iframe class="center-block" width="853" height="480" src="//www.youtube.com/embed/pp1h4m8LDWw" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-		
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				<div class="number-circle">1</div>
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Select if you want a satellite map or a typical map with customized color.</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/menu.png" class="img-responsive" alt="Select Map">
-			</div>
-		</div>
-		
-				
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Paste the your map's URL.</br>
-				(If use Custom URL)</br></br>
-				</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/customlink.png" class="Custom URL" alt="Zoom">
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-1 col-md-11 col-lg-offset-2 col-lg-9">
-				<p>Note: To properly display your map, there are 2 things you need to do:</br> 1. <a href="https://support.google.com/mapsenginelite/answer/3024935?hl=en">make your map public and get the embed code</a></br>
-				2. copy and paste the URL from the embed code NOT the one from your browser address bar.</br>
-				the URL is within src="...", eg: https://mapsengine.google.com/map/u/0/embed?mid=zN7vz9dJuw7E.kx0wWPz-5Vpg
-				</p>
-			</div>
-		</div>
-		
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				<div class="number-circle">2</div>
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Customize the color in the map.</br>(If use Customizable Map)</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/customize.jpg" class="img-responsive" alt="Zoom">
-				<a id="anchor-embedcode" href="#anchor-embedcode"><p>&ensp;</p></a>
-			</div>
-		</div>
-		
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				<div class="number-circle">3</div>
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Zoom into the level of detail you want.</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/zoom.jpg" class="img-responsive" alt="Zoom">
-			</div>
-		</div>
-		
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				<div class="number-circle">4</div>
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Setup the width and height of the map image.</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/dimension.png" class="img-responsive" alt="Setup Dimension">
-			</div>
-		</div>
-		
-		<div class="row steps">
-			<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
-				<div class="number-circle">5</div>
-			</div>
-			<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
-				<p>Grab the screen shot.</br>(Awesome Screenshot for Chrome)</p>
-			</div>
-			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-				<img src="/img/gmc/screen.jpg" class="img-responsive" alt="Grab Screen">
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="title col-md-12">
-				<h2>Attribution</h2>
-			</div>
-			<div class="description col-md-12 col-lg-offset-1 col-lg-10">
-				<p>In Google Maps Customizer you can find two types of maps: satellite map and customizable map. The data behind these two layers come from different places:</br></br>
-				Google Maps: I make use of Google Maps V3 to display the satellite map.</br></br>
-				Marc Köster: Marc produces Google Maps Colorizr. Google Maps Colorizr is licensed under a Creative Commons Attribution-Noncommercial 3.0 Unported License (http://creativecommons.org/licenses/by-nc/3.0/). The customizable map is a modification of Google Maps Colorizr.</p>
-			</div>
-		</div>
-		
-			<div class="footer row">
-			<div class="col-md-12">
-				<h3>Thank you!</h3>
-				<p>Share my design with:</p>
-			</div>
-			
-			<!--social buttons-->
-			<div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
-				<div class="row">
-				<!--facebook-->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<div class="fb-like" data-href="http://chengfolio.com" data-send="false" data-layout="button_count" data-width="300" data-show-faces="true" data-font="arial"></div>
-				</div>
-				<!--twitter-->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.chengfolio.com" data-via="ChengFolio">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-				<!-- google+ -->
-				<div class="col-xs-4 col-sm-4 col-md-4">
-				<g:plusone size="medium" annotation="inline" width="120" href="http://www.chengfolio.com"></g:plusone>
-				</div>
-				</div>
-			</div>
-			<!--social buttons-->
-		</div>
-	</div>
-
 <?php include 'component/script.php';?>
 
 	<script src="/js/gmc.js" type="text/javascript"></script> 

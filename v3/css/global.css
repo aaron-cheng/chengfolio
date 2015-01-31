@@ -138,6 +138,18 @@ q{
 	color: #3E3E3E;
 }
 
+/*.txt--article{
+	font-size: 18px;
+	color: #3E3E3E;
+	line-height: 1.8;
+}*/
+
+article p{
+	font-size: 18px;
+	color: #3E3E3E;
+	line-height: 1.8;
+}
+
 .txt--primary_on_dark{
 	color: #FFF;
 }
@@ -145,6 +157,16 @@ q{
 .txt--primary_on_light{
 	color: #3E3E3E;
 }
+
+/*.txt--blog_highlight{
+	color: #00b7eb;
+}*/
+
+article a{
+	color: #00b7eb;	
+	font-weight: 400;
+}
+
 /*----------------------------------------------
 ------------------------------------------------
 2. Image Styles
@@ -208,6 +230,19 @@ q{
 	background-color: #F8F8F8;	
 }
 
+.circle--number{
+	background-color: #3E3E3E;
+	width: 35px;
+	height: 35px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+}
 /*----------------------------------------------
 ------------------------------------------------
 4. Spacing Styles

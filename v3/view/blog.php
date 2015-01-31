@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
-						<a href="/blog/google_map_customizer">
+						<a href="/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer">
 							<div class="col-sm-9">
 								<h2 class="txt--bold txt--lg txt--primary_on_light">How to customize Google Map and export high-quality images using Google Map Customizer?</h2>
 								<p class="txt--sm">January 27 2015</p>

@@ -108,7 +108,7 @@ $(document).ready(function(){
 		$(".setting").css("display","none");
 		$(".customlink").css("display","none");
 		$(".dimension").css("display","block");
-		$(".excontent").attr('src', "http://www.chengfolio.com/GoogleMapsColorizr/index.html");
+		$(".excontent").attr('src', "/GoogleMapsColorizr");
 	});
 	
 	$(".satellite-btn").on('tap', function(){
@@ -132,7 +132,7 @@ $(document).ready(function(){
 	});
 	
 	$(".chengfolio-btn").on('tap', function(){
-		window.location = 'index.html';
+		window.location = '/';
 	});
 	
 	//googlemap menu list click to close the menu
@@ -147,8 +147,7 @@ $(document).ready(function(){
 	
 	//googlemap message go to screenshottool
 	$(".googlemapmsg #screengrabtool").on('tap', function(){
-		$(".excontent").css("display","none");
-		$(".setting").css("display","block");
+		window.location = '/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer';
 		$('html,body').animate({scrollTop: $("#screenshottools").offset().top},'slow');
 		$(".googlemapmsgcontents").css("display","none");
 	});
