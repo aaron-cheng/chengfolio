@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog - The place I share my thoughts, design works and useful tools.</title>
+	<title>My new website launched!</title>
 
 <?php include '../component/head.php';?>
 

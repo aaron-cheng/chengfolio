@@ -29,33 +29,42 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_lg">
-			<div class="row">
+		<div class="container padding--element_bottom_lg">
+			<div class="row margin--element_top">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<a href="/blog/my_new_site_launched">
-							<div class="col-sm-9">
-								<h2 class="txt--bold txt--lg txt--primary_on_light">My new website launched!</h2>
-								<p class="txt--sm">January 31 2015</p>
-								<p class="pull-left margin--element_top_xs">I had this idea of redesigning my website a couple of months ago. The purpose is to provide a place to quickly store and showcase my work and share ideas with those who are interested in design and technology. Today, I’ve published my new, redesigned and coded-from-scratch website.</p>
+							<div class="col-sm-9 margin--element_top">
+								<div class="row">
+									<div class="col-sm-12">
+										<h2 class="txt--bold txt--lg txt--primary_on_light">My new website launched!</h2>
+										<p class="txt--sm">January 31 2015</p>
+										<p class="pull-left margin--element_top_xs">I had this idea of redesigning my website a couple of months ago. The purpose is to provide a place to quickly store and showcase my work and share ideas with those who are interested in design and technology. Today, I’ve published my new, redesigned and coded-from-scratch website.</p>
+									</div>
+								</div>
+
 							</div>
-							<div class="col-sm-3">
-								<img src="/img/blog/website_v3/v3_cover.png" class="img-responsive center-block" alt="travel channel logo">
+							<div class="col-sm-3 margin--element_top">
+								<img src="/img/blog/website_v3/v3_cover.png" class="img-responsive center-block" alt="New website screenshot">
 							</div>
 						</a>
 					</div>
 
-					<div class="divider--horizontal margin--element_top margin--element_bottom"></div>
+					<div class="divider--horizontal margin--element_top"></div>
 
 					<div class="row">
 						<a href="/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer">
-							<div class="col-sm-9">
-								<h2 class="txt--bold txt--lg txt--primary_on_light">How to customize Google Map and export high-quality images using Google Map Customizer?</h2>
-								<p class="txt--sm">January 27 2015</p>
-								<p class="pull-left margin--element_top_xs">Google Map Customizer lets you customize the colors on a Google Map. You can select customizations for any map aspects you want, such as the natural landscape. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. </p>
+							<div class="col-sm-9 margin--element_top">
+								<div class="row">
+									<div class="col-sm-12">
+										<h2 class="txt--bold txt--lg txt--primary_on_light">How to customize Google Map and export high-quality images using Google Map Customizer?</h2>
+										<p class="txt--sm">January 27 2015</p>
+										<p class="pull-left margin--element_top_xs">Google Map Customizer lets you customize the colors on a Google Map. You can select customizations for any map aspects you want, such as the natural landscape. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. </p>
+									</div>
+								</div>							
 							</div>
-							<div class="col-sm-3">
-								<img src="/img/blog/google_map_customizer/google_map_customizer_cover.png" class="img-responsive center-block" alt="travel channel logo">
+							<div class="col-sm-3 margin--element_top">
+								<img src="/img/blog/google_map_customizer/google_map_customizer_cover.png" class="img-responsive center-block" alt="Google Map Image">
 							</div>
 						</a>
 					</div>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog - The place I share my thoughts, design works and useful tools.</title>
+	<title>Aaron Cheng - User Interface Designer</title>
+	<meta name="description" content="Aaron Cheng is a freelance User Interface Designer based in San Francisco. This is his Portfolio & Blog.">
 
 <?php include 'component/head.php';?>
 

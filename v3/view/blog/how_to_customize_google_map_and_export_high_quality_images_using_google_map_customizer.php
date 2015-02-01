@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog - The place I share my thoughts, design works and useful tools.</title>
+	<title>How to customize Google Map and export high-quality images using Google Map Customizer?</title>
 
 <?php include '../component/head.php';?>
 
@@ -57,80 +57,80 @@
 				</div>
 			</div>
 
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">1</div>
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Select the map type</p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/menu.png" class="img-responsive center-block" alt="Select Map">
 				</div>
 			</div>
 
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>If you select 'Custom URL', paste your map's URL here.</br></br></p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/customlink.png" class="Custom URL" alt="customlink window">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
+					<img src="/img/blog/google_map_customizer/customlink.png" class="img-responsive center-block" alt="customlink window">
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-1 col-md-11 col-lg-offset-2 col-lg-9">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-1 col-md-11 col-lg-offset-2 col-lg-9 margin--element_top_lg">
 					<p>Note: To properly display your map, there are 2 things you need to do:</br> 1. <a href="https://support.google.com/mapsenginelite/answer/3024935?hl=en">make your map public and get the embed code</a></br>
 					2. copy and paste the URL from the embed code NOT the one from your browser address bar.</br>
 					the URL is within src="...", eg: https://mapsengine.google.com/map/u/0/embed?mid=zN7vz9dJuw7E.kx0wWPz-5Vpg</p>
 				</div>
 			</div>
 
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">2</div>
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Customize the color in the map.</br>(Skip this step if not using Customizable Map)</p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/customize.jpg" class="img-responsive center-block" alt="Change the color of google map">
 					<a id="anchor-embedcode" href="#anchor-embedcode"><p>&ensp;</p></a>
 				</div>
 			</div>
 					
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">3</div>
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Zoom into the level of detail you want.</p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/zoom.jpg" class="img-responsive center-block" alt="Zoom">
 				</div>
 			</div>
 					
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">4</div>
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Setup the width and height of the map image.</p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/dimension.png" class="img-responsive center-block" alt="Setup Dimension">
 				</div>
 			</div>
 					
-			<div class="row margin--element_top_lg">
-				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">5</div>
 				</div>
-				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4">
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Grab the screen shot.</br>(Awesome Screenshot for Chrome)</p>
 				</div>
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/screen.jpg" class="img-responsive center-block" alt="Grab Screen">
 				</div>
 			</div>

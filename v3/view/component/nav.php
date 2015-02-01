@@ -35,19 +35,19 @@
 				<div class="col-xs-12">
 					<ul class="row nav__menu--mobile">
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/blog" target="_top">BLOG</a>
+							<a class="txt--md txt--regular" href="/blog" target="_top">BLOG</a>
 						</li>
 
 						<li class="col-xs-12 text-center nav__txt--mobile">
-							<a class="nav__txt" href="/work">WORK</a>
+							<a class="txt--md txt--regular" href="/work">WORK</a>
 						</li>
 						
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/about" target="_top">ABOUT</a>
+							<a class="txt--md txt--regular" href="/about" target="_top">ABOUT</a>
 						</li>
 
 						<li class="col-xs-12 text-center nav__txt--mobile">		
-							<a class="nav__txt" href="/google_map_customizer" target="_top">GOOGLE MAP CUSTOMIZER</a>
+							<a class="txt--md txt--regular" href="/google_map_customizer" target="_top">GOOGLE MAP CUSTOMIZER</a>
 						</li>
 					</ul>
 				</div>
