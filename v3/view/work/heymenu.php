@@ -25,7 +25,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 margin--element_top_xs">
 				<div class="row">
 					<div class="col-md-8">
 						<h1 class="text-left txt--title">HeyMenu</h1>

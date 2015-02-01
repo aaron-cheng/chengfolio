@@ -20,12 +20,12 @@
 			</div>			
 
 			<div class="col-md-8 margin--element_top">
-				<img src="/img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="5th Avenue Screenshot">
+				<img src="/img/work/5th_avenue/5th_ave_launch.png" class="img-responsive center-block" alt="5th Avenue Screenshot">
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 margin--element_top_sm">
 				<div class="row">
 					<div class="col-md-8">
 						<h1 class="text-left txt--title">5th Avenue</h1>

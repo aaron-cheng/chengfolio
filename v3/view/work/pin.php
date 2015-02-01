@@ -16,8 +16,16 @@
 	<div class="container work__header__wrapper padding--element_bottom_lg">
 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 margin--element_top">
-				<img src="/img/work/pin/pin_logo.png" class="img-responsive center-block margin--element_top" alt="Pin Logo">
-				<h2 class="txt--xl margin--element_top_xs">Pin anything you care, </br>never lose one.</h2>
+				<div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0">
+						<img src="/img/work/pin/pin_logo.png" class="img-responsive center-block margin--element_top" alt="Pin Logo">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="txt--xl margin--element_top_xs text-center">Pin anything you care, </br>never lose one.</h2>
+					</div>
+				</div>
 			</div>			
 
 			<div class="col-md-8 margin--element_top_sm">
@@ -26,7 +34,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 margin--element_top_xs">
 				<div class="row">
 					<div class="col-md-8">
 						<h1 class="text-left txt--title">Pin</h1>
