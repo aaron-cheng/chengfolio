@@ -3,7 +3,7 @@
 					<div class="row">
 					<!--facebook-->
 					<div class="col-xs-4 col-sm-4 col-md-4">
-						<div class="fb-like" style="top:-8px;;" data-href="http://chengfolio.com" data-send="false" data-layout="button_count" data-width="300" data-show-faces="true" data-font="arial"></div>
+						<div class="fb-like" style="top:-8px;" data-href="http://www.chengfolio.com/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 					</div>
 					<!--twitter-->
 					<div class="col-xs-4 col-sm-4 col-md-4">
@@ -12,7 +12,7 @@
 					</div>
 					<!-- google+ -->
 					<div class="col-xs-4 col-sm-4 col-md-4">
-					<g:plusone size="medium" annotation="inline" width="120" href="http://www.chengfolio.com"></g:plusone>
+						<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120" data-href="http://www.chengfolio.com/"></div>
 					</div>
 				</div>
 			</div>

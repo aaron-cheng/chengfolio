@@ -1,5 +1,5 @@
-application: chengfoliotest
-version: 3
+application: aaronchengportfolio
+version: 1
 runtime: php
 api_version: 1
 
@@ -18,6 +18,11 @@ handlers:
   #   static_files: /img/\1/\2
   #   upload: v3/img/(.+)/(.+)
 
+# Site map
+  - url: /sitemap.xml
+    static_files: v3/view/sitemap.xml
+    upload: v3/view/sitemap.xml
+
   - url: /
     script: v3/view/index.php
 
@@ -30,11 +35,6 @@ handlers:
   - url: /blog
     script: v3/view/blog.php
 
-  # - url: /formmail.php
-  #   script: v3/view/formmail.php
-
-  - url: /testmail2.php
-    script: v3/view/testmail2.php
 
 # Google Map Customizer
   - url: /google_map_customizer
