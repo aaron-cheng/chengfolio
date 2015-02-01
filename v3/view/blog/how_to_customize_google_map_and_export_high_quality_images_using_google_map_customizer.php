@@ -65,7 +65,7 @@
 					<p>Select the map type</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/menu.png" class="img-responsive" alt="Select Map">
+					<img src="/img/blog/google_map_customizer/menu.png" class="img-responsive center-block" alt="Select Map">
 				</div>
 			</div>
 
@@ -94,7 +94,7 @@
 					<p>Customize the color in the map.</br>(Skip this step if not using Customizable Map)</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/customize.jpg" class="img-responsive" alt="Change the color of google map">
+					<img src="/img/blog/google_map_customizer/customize.jpg" class="img-responsive center-block" alt="Change the color of google map">
 					<a id="anchor-embedcode" href="#anchor-embedcode"><p>&ensp;</p></a>
 				</div>
 			</div>
@@ -107,7 +107,7 @@
 					<p>Zoom into the level of detail you want.</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/zoom.jpg" class="img-responsive" alt="Zoom">
+					<img src="/img/blog/google_map_customizer/zoom.jpg" class="img-responsive center-block" alt="Zoom">
 				</div>
 			</div>
 					
@@ -119,7 +119,7 @@
 					<p>Setup the width and height of the map image.</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/dimension.png" class="img-responsive" alt="Setup Dimension">
+					<img src="/img/blog/google_map_customizer/dimension.png" class="img-responsive center-block" alt="Setup Dimension">
 				</div>
 			</div>
 					
@@ -131,7 +131,7 @@
 					<p>Grab the screen shot.</br>(Awesome Screenshot for Chrome)</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5">
-					<img src="/img/blog/google_map_customizer/screen.jpg" class="img-responsive" alt="Grab Screen">
+					<img src="/img/blog/google_map_customizer/screen.jpg" class="img-responsive center-block" alt="Grab Screen">
 				</div>
 			</div>
 		</div>	

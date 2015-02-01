@@ -3,15 +3,15 @@
 <head>
 	<title>Blog - The place I share my thoughts, design works and useful tools.</title>
 
-<?php include '/component/head.php';?>
+<?php include '../component/head.php';?>
 
-<?php include '/component/style.php';?>
+<?php include '../component/style.php';?>
 
 </head>
 
 <body>
 
-<?php include '/component/nav.php';?>
+<?php include '../component/nav.php';?>
 
 <article>
 	<div class="container padding--element_lg">
@@ -102,14 +102,14 @@
 <!-- <div class="work__background--differentiator"> -->
 	<div class="container padding--element_lg">
 
-<?php include '/component/social.php';?>
+<?php include '../component/social.php';?>
 
 	</div>
 <!-- </div> -->
 
-<?php include '/component/footer.php';?>
+<?php include '../component/footer.php';?>
 
-<?php include '/component/script.php';?>
+<?php include '../component/script.php';?>
 
 </body>
 </html>

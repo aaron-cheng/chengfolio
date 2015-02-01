@@ -30,8 +30,17 @@ handlers:
   - url: /blog
     script: v3/view/blog.php
 
+  # - url: /formmail.php
+  #   script: v3/view/formmail.php
+
+  - url: /testmail2.php
+    script: v3/view/testmail2.php
+
 # Google Map Customizer
   - url: /google_map_customizer
+    script: v3/view/google_map_customizer.php
+
+  - url: /googlemap.html
     script: v3/view/google_map_customizer.php
 
   - url: /GoogleMapsColorizr
@@ -84,3 +93,9 @@ handlers:
 # blog
   - url: /blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer
     script: v3/view/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer.php
+
+  - url: /blog/my_new_site_launched
+    script: v3/view/blog/my_new_site_launched.php
+
+  - url: /.*
+    script: v3/view/404.php

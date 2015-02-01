@@ -38,18 +38,18 @@
 					</div>
 
 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
-						<a href="ambassador.php" target="_top">
+						<a href="#" target="_top">
 							<img src="/img/work/work_img_ambassador.png" class="img-responsive center-block" alt="Ambassador Screenshot">
 							<h2 class="text-center margin--element_top_xs">Ambassador</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_digital-closet.png" class="img-responsive center-block" alt="Digital Closet Screenshot">
 							<h2 class="text-center margin--element_top_xs">Digital Closet</h2>
 						</a>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="row">
@@ -59,40 +59,40 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+					<div class="col-sm-6 col-md-4 margin--element_top" >
 						<a href="http://borderxlab.com/" target="_top">
 							<img src="/img/work/work_img_borderxlab.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">BorderX Lab Website & Blog</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+					<div class="col-sm-6 col-md-4 margin--element_top" >
 						<a href="/work/ivylla" target="_top">
 							<img src="/img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_agilecredit.png" class="img-responsive center-block" alt="Agile Credit Screenshot">
 							<h2 class="text-center margin--element_top_xs">Agile Credit Website & Application</h2>
 						</a>
-					</div>
+					</div> -->
 					
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+					<div class="col-sm-6 col-md-4 margin--element_top">
 						<a href="/work/boutique_sui" target="_top">
 							<img src="/img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
 							<h2 class="text-center margin--element_top_xs">Boutique Sui Website</h2>
 						</a>
 					</div>
 					
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_aerofs.png" class="img-responsive center-block" alt="AeroFS Screenshot">
 							<h2 class="text-center margin--element_top_xs">AeroFS Website</h2>
 						</a>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="row">
@@ -102,43 +102,43 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+					<div class="col-sm-6 col-md-4 margin--element_top">
 						<a href="/work/pin" target="_top">
 							<img src="/img/work/work_img_pin.png" class="img-responsive center-block" alt="Pin">
 							<h2 class="text-center margin--element_top_xs">Pin</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+					<div class="col-sm-6 col-md-4 margin--element_top">
 						<a href="/work/reclink" target="_top">
 							<img src="/img/work/work_img_reclink.png" class="img-responsive center-block" alt="RecLink Picture">
 							<h2 class="text-center margin--element_top_xs">RecLink</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="/work/parking_housing" target="_top">
 							<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Parking & Housing Picture">
 							<h2 class="text-center margin--element_top_xs">Parking & Housing</h2>
 						</a>
-					</div>
+					</div> -->
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+					<div class="col-sm-6 col-md-4 margin--element_top">
 						<a href="/work/grabby_mouse" target="_top">
 							<img src="/img/work/work_img_grabbymouse.png" class="img-responsive center-block" alt="Grabby Mouse Picture">
 							<h2 class="text-center margin--element_top_xs">Grabby Mouse</h2>
 						</a>
 					</div>
 					
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_unisextoilet.png" class="img-responsive center-block" alt="Unisex Toilet Picture">
 							<h2 class="text-center margin--element_top_xs">Unisex Toilet</h2>
 						</a>
-					</div>
+					</div> -->
 				</div>
 
-				<div class="row">
+<!-- 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="txt--title margin--section_top text-center">Architecture And Urban Planning</h1>
 					</div>
@@ -186,7 +186,7 @@
 							<h2 class="text-center margin--element_top_xs">Water Town Revitalization</h2>
 						</a>
 					</div>
-				</div>
+				</div> -->
 <!-- 		</div>
 		</div> -->
 	</div>

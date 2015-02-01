@@ -2,7 +2,7 @@
 	<nav class="container">
 		<div class="row ">
 			<div class="nav__logo col-md-3 col-md-offset-1 col-xs-10">
-				<a href="index.html">
+				<a href="/">
 					<img src="/img/global/icon_logo.png" class="img-responsive" alt="Aaron Cheng's Portfolio">
 				</a>
 			</div>

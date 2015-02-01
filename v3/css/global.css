@@ -118,6 +118,11 @@ q{
 	line-height: 36px;
 }
 
+.txt--md{
+	font-size: 16px;
+	line-height: 1.8;
+}
+
 .txt--sm{
 	font-size: 12px;
 	line-height: 18px;
@@ -144,6 +149,11 @@ q{
 	line-height: 1.8;
 }*/
 
+.txt--404{
+	font-size: 72px;
+	color: #3E3E3E;	
+}
+
 article p{
 	font-size: 18px;
 	color: #3E3E3E;
@@ -166,6 +176,7 @@ article a{
 	color: #00b7eb;	
 	font-weight: 400;
 }
+
 
 /*----------------------------------------------
 ------------------------------------------------
@@ -453,6 +464,7 @@ article a{
 }*/
 
 .nav__logo{
+	margin-top: 7px;
 	margin-bottom: 12px;
 }
 
