@@ -142,7 +142,7 @@
 	</div>	
 	<div class="container-fluid padding--element_bottom_lg ">
 		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
+			<div class="col-sm-offset-1 col-sm-10">
 				<div class="col-md-6 margin--element_top_lg" >
 					<div class="img__wrapper">
 						<img src="/img/work/ivylla/ivylla_signup.jpg" class="img-responsive center-block" alt="Singup Screenshot">

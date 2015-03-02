@@ -37,6 +37,9 @@ handlers:
 
 
 # Google Map Customizer
+  - url: /gmc
+    script: v3/view/gmc.php
+
   - url: /google_map_customizer
     script: v3/view/google_map_customizer.php
 

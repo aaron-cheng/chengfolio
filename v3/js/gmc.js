@@ -1,4 +1,16 @@
 $(document).ready(function(){	
+	$(".sidebar__btn--close").click(function(){
+	    $(".sidebar--main").animate({right: '-300px'});
+	}); 
+
+
+///////////////////////////////////////////////////////
+	$( "#menu-toggle" ).click(function() {
+
+	  $("#map").css("right","100px");
+	  //window.location.hash = '#food';
+	});
+
 	//googlemap - url hash
 	var hashVal = location.hash;
 	if (hashVal == '#customizablemap') {
@@ -40,18 +52,21 @@ $(document).ready(function(){
 		}
 	
 	//googlemap - setup dimension
-	$( "#googlebtn" ).click(function() {
-	  var width1 = $( "#pagewidth" ).val();
-	  var width = parseInt(width1) + 250;
-	  var height = $( "#pageheight" ).val();
-	  if ($(".excontent").css("display") == "inline") {
-			$(".excontent").css("width",width);
-			$(".excontent").css("height",height);
-		} else {
+	$("#btn--apply-dimension").on('tap', function(){
+	  var width = $( "#input--map-width" ).val()+'px';
+	  // var width = parseInt(width1) + 250;
+	  var height = $( "#input--map-height" ).val()+'px';
+	  // if ($("#map").css("display") == "inline") {
+			$("#map").css("width",width);
+			$("#map").css("height",height);
+
+		// } else {
 		
-		}
+		// }
+
 	});
-	
+
+
 	//googlemap - custom link
 	$( "#applylinkbtn" ).click(function() {
 	  var customlink = $( "#input_customlink" ).val();

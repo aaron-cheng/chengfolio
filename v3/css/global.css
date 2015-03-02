@@ -80,6 +80,10 @@ q{
 	color: #0093CD;
 }
 
+.txt__color--regular{
+	color: #999;
+}
+
 .txt--regular{
 	font-weight: 400;
 }
@@ -328,6 +332,11 @@ article a{
 .padding--element_sm{
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.padding--input-box{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .padding--element_xs{
