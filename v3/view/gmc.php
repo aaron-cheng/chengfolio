@@ -15,13 +15,29 @@
 		<div id="menu-toggle" style="color:#3f33f3; z-index:99999;">ggggggggg</div>
 		<div id="middle">
 			<div id="left">
+				<div class="sidebar--item__title"><p class="txt--md txt--regular">Customize Map Style</p></div>
 				<div id="items"></div>
-				<input id="add" type="button" name="addStyle" value="+" onclick="gmc.appendItemDiv()">
+				<div class="sidebar__btn-add-wrapper"><input id="add" type="button" name="addStyle" value="ADD" onclick="gmc.appendItemDiv()"></div>
 			</div>
-			<div id="map">
-			</div>
+			<div id="map"></div>
+			<div id="map--satellite"></div>
+
+			<!-- external webpage -->
+			<iframe class="excontent" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&t=h&z=6&output=embed"></iframe>
+
 			<div id="right" style="display:none;">
 				<div id="json"></div>
+			</div>
+		</div>
+
+		<div class="siderbar--logo">
+			<div class="row">
+				<div class="col-xs-2">
+					<img src="/img/gmc/gmc_icon_menu.png" class="block-center sidebar__btn--close" alt="close">	
+				</div>
+				<div class="col-xs-10">
+					<h1 class="txt--md txt--bold text-left txt--primary_on_light siderbar--logo__txt">Google Map Customizer</h1>
+				</div>
 			</div>
 		</div>
 
@@ -37,23 +53,23 @@
 
 			<div class="row margin--element_top_sm">
 				<div class="col-md-12">
-					<a class="btn--customizablemap" href="#customizablemap">CUTOMIZABLE MAP</a>
+					<a class="btn--customizablemap btn--map-toggle" href="#customizablemap"><p class="txt--default">CUTOMIZABLE MAP</p></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<a class="btn--satellitemap" href="#satellitemap">SATELLITE MAP</a>
+					<a class="btn--satellitemap btn--map-toggle" href="#satellitemap"><p class="txt--default">SATELLITE MAP</p></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<a class="btn--customlink" href="#customlink">CUSTOM URL</a>
+					<a class="btn--customlink btn--map-toggle" href="#customlink"><p class="txt--default">CUSTOM URL</p></a>
 				</div>
 			</div>
 
 			<div class="row margin--element_top_sm">
 				<div class="col-md-12">
-					<p>Set the dimension of your map:</p>
+					<p class="txt--default">Set the dimension of your map:</p>
 				</div>
 			</div>
 			<div class="row margin--element_top_xs">
@@ -72,25 +88,27 @@
 				</div>
 			</div>
 
-			<div class="row margin--element_top_sm">
-				<div class="col-md-12">
-					<p>Select from premade style:</p>
-				</div>
-			</div>
-			<div class="sidebar--main__premade-map">		
-				<div class="row">
+			<div class="sidebar--main__premade-map-wrapper">
+				<div class="row margin--element_top_sm">
 					<div class="col-md-12">
-						<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+						<p class="txt--default">Select from premade style:</p>
 					</div>
 				</div>
-				<div class="row margin--element_top_xs">
-					<div class="col-md-12">
-						<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+				<div class="sidebar--main__premade-map">		
+					<div class="row">
+						<div class="col-md-12">
+							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+						</div>
 					</div>
-				</div>
-				<div class="row margin--element_top_xs">
-					<div class="col-md-12">
-						<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+					<div class="row margin--element_top_xs">
+						<div class="col-md-12">
+							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+						</div>
+					</div>
+					<div class="row margin--element_top_xs">
+						<div class="col-md-12">
+							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -100,10 +118,10 @@
 					<div class="col-xs-12">
 						<a class="pull-left" href="/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer">
 							<img src="/img/gmc/gmc_help.png" class="pull-left" alt="help">	
-							<p class="txt__color--regular pull-left">&#160; How to Use?</p>
+							<p class="txt__color--regular txt--default pull-left">&#160; How to Use?</p>
 						</a>
 						<a class="pull-right" href="/">
-							<p class="txt__color--regular pull-right">© Aaron Cheng</p>
+							<p class="txt__color--regular txt--default pull-right">© Aaron Cheng</p>
 						</a>
 					</div>
 				</div>

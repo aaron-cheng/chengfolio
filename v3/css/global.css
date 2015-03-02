@@ -127,6 +127,11 @@ q{
 	line-height: 1.8;
 }
 
+.txt--default{
+	font-size: 14px;
+	line-height: 20px;
+}
+
 .txt--sm{
 	font-size: 12px;
 	line-height: 18px;

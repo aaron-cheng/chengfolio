@@ -51,6 +51,7 @@ function googlemapcolorizer()
 			zoom: 11,
 
 			mapTypeId: 'Styled',
+			disableDefaultUI: true
 
 
 			// styles: kk,
@@ -240,6 +241,7 @@ function googlemapcolorizer()
 	this.getItemDiv = function()
 	{
 		value = '<input type="hidden" name="id" value="'+this.index+'">';
+		value += '<div class="divider--horizontal--even item__divider"></div>';
 		value += '<div class="wrap">';
 		value += '	<div class="headcolor"><div id="dot'+this.index+'" class="dot"></div><input type="button" value="×" onclick="gmc.deleteItemDiv(this)" /></div>';
 		value += '	<div class="left txt--item">Feature: </div>';

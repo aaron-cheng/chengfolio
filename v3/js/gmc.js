@@ -1,6 +1,35 @@
+function initialize()
+{
+  var mapProp = {
+    center: new google.maps.LatLng(54.32, 10.10),
+    zoom:11,
+    panControl:false,
+    zoomControl:false,
+    mapTypeControl:true,
+    scaleControl:false,
+    streetViewControl:false,
+    overviewMapControl:false,
+    rotateControl:false,  
+    mapTypeId: google.maps.MapTypeId.SATELLITE
+  };
+  map = new google.maps.Map(document.getElementById("map--satellite"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
 $(document).ready(function(){	
+// toggle the sidebar's visibility animation
 	$(".sidebar__btn--close").click(function(){
-	    $(".sidebar--main").animate({right: '-300px'});
+	    $(".sidebar--main").animate({left: '-280px'});
+	    $("#left").animate({right: '-280px'});
+	    $("#left").css('display', 'hidden');
+	}); 
+
+	$(".siderbar--logo").click(function(){
+		$("#left").css('display', 'block');
+	    $(".sidebar--main").animate({left: '0px'},{queue: false});
+	    $("#left").animate({right: '0px'},{queue: false});
 	}); 
 
 
@@ -12,59 +41,46 @@ $(document).ready(function(){
 	});
 
 	//googlemap - url hash
-	var hashVal = location.hash;
-	if (hashVal == '#customizablemap') {
-			$(".excontent").css("display","inline");			
-			$(".setting").css("display","none");
-			$(".customlink").css("display","none");
-			$(".dimension").css("display","block");
-		} if (hashVal == '#satellitemap') {
-			$(".excontent").css("display","inline");
-			$(".setting").css("display","none");
-			$(".customlink").css("display","none");
-			$(".dimension").css("display","block");
-		} if (hashVal == '#about')  {
-			$(".excontent").css("display","none");
-			$(".setting").css("display","block");
-			$(".customlink").css("display","none");
-			$(".dimension").css("display","block");
-		} if (hashVal == '#customlink')  {
-			$(".excontent").css("display","inline");			
-			$(".setting").css("display","none");
-			$(".customlink").css("display","block");
-			$(".dimension").css("display","none");
-		} if (hashVal == '#screenshottools')  {
-			$(".excontent").css("display","none");
-			$(".setting").css("display","block");
-			$(".customlink").css("display","none");
-			$(".dimension").css("display","block");
-			$('html,body').animate({scrollTop: $("#screenshottools").offset().top},'slow');
-		} if (hashVal == '#hexcode')  {
-			$(".excontent").css("display","none");
-			$(".setting").css("display","block");
-			$('html,body').animate({scrollTop: $("#hexcode").offset().top},'slow');
-		}if (hashVal == '#embedcode')  {
-			$(".excontent").css("display","none");
-			$(".setting").css("display","block");
-			$(".customlink").css("display","none");
-			$(".dimension").css("display","block");
-			$('html,body').animate({scrollTop: $("#anchor-embedcode").offset().top},'slow');
-		}
+	// var hashVal = location.hash;
+	// if (hashVal == '#customizablemap') {
+	// 		$(".excontent").css("display","inline");			
+	// 		$(".setting").css("display","none");
+	// 		$(".customlink").css("display","none");
+	// 		$(".dimension").css("display","block");
+	// 	} if (hashVal == '#satellitemap') {
+	// 		$(".excontent").css("display","inline");
+	// 		$(".setting").css("display","none");
+	// 		$(".customlink").css("display","none");
+	// 		$(".dimension").css("display","block");
+	// 	} if (hashVal == '#about')  {
+	// 		$(".excontent").css("display","none");
+	// 		$(".setting").css("display","block");
+	// 		$(".customlink").css("display","none");
+	// 		$(".dimension").css("display","block");
+	// 	} if (hashVal == '#customlink')  {
+	// 		$(".excontent").css("display","inline");			
+	// 		$(".setting").css("display","none");
+	// 		$(".customlink").css("display","block");
+	// 		$(".dimension").css("display","none");
+	// 	} if (hashVal == '#screenshottools')  {
+	// 		$(".excontent").css("display","none");
+	// 		$(".setting").css("display","block");
+	// 		$(".customlink").css("display","none");
+	// 		$(".dimension").css("display","block");
+	// 		$('html,body').animate({scrollTop: $("#screenshottools").offset().top},'slow');
+	// 	} if (hashVal == '#hexcode')  {
+	// 		$(".excontent").css("display","none");
+	// 		$(".setting").css("display","block");
+	// 		$('html,body').animate({scrollTop: $("#hexcode").offset().top},'slow');
+	// 	}if (hashVal == '#embedcode')  {
+	// 		$(".excontent").css("display","none");
+	// 		$(".setting").css("display","block");
+	// 		$(".customlink").css("display","none");
+	// 		$(".dimension").css("display","block");
+	// 		$('html,body').animate({scrollTop: $("#anchor-embedcode").offset().top},'slow');
+	// 	}
 	
-	//googlemap - setup dimension
-	$("#btn--apply-dimension").on('tap', function(){
-	  var width = $( "#input--map-width" ).val()+'px';
-	  // var width = parseInt(width1) + 250;
-	  var height = $( "#input--map-height" ).val()+'px';
-	  // if ($("#map").css("display") == "inline") {
-			$("#map").css("width",width);
-			$("#map").css("height",height);
 
-		// } else {
-		
-		// }
-
-	});
 
 
 	//googlemap - custom link
@@ -118,20 +134,27 @@ $(document).ready(function(){
 	
 	
 	//googlemap menu toggle among maps
-	$(".colorizr-btn").on('tap', function(){
-		$(".excontent").css("display","inline");
+	$(".btn--customizablemap").on('tap', function(){
+		$("#map").css("display","inline");
+		$("#map--satellite").css("display","none");
+		$(".excontent").css("display","none");
+		$("#left").css("display","block");
+		$(".sidebar--main__premade-map-wrapper").css("display","block");		
 		$(".setting").css("display","none");
 		$(".customlink").css("display","none");
 		$(".dimension").css("display","block");
 		$(".excontent").attr('src', "/GoogleMapsColorizr");
 	});
 	
-	$(".satellite-btn").on('tap', function(){
-		$(".excontent").css("display","inline");
-		$(".setting").css("display","none");
+	$(".btn--satellitemap").on('tap', function(){
+		$("#map--satellite").css("display","inline");
+		$("#map").css("display","none");
+		$("#left").css("display","none");
+		$(".sidebar--main__premade-map-wrapper").css("display","none");
 		$(".customlink").css("display","none");
 		$(".dimension").css("display","block");
-		$(".excontent").attr('src', "https://maps.google.com/?ie=UTF8&t=h&z=6&output=embed");
+		google.maps.event.trigger(map, "resize");
+		// $(".excontent").attr('src', "https://maps.google.com/?ie=UTF8&t=h&z=6&output=embed");
 	});
 	
 	$( ".customlink-btn" ).click(function() {
@@ -150,6 +173,19 @@ $(document).ready(function(){
 		window.location = '/';
 	});
 	
+    //googlemap - setup dimension
+	$("#btn--apply-dimension").on('tap', function(){
+	  var width2 = $( "#input--map-width" ).val()+'px';
+	  // var width = parseInt(width1) + 250;
+	  var height2 = $( "#input--map-height" ).val()+'px';
+	  // if ($("#map").css("display") == "inline") {
+			$("#map--satellite").css("width",width2);
+			$("#map--satellite").css("height",height2);
+		// } else {
+		// }
+		google.maps.event.trigger(map, "resize");
+	});
+
 	//googlemap menu list click to close the menu
 	$(".settingmenu li").on('tap', function(){
 		$(".settingmenu").css("display","none");
