@@ -82,6 +82,10 @@ body{
 	display: none;
 }
 
+.btn--customizablemap{
+	color: #00b7eb;
+}
+
 .btn--map-toggle:hover,.btn--map-toggle:focus{
 	color: #00b7eb;
 	text-decoration: none;
