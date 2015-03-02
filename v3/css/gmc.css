@@ -87,6 +87,14 @@ body{
 	text-decoration: none;
 }
 
+.sidebar--main__customlink-wrapper{
+	display: none;
+}
+
+.btn--premade-map{
+	cursor: pointer;
+}
+
 .googlemap{
 width:1920px;
 height:1080px;
@@ -159,7 +167,7 @@ position:relative;
 top:-10px;
 }
 
-#btn--apply-dimension, #applylinkbtn{
+#btn--apply-dimension, #btn--apply-url{
 padding-left:0px;
 background-color:#00b7eb;
 border-width:0;

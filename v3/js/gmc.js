@@ -23,13 +23,17 @@ $(document).ready(function(){
 	$(".sidebar__btn--close").click(function(){
 	    $(".sidebar--main").animate({left: '-280px'});
 	    $("#left").animate({right: '-280px'});
-	    $("#left").css('display', 'hidden');
+	    // $("#left").animate({opacity: '0'});
+	    setTimeout(function() { 
+		    $("#left").css('display', 'none'); 
+		}, 400);
 	}); 
 
 	$(".siderbar--logo").click(function(){
-		$("#left").css('display', 'block');
+		$("#left").css('display', 'inline');
 	    $(".sidebar--main").animate({left: '0px'},{queue: false});
 	    $("#left").animate({right: '0px'},{queue: false});
+	    $("#left").css('display', 'inline');
 	}); 
 
 
@@ -40,59 +44,31 @@ $(document).ready(function(){
 	  //window.location.hash = '#food';
 	});
 
-	//googlemap - url hash
-	// var hashVal = location.hash;
-	// if (hashVal == '#customizablemap') {
-	// 		$(".excontent").css("display","inline");			
-	// 		$(".setting").css("display","none");
-	// 		$(".customlink").css("display","none");
-	// 		$(".dimension").css("display","block");
-	// 	} if (hashVal == '#satellitemap') {
-	// 		$(".excontent").css("display","inline");
-	// 		$(".setting").css("display","none");
-	// 		$(".customlink").css("display","none");
-	// 		$(".dimension").css("display","block");
-	// 	} if (hashVal == '#about')  {
-	// 		$(".excontent").css("display","none");
-	// 		$(".setting").css("display","block");
-	// 		$(".customlink").css("display","none");
-	// 		$(".dimension").css("display","block");
-	// 	} if (hashVal == '#customlink')  {
-	// 		$(".excontent").css("display","inline");			
-	// 		$(".setting").css("display","none");
-	// 		$(".customlink").css("display","block");
-	// 		$(".dimension").css("display","none");
-	// 	} if (hashVal == '#screenshottools')  {
-	// 		$(".excontent").css("display","none");
-	// 		$(".setting").css("display","block");
-	// 		$(".customlink").css("display","none");
-	// 		$(".dimension").css("display","block");
-	// 		$('html,body').animate({scrollTop: $("#screenshottools").offset().top},'slow');
-	// 	} if (hashVal == '#hexcode')  {
-	// 		$(".excontent").css("display","none");
-	// 		$(".setting").css("display","block");
-	// 		$('html,body').animate({scrollTop: $("#hexcode").offset().top},'slow');
-	// 	}if (hashVal == '#embedcode')  {
-	// 		$(".excontent").css("display","none");
-	// 		$(".setting").css("display","block");
-	// 		$(".customlink").css("display","none");
-	// 		$(".dimension").css("display","block");
-	// 		$('html,body').animate({scrollTop: $("#anchor-embedcode").offset().top},'slow');
-	// 	}
+	// googlemap - url hash
+	var hashVal = location.hash;
+	if (hashVal == '#customizablemap') {
+			$("#map").css("display","inline");
+			$("#map--satellite").css("display","none");
+			$(".excontent").css("display","none");
+			$("#left").css("display","block");
+			$(".sidebar--main__premade-map-wrapper").css("display","block");
+			$(".sidebar--main__customlink-wrapper").css("display","none");	
+		} if (hashVal == '#satellitemap') {
+			$("#map--satellite").css("display","inline");
+			$("#map").css("display","none");
+			$("#left").css("display","none");
+			$(".sidebar--main__premade-map-wrapper").css("display","none");
+			$(".customlink").css("display","none");
+			$(".dimension").css("display","block");
+			$(".sidebar--main__customlink-wrapper").css("display","none");
+			google.maps.event.trigger(map, "resize");
+
+		} if (hashVal == '#customlink')  {
+			$("#left").css("display","none");
+			$(".sidebar--main__customlink-wrapper").css("display","inline");
+			$(".sidebar--main__premade-map-wrapper").css("display","none");
+		}
 	
-
-
-
-	//googlemap - custom link
-	$( "#applylinkbtn" ).click(function() {
-	  var customlink = $( "#input_customlink" ).val();
-	  $(".excontent").attr('src', customlink);
-	  $(".customlink").css("display","none");
-	  $(".dimension").css("display","block");
-	  $(".excontent").css("display","inline");
-	  $(".setting").css("display","none");
-	  //window.location.hash = '#food';
-	});
 	
 	//googlemap menu - mobile
 	$(".helpbtn").on('tap', function(){
@@ -139,11 +115,8 @@ $(document).ready(function(){
 		$("#map--satellite").css("display","none");
 		$(".excontent").css("display","none");
 		$("#left").css("display","block");
-		$(".sidebar--main__premade-map-wrapper").css("display","block");		
-		$(".setting").css("display","none");
-		$(".customlink").css("display","none");
-		$(".dimension").css("display","block");
-		$(".excontent").attr('src', "/GoogleMapsColorizr");
+		$(".sidebar--main__premade-map-wrapper").css("display","block");
+		$(".sidebar--main__customlink-wrapper").css("display","none");		
 	});
 	
 	$(".btn--satellitemap").on('tap', function(){
@@ -153,15 +126,27 @@ $(document).ready(function(){
 		$(".sidebar--main__premade-map-wrapper").css("display","none");
 		$(".customlink").css("display","none");
 		$(".dimension").css("display","block");
+		$(".sidebar--main__customlink-wrapper").css("display","none");
 		google.maps.event.trigger(map, "resize");
 		// $(".excontent").attr('src', "https://maps.google.com/?ie=UTF8&t=h&z=6&output=embed");
 	});
 	
-	$( ".customlink-btn" ).click(function() {
-		$(".dimension").css("display","none");
-		$(".customlink").css("display","block");
+	$( ".btn--customlink" ).click(function() {
+		$("#left").css("display","none");
+		$(".sidebar--main__customlink-wrapper").css("display","inline");
+		$(".sidebar--main__premade-map-wrapper").css("display","none");
 	});
-	
+
+	//googlemap - custom link
+	$( "#btn--apply-url" ).click(function() {
+		$(".excontent").css("display","inline");
+		$("#map").css("display","none");
+		$("#map--satellite").css("display","none");
+		var customlink = $( "#input--customlink" ).val();
+		$(".excontent").attr('src', customlink);
+	});
+
+
 	$(".help-btn").on('tap', function(){
 		$(".excontent").css("display","none");
 		$(".setting").css("display","block");
@@ -181,6 +166,8 @@ $(document).ready(function(){
 	  // if ($("#map").css("display") == "inline") {
 			$("#map--satellite").css("width",width2);
 			$("#map--satellite").css("height",height2);
+			$(".excontent").css("width",width2);
+			$(".excontent").css("height",height2);
 		// } else {
 		// }
 		google.maps.event.trigger(map, "resize");

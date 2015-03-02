@@ -84,8 +84,26 @@
 			</div>
 			<div class="row margin--element_top_xs">
 				<div class="col-md-12">
-					<input id="btn--apply-dimension" class="btn box--full_width" type="button" value="Apply">
+					<input id="btn--apply-dimension" class="btn box--full_width" type="button" value="Set Dimension">
 				</div>
+			</div>
+
+			<div class="sidebar--main__customlink-wrapper">
+			<div class="row margin--element_top_sm">
+				<div class="col-md-12">
+					<p class="txt--default">Enter the URL to display:</p>
+				</div>
+			</div>
+			<div class="row margin--element_top_xs">
+				<div class="col-md-12">
+					<input id="input--customlink" class="padding--input-box box--full_width" type="text" placeholder="https://mapsengine.google.com/map/u/0/embed?mid=zN7vz9dJuw7E.kx0wWPz-5Vpg">
+				</div>
+			</div>
+			<div class="row margin--element_top_xs">
+				<div class="col-md-12">
+					<input id="btn--apply-url" class="btn box--full_width" type="button" value="Apply">
+				</div>
+			</div>
 			</div>
 
 			<div class="sidebar--main__premade-map-wrapper">
@@ -97,17 +115,27 @@
 				<div class="sidebar--main__premade-map">		
 					<div class="row">
 						<div class="col-md-12">
-							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+							<img src="/img/gmc/gmc_premade_map1.png" id="gmc_premade_map_clean_grey" class="img-responsive center-block btn--premade-map" alt="premade map">
 						</div>
 					</div>
 					<div class="row margin--element_top_xs">
 						<div class="col-md-12">
-							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+							<img src="/img/gmc/gmc_premade_map2.png" id="gmc_premade_map_blue_water" class="img-responsive center-block btn--premade-map" alt="premade map">
 						</div>
 					</div>
 					<div class="row margin--element_top_xs">
 						<div class="col-md-12">
-							<img src="/img/gmc/gmc_premade_map.jpg" class="img-responsive center-block" alt="premade map">
+							<img src="/img/gmc/gmc_premade_map3.png" id="gmc_premade_map_midnight_commander" class="img-responsive center-block btn--premade-map" alt="premade map">
+						</div>
+					</div>
+					<div class="row margin--element_top_xs">
+						<div class="col-md-12">
+							<img src="/img/gmc/gmc_premade_map4.png" id="gmc_premade_map_endless_atlas" class="img-responsive center-block btn--premade-map" alt="premade map">
+						</div>
+					</div>
+					<div class="row margin--element_top_xs">
+						<div class="col-md-12">
+							<img src="/img/gmc/gmc_premade_map5.png" id="gmc_premade_map_grey_shades" class="img-responsive center-block btn--premade-map" alt="premade map">
 						</div>
 					</div>
 				</div>
