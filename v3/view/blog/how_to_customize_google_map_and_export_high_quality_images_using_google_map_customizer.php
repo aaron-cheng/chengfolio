@@ -122,10 +122,22 @@
 					<img src="/img/blog/google_map_customizer/dimension.png" class="img-responsive center-block" alt="Setup Dimension">
 				</div>
 			</div>
-					
+
 			<div class="row">
 				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
 					<div class="circle--number">5</div>
+				</div>
+				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
+					<p>Close the sidebar to get clean ouput</p>
+				</div>
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
+					<img src="/img/blog/google_map_customizer/close.png" class="img-responsive center-block" alt="Grab Screen">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 col-md-1 col-lg-offset-1 col-lg-1 margin--element_top_lg">
+					<div class="circle--number">6</div>
 				</div>
 				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
 					<p>Grab the screen shot.</br>(Awesome Screenshot for Chrome)</p>
