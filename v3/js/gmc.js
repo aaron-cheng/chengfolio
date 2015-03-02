@@ -53,6 +53,9 @@ $(document).ready(function(){
 			$("#left").css("display","block");
 			$(".sidebar--main__premade-map-wrapper").css("display","block");
 			$(".sidebar--main__customlink-wrapper").css("display","none");	
+			$(".btn--customizablemap").css("color","#00b7eb");	
+			$(".btn--satellitemap").css("color","#fff");	
+			$(".btn--customlink").css("color","#fff");	
 		} if (hashVal == '#satellitemap') {
 			$("#map--satellite").css("display","inline");
 			$("#map").css("display","none");
@@ -61,12 +64,18 @@ $(document).ready(function(){
 			$(".customlink").css("display","none");
 			$(".dimension").css("display","block");
 			$(".sidebar--main__customlink-wrapper").css("display","none");
+			$(".btn--customizablemap").css("color","#fff");	
+			$(".btn--satellitemap").css("color","#00b7eb");	
+			$(".btn--customlink").css("color","#fff");	
 			google.maps.event.trigger(map, "resize");
 
 		} if (hashVal == '#customlink')  {
 			$("#left").css("display","none");
 			$(".sidebar--main__customlink-wrapper").css("display","inline");
 			$(".sidebar--main__premade-map-wrapper").css("display","none");
+			$(".btn--customizablemap").css("color","#fff");	
+			$(".btn--satellitemap").css("color","#fff");	
+			$(".btn--customlink").css("color","#00b7eb");			
 		}
 	
 	
@@ -116,7 +125,10 @@ $(document).ready(function(){
 		$(".excontent").css("display","none");
 		$("#left").css("display","block");
 		$(".sidebar--main__premade-map-wrapper").css("display","block");
-		$(".sidebar--main__customlink-wrapper").css("display","none");		
+		$(".sidebar--main__customlink-wrapper").css("display","none");	
+		$(".btn--customizablemap").css("color","#00b7eb");	
+		$(".btn--satellitemap").css("color","#fff");	
+		$(".btn--customlink").css("color","#fff");		
 	});
 	
 	$(".btn--satellitemap").on('tap', function(){
@@ -127,6 +139,9 @@ $(document).ready(function(){
 		$(".customlink").css("display","none");
 		$(".dimension").css("display","block");
 		$(".sidebar--main__customlink-wrapper").css("display","none");
+		$(".btn--customizablemap").css("color","#fff");	
+		$(".btn--satellitemap").css("color","#00b7eb");	
+		$(".btn--customlink").css("color","#fff");
 		google.maps.event.trigger(map, "resize");
 		// $(".excontent").attr('src', "https://maps.google.com/?ie=UTF8&t=h&z=6&output=embed");
 	});
@@ -135,6 +150,9 @@ $(document).ready(function(){
 		$("#left").css("display","none");
 		$(".sidebar--main__customlink-wrapper").css("display","inline");
 		$(".sidebar--main__premade-map-wrapper").css("display","none");
+		$(".btn--customizablemap").css("color","#fff");	
+		$(".btn--satellitemap").css("color","#fff");	
+		$(".btn--customlink").css("color","#00b7eb");	
 	});
 
 	//googlemap - custom link
