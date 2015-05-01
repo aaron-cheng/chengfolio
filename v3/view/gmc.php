@@ -12,7 +12,7 @@
 		<script type='text/javascript' src="/js/googlemapscolorizr.js"></script>
 	</head>
 	<body onload="gmc.init()">
-		<div id="menu-toggle" style="color:#3f33f3; z-index:99999;">ggggggggg</div>
+
 		<div id="middle">
 			<div id="left">
 				<div class="sidebar--item__title"><p class="txt--md txt--regular">Customize Map Style</p></div>
@@ -158,8 +158,9 @@
 
 <?php include 'component/script.php';?>
 
-	<script src="/js/gmc.js" type="text/javascript"></script> 
 
+	<script src="/js/color2color.js" type="text/javascript"></script> 
+	<script src="/js/gmc.js" type="text/javascript"></script> 
 	<!-- Menu Toggle Script -->
     <script>
     // $("#menu-toggle").click(function(e) {

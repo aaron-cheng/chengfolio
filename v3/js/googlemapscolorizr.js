@@ -21,6 +21,9 @@ Licence:    Google Maps Colorizr is licensed under a Creative Commons
             + Any of the above conditions can be waived if you get permission from the copyright holder.
             + Nothing in this license impairs or restricts the author's moral rights.
 */
+
+
+
 function googlemapcolorizer()
 {
 	var styles;
@@ -93,22 +96,58 @@ function googlemapcolorizer()
 			gmc.writeCode();
 		});
 
+
+		var newColor = color2color( "#123123", "hsl" ); // Returns "#404040"
+
+		// var test = this.googleBaseValues[0][0];
+		// if('water' == this.googleBaseValues[0][0]){
+		// 	alert(test);
+		// }
+		
+		ppp = {
+        "featureType": "water",
+        "stylers": [
+        	{
+				"hue": "#293D29"
+        	},
+            {
+                "saturation": -56
+            },
+            {
+                "lightness": -74
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    };
+		test = this.google2Hsl(ppp);
+		alert(test);
 // apply pre-made map1
 		document.getElementById("gmc_premade_map_clean_grey").addEventListener("click", premade_map_clean_grey);
             function premade_map_clean_grey() {
 				
             	var style_new = [{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#e3e3e3"}]},{"featureType":"landscape.natural","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"color":"#cccccc"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]}];
-            	// save the current style
-            	var style_old = gmc.styles;
-            	// set styles to disried values
-            	gmc.styles = style_new;
-				
-				// alert(kk);
 
-		        gmc.renderStyle();
-		        gmc.writeCode();
-		        // set styles to origianl values
-        		// gmc.styles = style_old;
+
+    //         	var url_hash = '#';
+    //         	for (i = 0; i < style_new.length; i++) { 
+				//     if (style_new[i].stylers.visibility == "off") {
+				//     	url_hash += style_new[i].featureType + "/" +  style_new[i]["elementType"] + "/" + "000000" + "off";
+				//     }else if (style_new[i].stylers.saturation == -100 && !("lightness" in style_new[i].stylers)){
+				//     	url_hash += style_new[i].featureType + "/" +  style_new[i]["elementType"] + "/" + "000000" + "on";
+				//     }
+
+				//     if (style_new[i].stylers.visibility == "off") {
+				//     	url_hash += style_new[i]["featureType"] + "/" +  style_new[i]["elementType"] + "/" + "000000" + "off";
+				//     };
+
+
+				//     url_hash += style_new[i]["featureType"] + "/" +  style_new[i]["elementType"] + "/" + style_new[i]["stylers"]
+
+				// }
+    //         	window.location.hash = "#"+style_new[0]["featureType"];
+ 
             }
 // apply pre-made map2
 		document.getElementById("gmc_premade_map_blue_water").addEventListener("click", premade_map_blue_water);
@@ -252,7 +291,7 @@ function googlemapcolorizer()
 		this.deleteStyle(parseInt(item.firstChild.value));
 	};
 	
-		//when clicked on a drop down Item (with mouse)
+	//when clicked on a drop down Item (with mouse)
 	this.selectedDropDownItem = function(option)
 	{
 		var itemdiv = option.parentNode.parentNode.parentNode.parentNode;
@@ -377,7 +416,51 @@ function googlemapcolorizer()
 		return newItemDiv;
 	};
 	
-	
+	//convert Google HSL to Regular HSL
+	this.google2Hsl = function(item){
+		var gLbase;
+		var gSbase;	
+		var regularh;
+		var regulars;	
+		var regularl;		
+		//get base values
+		for (i = 0; i <= 23; i++) {
+			if(item.featureType == this.googleBaseValues[i][0]){
+				 gLbase = this.googleBaseValues[i][2];
+				 gSbase = this.googleBaseValues[i][1];				
+			}
+		}
+		//get hue
+		for (i = 0; i < item.stylers.length; i++) {
+			if ("hue" in item.stylers[i]) {
+				regularh = color2color(item.stylers[i].hue, "hsl" );
+			}
+			if ("saturation" in item.stylers[i]) {
+				googles = item.stylers[i].saturation;
+			}
+			if ("lightness" in item.stylers[i]) {
+				googlel = item.stylers[i].lightness;
+			}			
+		}
+		//get lightness
+		if (googlel < 0) {
+			regularl = (googlel +100)*gLbase/100;
+		}else if(googlel > 0){
+			regularl = googlel + gLbase - gLbase*googlel/100;
+		}
+		//get saturation
+		if (googles < 0) {
+			regulars = (googles +100)*gSbase/100;
+		}else if (googles > 0) {
+			regulars = googles + gSbase - gSbase*googles/100;
+		}
+
+		hsl = "hsl(" + regularh + "," + Math.round(regulars).toString() + "%," + Math.round(regularl).toString() + "%)";
+
+
+		return color2color("hsl(120,20%,20%)", "hex");
+	};
+
 	//checks if color is valid rgb
 	this.checkColor = function(item)
 	{
