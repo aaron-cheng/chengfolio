@@ -104,7 +104,7 @@ var googleBaseValues = new Array();
 
 function style_new_url(item){
 	var url_hash = "#";
-			 
+	// organize the style info		 
 	for (i = 0; i < item.length; i++) { 
 
 		var lightness_in = 0;
@@ -142,7 +142,7 @@ function style_new_url(item){
 				saturation_in = 1;
 			}
 		}
-		//if no lightness add 0
+		//if color exists and visibity doesnt, add visibility = on
 		if (color_in === 1 && visibility_in === 0) {
 			item[i].stylers.push({"visibility": "on"});
 		}
@@ -159,7 +159,7 @@ function style_new_url(item){
 			item[i].stylers.push({"saturation": 0});
 		}	
 	}
-
+	// generate url	
 	for (m = 0; m < item.length; m++) { 
 		var visibility;
 		var hex = google2Hsl(item[m]);
@@ -174,19 +174,7 @@ function style_new_url(item){
     	}else{
     		url_hash += "/" + item[m].featureType + "/" +  item[m].elementType + "/" + hex + "/" + visibility;					    		
     	}  
-
-
-}
-
-
-
-  //   	ttt= {"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]};
-		// test = google2Hsl(ttt);
-
-		//     	ttt= item[1];
-		// test = google2Hsl(ttt);
-
-
+	}
 
 	return url_hash;
 }
