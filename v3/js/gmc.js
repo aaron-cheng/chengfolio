@@ -16,6 +16,180 @@ function initialize()
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
+function startsWith(str, prefix) {
+	return str.lastIndexOf(prefix, 0) === 0;
+}
+
+
+
+
+//convert Google HSL to Regular HSL
+function google2Hsl(item){
+	var gLbase;
+	var gSbase;	
+	var regularh;
+	var regulars;	
+	var regularl;
+// sets the base saturation and lightness from google maps
+var googleBaseValues = new Array();
+	googleBaseValues[0] = new Array("water", 45, 76);
+	googleBaseValues[1] = new Array("landscape", 27, 89);
+	googleBaseValues[2] = new Array("landscape.man_made", 27, 89);
+	googleBaseValues[3] = new Array("landscape.natural", 15, 95);
+	googleBaseValues[4] = new Array("poi", 43, 78);
+	googleBaseValues[5] = new Array("poi.medical", 41, 87);
+	googleBaseValues[6] = new Array("poi.school", 48, 83);
+	googleBaseValues[7] = new Array("poi.business", 15, 85);
+	googleBaseValues[8] = new Array("poi.government", 15, 85);
+	googleBaseValues[9] = new Array("poi.place_of_worship", 15, 85);
+	googleBaseValues[10] = new Array("poi.sports_complex", 15, 85);
+	googleBaseValues[11] = new Array("poi.park", 43, 78);
+	googleBaseValues[12] = new Array("poi.attraction", 43, 78);
+	googleBaseValues[13] = new Array("road", 100, 64);
+	googleBaseValues[14] = new Array("road.highway", 100, 64);
+	googleBaseValues[15] = new Array("road.arterial", 100, 77);
+	googleBaseValues[16] = new Array("road.local", 100, 100);
+	googleBaseValues[17] = new Array("administrative", 0, 51);
+	googleBaseValues[18] = new Array("administrative.country", 0, 51);
+	googleBaseValues[19] = new Array("administrative.land_parcel", 0, 51);
+	googleBaseValues[20] = new Array("administrative.locality", 0, 0);
+	googleBaseValues[21] = new Array("administrative.neighborhood", 0, 51);
+	googleBaseValues[22] = new Array("administrative.province", 0, 51);
+	googleBaseValues[23] = new Array("transit", 0, 75);
+
+	//if 'color' exists
+	for (i = 0; i < item.stylers.length; i++) {
+		if ("color" in item.stylers[i]) {
+			return item.stylers[i].color.substr(1);
+		}
+	}
+
+	//get base values
+	for (i = 0; i <= 23; i++) {
+		if(item.featureType == googleBaseValues[i][0]){
+			 gLbase = googleBaseValues[i][2];
+			 gSbase = googleBaseValues[i][1];				
+		}
+	}
+	//get hue
+	for (i = 0; i < item.stylers.length; i++) {
+		if ("hue" in item.stylers[i]) {
+			regularh = color2color(item.stylers[i].hue, "hsl" );
+		}
+		if ("saturation" in item.stylers[i]) {
+			googles = item.stylers[i].saturation;
+		}
+		if ("lightness" in item.stylers[i]) {
+			googlel = item.stylers[i].lightness;
+		}			
+	}
+	//get lightness
+	if (googlel < 0) {
+		regularl = (googlel +100)*gLbase/100;
+	}else if(googlel > 0){
+		regularl = googlel + gLbase - gLbase*googlel/100;
+	}
+	//get saturation
+	if (googles < 0) {
+		regulars = (googles +100)*gSbase/100;
+	}else if (googles > 0) {
+		regulars = googles + gSbase - gSbase*googles/100;
+	}
+
+	hsl = "hsl(" + regularh + "," + Math.round(regulars).toString() + "%," + Math.round(regularl).toString() + "%)";
+
+
+	return color2color(hsl, "hex");
+}
+
+function style_new_url(item){
+	var url_hash = "#";
+			 
+	for (i = 0; i < item.length; i++) { 
+
+		var lightness_in = 0;
+		var hue_in = 0;
+		var saturation_in = 0;
+		var color_in = 0;
+		var visibility_in = 0;
+
+		if (startsWith(item[i].featureType, "transit")) {
+			item[i].featureType = "transit";
+		}
+
+		for (j = 0; j < item[i].stylers.length; j++) {
+			if ("visibility" in item[i].stylers[j]) {
+				visibility = item[i].stylers[j].visibility;
+				visibility_in = 1;
+				if (item[i].stylers[j].visibility == "off") {
+					item[i].stylers.push({"color": "#444444"});     				
+				}
+			}
+			//if color exist
+			if ("color" in item[i].stylers[j]) {
+				color_in = 1;
+			}			
+			//if no lightness add 0
+			if ("lightness" in item[i].stylers[j]) {
+				lightness_in = 1;
+			}			
+			//if no hue add #000
+			if ("hue" in item[i].stylers[j]) {
+				lightness_in = 1;
+			}			
+			//if no saturation add 0
+			if ("saturation" in item[i].stylers[j]) {
+				saturation_in = 1;
+			}
+		}
+		//if no lightness add 0
+		if (color_in === 1 && visibility_in === 0) {
+			item[i].stylers.push({"visibility": "on"});
+		}
+		//if no lightness add 0
+		if (lightness_in === 0) {
+			item[i].stylers.push({"lightness": 0});
+		}
+		//if no hue add #000
+		if (hue_in === 0) {
+			item[i].stylers.push({"hue": "#000000"});
+		}
+		//if no saturation add 0
+		if (saturation_in === 0) {
+			item[i].stylers.push({"saturation": 0});
+		}	
+	}
+
+	for (m = 0; m < item.length; m++) { 
+		var visibility;
+		var hex = google2Hsl(item[m]);
+		for (n = 0; n < item[m].stylers.length; n++) {
+			if ("visibility" in item[m].stylers[n]) {
+				visibility = item[m].stylers[n].visibility;
+			}
+		}
+
+	    if (url_hash == '#') {
+    		url_hash += item[m].featureType + "/" +  item[m].elementType + "/" + hex + "/" + visibility;	
+    	}else{
+    		url_hash += "/" + item[m].featureType + "/" +  item[m].elementType + "/" + hex + "/" + visibility;					    		
+    	}  
+
+
+}
+
+
+
+  //   	ttt= {"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]};
+		// test = google2Hsl(ttt);
+
+		//     	ttt= item[1];
+		// test = google2Hsl(ttt);
+
+
+
+	return url_hash;
+}
 
 
 $(document).ready(function(){	

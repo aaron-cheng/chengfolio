@@ -127,7 +127,8 @@
 					retcolor = "rgb(" + r + "," + g + "," + b + ")";
 					break;
 				case "hex":
-					retcolor = "#" + ("0" + r.toString(16)).slice(-2) + ("0" + g.toString(16)).slice(-2) + ("0" + b.toString(16)).slice(-2);
+					// retcolor = "#" + ("0" + r.toString(16)).slice(-2) + ("0" + g.toString(16)).slice(-2) + ("0" + b.toString(16)).slice(-2);
+					retcolor = ("0" + r.toString(16)).slice(-2) + ("0" + g.toString(16)).slice(-2) + ("0" + b.toString(16)).slice(-2);
 					break;
 				case "hsl":
 					hsl = rgbToHsl({ "r": r, "g": g, "b": b });

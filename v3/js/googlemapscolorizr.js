@@ -86,7 +86,8 @@ function googlemapcolorizer()
 		clip.glue( 'copy' );
 		
 	};
-	
+
+
 	this.addEventHandler = function()
 	{
 		google.maps.event.addListener(this.map, 'zoom_changed', function() {
@@ -99,54 +100,74 @@ function googlemapcolorizer()
 
 		var newColor = color2color( "#123123", "hsl" ); // Returns "#404040"
 
+
+
+// test 
 		// var test = this.googleBaseValues[0][0];
 		// if('water' == this.googleBaseValues[0][0]){
 		// 	alert(test);
 		// }
 		
-		ppp = {
-        "featureType": "water",
-        "stylers": [
-        	{
-				"hue": "#293D29"
-        	},
-            {
-                "saturation": -56
-            },
-            {
-                "lightness": -74
-            },
-            {
-                "visibility": "on"
-            }
-        ]
-    };
-		test = this.google2Hsl(ppp);
-		alert(test);
+		// ppp = {
+  //       "featureType": "water",
+  //       "stylers": [
+  //       	{
+		// 		"hue": "#293D29"
+  //       	},
+  //           {
+  //               "saturation": -56
+  //           },
+  //           {
+  //               "lightness": -74
+  //           },
+  //           {
+  //               "visibility": "on"
+  //           }
+  //       ]
+  //   };
+
+
+  //   	ttt= {"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]};
+		// test = google2Hsl(ttt);
+		// alert(test);
+
+		// function startsWith(str, prefix) {
+		//     return str.lastIndexOf(prefix, 0) === 0;
+		// }
+		 
+		// function endsWith(str, suffix) {
+		//     return str.indexOf(suffix, str.length - suffix.length) !== -1;
+		// }
+		 
+		// var start = 'http';
+		// var end = 'com';
+		// var str = 'http://google.com';
+		// // startsWith(str, start);
+		// // endsWith(str, end);
+
+		// if (startsWith(str, start)) {
+		// 	alert("fff");
+		// }
+		
+
+
+
+
+       			
+
 // apply pre-made map1
 		document.getElementById("gmc_premade_map_clean_grey").addEventListener("click", premade_map_clean_grey);
-            function premade_map_clean_grey() {
-				
-            	var style_new = [{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#e3e3e3"}]},{"featureType":"landscape.natural","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"color":"#cccccc"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]}];
+            function premade_map_clean_grey() {	
+ 
 
+            	var style_new = [{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#e3e3e3"}]},{"featureType":"landscape.natural","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"color":"#cccccc"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#FFFFFF"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]}];
+            	var url_hash;
+            	url_hash = style_new_url(style_new);
+            	
+				// alert(url_hash); 
 
-    //         	var url_hash = '#';
-    //         	for (i = 0; i < style_new.length; i++) { 
-				//     if (style_new[i].stylers.visibility == "off") {
-				//     	url_hash += style_new[i].featureType + "/" +  style_new[i]["elementType"] + "/" + "000000" + "off";
-				//     }else if (style_new[i].stylers.saturation == -100 && !("lightness" in style_new[i].stylers)){
-				//     	url_hash += style_new[i].featureType + "/" +  style_new[i]["elementType"] + "/" + "000000" + "on";
-				//     }
-
-				//     if (style_new[i].stylers.visibility == "off") {
-				//     	url_hash += style_new[i]["featureType"] + "/" +  style_new[i]["elementType"] + "/" + "000000" + "off";
-				//     };
-
-
-				//     url_hash += style_new[i]["featureType"] + "/" +  style_new[i]["elementType"] + "/" + style_new[i]["stylers"]
-
-				// }
-    //         	window.location.hash = "#"+style_new[0]["featureType"];
+            	window.location.hash = url_hash;
+            	location.reload();
  
             }
 // apply pre-made map2
@@ -416,51 +437,6 @@ function googlemapcolorizer()
 		return newItemDiv;
 	};
 	
-	//convert Google HSL to Regular HSL
-	this.google2Hsl = function(item){
-		var gLbase;
-		var gSbase;	
-		var regularh;
-		var regulars;	
-		var regularl;		
-		//get base values
-		for (i = 0; i <= 23; i++) {
-			if(item.featureType == this.googleBaseValues[i][0]){
-				 gLbase = this.googleBaseValues[i][2];
-				 gSbase = this.googleBaseValues[i][1];				
-			}
-		}
-		//get hue
-		for (i = 0; i < item.stylers.length; i++) {
-			if ("hue" in item.stylers[i]) {
-				regularh = color2color(item.stylers[i].hue, "hsl" );
-			}
-			if ("saturation" in item.stylers[i]) {
-				googles = item.stylers[i].saturation;
-			}
-			if ("lightness" in item.stylers[i]) {
-				googlel = item.stylers[i].lightness;
-			}			
-		}
-		//get lightness
-		if (googlel < 0) {
-			regularl = (googlel +100)*gLbase/100;
-		}else if(googlel > 0){
-			regularl = googlel + gLbase - gLbase*googlel/100;
-		}
-		//get saturation
-		if (googles < 0) {
-			regulars = (googles +100)*gSbase/100;
-		}else if (googles > 0) {
-			regulars = googles + gSbase - gSbase*googles/100;
-		}
-
-		hsl = "hsl(" + regularh + "," + Math.round(regulars).toString() + "%," + Math.round(regularl).toString() + "%)";
-
-
-		return color2color("hsl(120,20%,20%)", "hex");
-	};
-
 	//checks if color is valid rgb
 	this.checkColor = function(item)
 	{
