@@ -383,6 +383,7 @@ function googlemapcolorizer()
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">geometry.stroke</option>';				
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels</option>';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.icon</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.text</option>';		
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.text.fill</option>';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.text.stroke</option>';							
 		value += '		</select>';

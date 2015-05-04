@@ -157,6 +157,10 @@ function style_new_url(item){
 				color_hue_s = item[i].stylers[j].saturation;
 			}
 		}	
+		//if neither color or hue exists 
+		if (color_in === 0 && hue_in === 0) {
+			item[i].stylers.push({"color": "#bbbbbb"});
+		}	
 		//if visibility doesnt exist add visibity 
 		if (visibility_in === 0) {
 			item[i].stylers.push({"visibility": "on"});
