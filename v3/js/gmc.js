@@ -149,7 +149,7 @@ function style_new_url(item){
 			}			
 			//if hue exists
 			if ("hue" in item[i].stylers[j]) {
-				lightness_in = 1;
+				hue_in = 1;
 			}			
 			//if saturation exists
 			if ("saturation" in item[i].stylers[j]) {
