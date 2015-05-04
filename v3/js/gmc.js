@@ -56,16 +56,17 @@ var googleBaseValues = new Array();
 	googleBaseValues[21] = new Array("administrative.neighborhood", 0, 51);
 	googleBaseValues[22] = new Array("administrative.province", 0, 51);
 	googleBaseValues[23] = new Array("transit", 0, 75);
-
+	googleBaseValues[24] = new Array("all", 0, 0);
 	//if 'color' exists
 	for (i = 0; i < item.stylers.length; i++) {
 		if ("color" in item.stylers[i]) {
 			return item.stylers[i].color.substr(1);
 		}
+		// alert('fk');
 	}
 
 	//get base values
-	for (i = 0; i <= 23; i++) {
+	for (i = 0; i <= 24; i++) {
 		if(item.featureType == googleBaseValues[i][0]){
 			 gLbase = googleBaseValues[i][2];
 			 gSbase = googleBaseValues[i][1];				
@@ -88,23 +89,28 @@ var googleBaseValues = new Array();
 		regularl = (googlel +100)*gLbase/100;
 	}else if(googlel > 0){
 		regularl = googlel + gLbase - gLbase*googlel/100;
+	}else{
+		regularl = googlel;
 	}
 	//get saturation
 	if (googles < 0) {
 		regulars = (googles +100)*gSbase/100;
 	}else if (googles > 0) {
 		regulars = googles + gSbase - gSbase*googles/100;
+	}else{
+		regulars = googles;
 	}
 
 	hsl = "hsl(" + regularh + "," + Math.round(regulars).toString() + "%," + Math.round(regularl).toString() + "%)";
-
 
 	return color2color(hsl, "hex");
 }
 
 function style_new_url(item){
 	var url_hash = "#";
-	// organize the style info		 
+
+	// organize the style info		
+
 	for (i = 0; i < item.length; i++) { 
 
 		var lightness_in = 0;
@@ -112,6 +118,10 @@ function style_new_url(item){
 		var saturation_in = 0;
 		var color_in = 0;
 		var visibility_in = 0;
+		var color_hue;
+		var color_hue_num;
+		var color_hue_s;
+		var color_hue_l;
 
 		if (startsWith(item[i].featureType, "transit")) {
 			item[i].featureType = "transit";
@@ -125,44 +135,101 @@ function style_new_url(item){
 					item[i].stylers.push({"color": "#444444"});     				
 				}
 			}
-			//if color exist
+			//if color exists
 			if ("color" in item[i].stylers[j]) {
 				color_in = 1;
+				hue_in = 1;
+				color_hue = item[i].stylers[j].color;
+				color_hue_num = j;
 			}			
-			//if no lightness add 0
+			//if lightness exists
 			if ("lightness" in item[i].stylers[j]) {
 				lightness_in = 1;
+				color_hue_l = item[i].stylers[j].lightness;
 			}			
-			//if no hue add #000
+			//if hue exists
 			if ("hue" in item[i].stylers[j]) {
 				lightness_in = 1;
 			}			
-			//if no saturation add 0
+			//if saturation exists
 			if ("saturation" in item[i].stylers[j]) {
 				saturation_in = 1;
+				color_hue_s = item[i].stylers[j].saturation;
 			}
-		}
+		}	
+		//if visibility doesnt exist add visibity 
+		if (visibility_in === 0) {
+			item[i].stylers.push({"visibility": "on"});
+		}			
 		//if color exists and visibity doesnt, add visibility = on
 		if (color_in === 1 && visibility_in === 0) {
-			item[i].stylers.push({"visibility": "on"});
+			item[i].stylers.push({"visibility": "simplified"});
 		}
 		//if no lightness add 0
 		if (lightness_in === 0) {
 			item[i].stylers.push({"lightness": 0});
+			color_hue_l = 0;
 		}
 		//if no hue add #000
 		if (hue_in === 0) {
-			item[i].stylers.push({"hue": "#000000"});
+			item[i].stylers.push({"hue": "#0ffff0"});
 		}
 		//if no saturation add 0
 		if (saturation_in === 0) {
 			item[i].stylers.push({"saturation": 0});
+			color_hue_s = 0;
 		}	
+		//if color and lightness both exist, 
+		if (color_in === 1 && lightness_in === 1) {
+			color_hsl = "hsl(" + color2color("#" + color_hue, "hsl") + "," + color_hue_s + "%," + color_hue_l + "%)";
+			color_hex = color2color(color_hsl, "hex");
+			// alert(color_hex);
+			item[i].stylers[color_hue_num] = {"color": "#" + color_hex};
+			// pp = item[i].stylers[color_hue_num].hue;
+			// alert(pp);
+		}
 	}
+
+
+	// alert(item[12].stylers[3].color);
+	// var test_h;
+	// var test_l;
+	// var test_s;
+	// var test_c;
+
+	// 	for (b = 0; b < item[12].stylers.length; b++) {
+	// 		if ("hue" in item[12].stylers[b]) {
+	// 			test_h = item[12].stylers[b].hue;
+	// 		}	
+	// 		if ("saturation" in item[12].stylers[b]) {
+	// 			test_s = item[12].stylers[b].saturation;
+	// 		}	
+	// 		if ("lightness" in item[12].stylers[b]) {
+	// 			test_l = item[12].stylers[b].lightness;
+	// 		}	
+	// 		if ("color" in item[12].stylers[b]) {
+	// 			test_c = item[12].stylers[b].color;
+	// 		}			
+	// 	}
+
+	// xxx = {"featureType":"water","elementType":"geometry","stylers":[{"hue":"#000000"},{"lightness":17},{"saturation":0}]};
+	// ddd = google2Hsl(xxx);
+	// alert(test_s);
 	// generate url	
 	for (m = 0; m < item.length; m++) { 
 		var visibility;
 		var hex = google2Hsl(item[m]);
+
+		// for (x = 0; x < item[m].stylers.length; x++) {
+
+		// 	//if color exists
+		// 	if ("color" in item[m].stylers[x]) {
+		// 		alert(m);
+		// 	}			
+
+		// }
+
+
 		for (n = 0; n < item[m].stylers.length; n++) {
 			if ("visibility" in item[m].stylers[n]) {
 				visibility = item[m].stylers[n].visibility;

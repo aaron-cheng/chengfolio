@@ -44,7 +44,9 @@
 		<div class="sidebar--main">
 			<div class="row">
 				<div class="col-xs-10">
-					<h1 class="txt--md text-left">Google Map Customizer</h1>
+					<a href="/google_map_customizer">
+						<h1 class="txt--md text-left">Google Map Customizer</h1>
+					</a>
 				</div>
 				<div class="col-xs-2">
 					<img src="/img/gmc/gmc_icon_close.png" class="pull-right sidebar__btn--close" alt="close">	

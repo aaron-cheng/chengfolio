@@ -50,8 +50,8 @@ function googlemapcolorizer()
 			},
 
 
-			center: new google.maps.LatLng(54.32, 10.10),
-			zoom: 11,
+			center: new google.maps.LatLng(37.74869169564006, -122.41571655273435),
+			zoom: 13,
 
 			mapTypeId: 'Styled',
 			disableDefaultUI: true
@@ -180,7 +180,7 @@ function googlemapcolorizer()
 		document.getElementById("gmc_premade_map_grey_shades").addEventListener("click", premade_map_grey_shades);
             function premade_map_grey_shades() {
 				
-            	var style_new = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
+            	var style_new = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":0},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
             	// clean the url before apply new premade map
             	gmc.deleteAllItemDiv();
             	window.location.hash = "";
@@ -250,7 +250,7 @@ function googlemapcolorizer()
 		this.googleBaseValues[21] = new Array("administrative.neighborhood", 0, 51);
 		this.googleBaseValues[22] = new Array("administrative.province", 0, 51);
 		this.googleBaseValues[23] = new Array("transit", 0, 75);
-		
+		this.googleBaseValues[24] = new Array("all", 0, 0);
 	};
 
 	//appends a new Style
@@ -369,6 +369,7 @@ function googlemapcolorizer()
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">administrative.neighborhood</option>';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">administrative.province</option>';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">transit</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">all</option>';
 		value += '		</select>';
 		value += '	</div>';
 		value += '</div>';
@@ -378,7 +379,12 @@ function googlemapcolorizer()
 		value += '		<select name="elementType" onchange="gmc.selectedDropDown(this)">';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">all</option>';
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">geometry</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">geometry.fill</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">geometry.stroke</option>';				
 		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.icon</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.text.fill</option>';
+		value += '			<option onclick="gmc.selectedDropDownItem(this)">labels.text.stroke</option>';							
 		value += '		</select>';
 		value += '	</div>';
 		value += '</div>';
