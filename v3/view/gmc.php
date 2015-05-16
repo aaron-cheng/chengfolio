@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Google Map Customizer</title>
+		<meta name="description" content="Google Map Customizer allows you to customize the colors on a Google Map and get large, high resolution images."/>
+
 <?php include 'component/head.php';?>
 
 <?php include 'component/style.php';?>
