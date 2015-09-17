@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="file://D:/application/google_appengine" />
       <root url="file://D:/application/google_appengine/lib/antlr3" />
+      <root url="file://D:/application/google_appengine/lib/apiclient" />
       <root url="file://D:/application/google_appengine/lib/argparse" />
       <root url="file://D:/application/google_appengine/lib/cacerts" />
       <root url="file://D:/application/google_appengine/lib/cherrypy" />
@@ -26,6 +27,8 @@
       <root url="file://D:/application/google_appengine/lib/markupsafe-0.15" />
       <root url="file://D:/application/google_appengine/lib/mox" />
       <root url="file://D:/application/google_appengine/lib/oauth2" />
+      <root url="file://D:/application/google_appengine/lib/oauth2client" />
+      <root url="file://D:/application/google_appengine/lib/portpicker" />
       <root url="file://D:/application/google_appengine/lib/prettytable" />
       <root url="file://D:/application/google_appengine/lib/protorpc-1.0" />
       <root url="file://D:/application/google_appengine/lib/PyAMF-0.6.1" />
@@ -38,6 +41,7 @@
       <root url="file://D:/application/google_appengine/lib/simplejson" />
       <root url="file://D:/application/google_appengine/lib/six" />
       <root url="file://D:/application/google_appengine/lib/sqlcmd" />
+      <root url="file://D:/application/google_appengine/lib/uritemplate" />
       <root url="file://D:/application/google_appengine/lib/webapp2-2.3" />
       <root url="file://D:/application/google_appengine/lib/webapp2-2.5.1" />
       <root url="file://D:/application/google_appengine/lib/webapp2-2.5.2" />
