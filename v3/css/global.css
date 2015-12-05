@@ -519,88 +519,22 @@ footer{
 }
 /*----------------------------------------------
 ------------------------------------------------
-8. Product Styles
+8. Ad
 ------------------------------------------------
 ----------------------------------------------*/
-.product__img_hero{
-	height: 450px;
-	background: url(../img/product/product_img_hero.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
-}
-/*----------------------------------------------
-------------------------------------------------
-9. Services Styles
-------------------------------------------------
-----------------------------------------------*/
-.services__img_hero{
-	height: 450px;
-	background: url(../img/services/services_img_hero.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
+.ad{
+	position: fixed;
+	z-index: 9999;
+	bottom: 10px;
+	right: 10px;
+	width: 260px;
+	height: 260px;
 }
 
-/*----------------------------------------------
-------------------------------------------------
-10. Technology Styles
-------------------------------------------------
-----------------------------------------------*/
-.technology__img_hero{
-	height: 450px;
-	background: url(../img/technology/technology_img_hero.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
+.ad__close{
+	position: absolute;
+	color: #3E3E3E;
+	top:5px;
+	right: 10px;
+	cursor: pointer;
 }
-
-
-/*----------------------------------------------
-------------------------------------------------
-11. Contact Styles
-------------------------------------------------
-----------------------------------------------*/
-.contact__img_hero{
-	height: 450px;
-	background: url(../img/contact/img_office_dinning.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
-}
-
-.contact__img_bottom{
-	height: 450px;
-	background: url(../img/contact/img_map_office.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
-}
-
-
-/*----------------------------------------------
-------------------------------------------------
-12. About Styles
-------------------------------------------------
-----------------------------------------------*/
-.about__img_hero{
-	height: 450px;
-	background: url(../img/about/about_img_hero.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
-}
-
-/*----------------------------------------------
-------------------------------------------------
-13. Career Styles
-------------------------------------------------
-----------------------------------------------*/
-.career__img_hero{
-	height: 450px;
-	background: url(../img/career/career_img_hero.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #000;
-}
-

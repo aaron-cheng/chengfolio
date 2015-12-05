@@ -8,6 +8,8 @@
 
 <?php include 'component/style.php';?>
 
+<?php include 'component/ad.php';?>
+
 		<link href="/css/gmc.css" rel="stylesheet">
 
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -172,6 +174,13 @@
     //     e.preventDefault();
     //     $("#middle").toggleClass("toggled");
     // });
+	$("#ad__close").on('tap', function(){
+		$(".ad").css("display","none");
+		ga('send', 'event', 'Image', 'Click', 'close ad');		
+	}); 
+	$("#ad__img").on('tap', function(){
+		ga('send', 'event', 'Button', 'Click', 'click ad');		
+	});
     </script>
 	</body>
 </html>
