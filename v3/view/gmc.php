@@ -176,11 +176,8 @@
     // });
 	$("#ad__close").on('tap', function(){
 		$(".ad").css("display","none");
-		ga('send', 'event', 'Image', 'Click', 'close ad');		
+		ga('send', 'event', 'ad', 'click', 'closead');	
 	}); 
-	$("#ad__img").on('tap', function(){
-		ga('send', 'event', 'Button', 'Click', 'click ad');		
-	});
     </script>
 	</body>
 </html>
