@@ -1,6 +1,6 @@
 <div class="ad">
 	<p class="ad__close" id="ad__close">X</p>
-	<a id="ad__img" href="http://www.amazon.com/gp/product/B0106CAN12?keywords=tablet" onClick="ga('send', 'event', 'ad', 'click', 'gotoamazon');">
+	<a id="ad__img" href="http://rectonics.com/" onClick="ga('send', 'event', 'ad', 'click', 'gotoamazon');">
 		<img src="/img/gmc/recpad10.jpg" class="img-responsive center-block" alt="RecPad10 advertisement">
 	</a>
 </div>	
