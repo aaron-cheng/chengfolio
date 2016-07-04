@@ -1,9 +1,11 @@
-<div class="ad">
-	<p class="ad__close" id="ad__close">X</p>
-	<a id="ad__img" href="http://rectonics.com/" onClick="ga('send', 'event', 'ad', 'click', 'gotoamazon');">
-		<img src="/img/gmc/recpad10.jpg" class="img-responsive center-block" alt="RecPad10 advertisement">
+<!-- <div class="ad">
+	<p class="ad__close" id="ad__close" style="color:#fff;">X</p>
+	<a id="ad__img" href="http://www.amazon.com/Certified-Braided-Tangle-Free-Lightning-Charging/dp/B017VPDGPM?keywords=lightning+cable" onClick="ga('send', 'event', 'ad', 'click', 'gotoamazon');">
+		<img src="/img/gmc/pur.jpg" class="img-responsive center-block" alt="PUR Lightning Cable advertisement">
 	</a>
-</div>	
+</div>	 -->
+
+<!-- del below-->
 
 <!-- <div class="ad">
 	<p class="ad__close" id="ad__close">X</p>
@@ -11,3 +13,4 @@
 		<img src="/img/gmc/pur.jpg" class="img-responsive center-block" alt="Pur lightning cable advertisement">
 	</a>
 </div>	 -->
+

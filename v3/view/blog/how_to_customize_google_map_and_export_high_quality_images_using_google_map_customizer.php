@@ -38,7 +38,7 @@
 					3. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. You can simply zoom into the level of detail you want and setup the window dimensions big enough to capture the site area you need. Then all you need to do is to grab the screen shot.</br></br>
 					<a id="screenshottools" href="#screenshottools"><p>&ensp;</p></a></p>
 					<p>There are many third-party tools:</br>
-					<a class="txt--blog_highlight txt--regular" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">FireShot</a> plugin for Firefox; <a class="txt--blog_highlight txt--regular" href="https://chrome.google.com/webstore/detail/awesome-screenshot-captur/alelhddbbhepgpmgidjdcjakblofbmce">Awesome Screenshot</a> for Chrome or Adobe Acrobat’s <a class="txt--blog_highlight txt--regular" href="http://www.adobe.com/products/acrobat/convert-html-to-pdf.html">PDF toolbar</a> to convert HTML to PDF.</p>
+					<a class="txt--blog_highlight txt--regular" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">FireShot</a> plugin for Firefox; <a class="txt--blog_highlight txt--regular" href="https://chrome.google.com/webstore/detail/capture-webpage-screensho/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=en-US">FireShot</a> for Chrome or Adobe Acrobat’s <a class="txt--blog_highlight txt--regular" href="http://www.adobe.com/products/acrobat/convert-html-to-pdf.html">PDF toolbar</a> to convert HTML to PDF.</p>
 				</div>
 			</div>
 		</div>	
@@ -140,7 +140,7 @@
 					<div class="circle--number">6</div>
 				</div>
 				<div class="col-xs-10 col-sm-10 col-md-5 col-lg-4 margin--element_top_lg">
-					<p>Grab the screen shot.</br>(Awesome Screenshot for Chrome)</p>
+					<p>Grab the screen shot.</br>(Fireshot for Chrome)</p>
 				</div>
 				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-10 col-md-offset-0 col-md-6 col-lg-5 margin--element_top_lg">
 					<img src="/img/blog/google_map_customizer/screen.jpg" class="img-responsive center-block" alt="Grab Screen">
