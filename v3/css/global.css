@@ -152,6 +152,11 @@ q{
 	color: #3E3E3E;
 }
 
+.txt--img_caption{
+	font-style: italic;
+	text-align: center;
+}
+
 /*.txt--article{
 	font-size: 18px;
 	color: #3E3E3E;

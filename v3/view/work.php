@@ -18,10 +18,10 @@
 			<div class="col-md-10 col-md-offset-1"> -->
 				<div class="row">
 					<div class="col-md-12 margin--element_top_sm">
-						<h1 class="txt--title text-center">Mobile Application Design</h1>
+						<h1 class="txt--title text-center">UI/UX Design</h1>
 					</div>
 				</div>
-
+<!-- 
 				<div class="row">
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
 						<a href="/work/5th_avenue" target="_top">
@@ -44,25 +44,46 @@
 						</a>
 					</div>
 
-<!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_digital-closet.png" class="img-responsive center-block" alt="Digital Closet Screenshot">
 							<h2 class="text-center margin--element_top_xs">Digital Closet</h2>
 						</a>
-					</div> -->
-				</div>
+					</div>
+				</div> -->
 
-				<div class="row">
+<!-- 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="txt--title margin--section_top text-center">Website Design</h1>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="row">
-					<div class="col-sm-6 col-md-4 margin--element_top" >
+<!-- 					<div class="col-sm-6 col-md-4 margin--element_top" >
 						<a href="http://borderxlab.com/" target="_top">
 							<img src="/img/work/work_img_borderxlab.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">BorderX Lab Website & Blog</h2>
+						</a>
+					</div> -->
+
+					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+						<a href="/work/striim_flow_designer" target="_top">
+							<img src="/img/work/work_img_striim_fd.png" class="img-responsive center-block" alt="Striim Flow Designer Screenshot">
+							<h2 class="text-center margin--element_top_xs">Striim - Flow Designer</h2>
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+						<a href="/work/5th_avenue" target="_top">
+							<img src="/img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="5th Avenue Screenshot">
+							<h2 class="text-center margin--element_top_xs">5th Avenue App</h2>
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
+						<a href="/work/heymenu" target="_top">
+							<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
+							<h2 class="text-center margin--element_top_xs">HeyMenu</h2>
 						</a>
 					</div>
 
