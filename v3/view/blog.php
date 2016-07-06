@@ -33,6 +33,26 @@
 			<div class="row margin--element_top">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
+						<a href="/blog/a_study_of_searching_and_filtering">
+							<div class="col-sm-9 margin--element_top">
+								<div class="row">
+									<div class="col-sm-12">
+										<h2 class="txt--bold txt--lg txt--primary_on_light">'My Objects': A Study of Searching and Filtering</h2>
+										<p class="txt--sm">July 06 2016</p>
+										<p class="pull-left margin--element_top_xs">‘My Object‘ is a new feature we recently added to the Striim’s platform. It is essentially a list of different types of objects. However, the challenging part is the design of the filter and search functionality. During the process, I came up with 3 different options and it is quite interesting to see how the design evolved.</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-sm-3 margin--element_top">
+								<img src="/img/blog/my_objects/my_objects_cover.png" class="img-responsive center-block" alt="My objects' screenshot">
+							</div>
+						</a>
+					</div>
+
+					<div class="divider--horizontal margin--element_top"></div>
+
+					<div class="row">
 						<a href="/blog/shopping_cart_ui_design">
 							<div class="col-sm-9 margin--element_top">
 								<div class="row">
@@ -45,7 +65,7 @@
 
 							</div>
 							<div class="col-sm-3 margin--element_top">
-								<img src="/img/blog/shopping_cart/shopping_cart_cover.png" class="img-responsive center-block" alt="New website screenshot">
+								<img src="/img/blog/shopping_cart/shopping_cart_cover.png" class="img-responsive center-block" alt="Bieyang shopping cart screenshot">
 							</div>
 						</a>
 					</div>

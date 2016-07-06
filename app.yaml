@@ -24,7 +24,8 @@ handlers:
     upload: v3/view/sitemap.xml
 
   - url: /
-    script: v3/view/index.php
+#    script: v3/view/index.php
+    script: v3/view/blog/a_study_of_searching_and_filtering.php
 
   - url: /work
     script: v3/view/work.php
@@ -102,6 +103,9 @@ handlers:
 
   - url: /blog/my_new_site_launched
     script: v3/view/blog/my_new_site_launched.php
+
+  - url: /blog/a_study_of_searching_and_filtering
+    script: v3/view/blog/a_study_of_searching_and_filtering.php
 
   - url: /blog/shopping_cart_ui_design
     script: v3/view/blog/shopping_cart_ui_design.php
