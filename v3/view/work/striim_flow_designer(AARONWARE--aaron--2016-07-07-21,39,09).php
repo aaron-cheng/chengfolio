@@ -44,7 +44,7 @@
 				<div class="col-md-8 col-md-offset-2">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="txt--primary_on_light">Flow designer is the first project I worked on after I joined Striim and also my first enterprise software design. I have to learn a lot of big data related concepts and understand all Striim’s products. However, I really enjoyed this challenging yet interesting task and would like to share my design process with you.</p>
+							<p class="txt--primary_on_light">Flow designer is the first project I worked on after I joined Striim and also my first enterprise software design. I have to learn a lot of big data related concepts and understand all Striim’s products. However, I really enjoyed this challenging yet interesting task and I would like to share my design process with you.</p>
 						</div>
 					</div>					
 				</div>
@@ -64,7 +64,7 @@
 								</div>
 								<div class="divider--horizontal--even"></div>
 
-								<img src="/img/work/striim_flow_designer/previous_flow_designer.jpg" class="img-responsive center-block" alt="Previous Flow Designer">
+								<img src="/img/work/striim_flow_designer/previous_flow_designer.jpg" class="img-responsive center-block" alt="Flow Designer (Previous design)">
 							</div>	
 							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Previous Flow Designer</p>
 						</div>
@@ -76,7 +76,7 @@
 								</div>
 								<div class="divider--horizontal--even"></div>
 
-								<img src="/img/work/striim_flow_designer/new_flow_designer.jpg" class="img-responsive center-block" alt="New Flow Designer">
+								<img src="/img/work/striim_flow_designer/new_flow_designer.jpg" class="img-responsive center-block" alt="Health Monitor (Previous design)">
 							</div>	
 							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">New Flow Designer</p>
 						</div>				
@@ -105,23 +105,26 @@ How does each object relate to other objects?
 
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 margin--element_top" >
-							<img src="/img/work/striim_flow_designer/object_map.png" class="img-responsive center-block" alt="Object map">
+							<img src="/img/work/striim_flow_designer/object_map.png" class="img-responsive center-block" alt="Previous flow designer's screenshot">
 							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">An object map showing objects with their actions & nest objects</p>	
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-md-12 margin--element_top">
-							<p class="txt--primary_on_light">The next step is to prioritize the objects and actions. There are three types of objects in Flow Designer: App, Flow, and Component. Component is the base unit of a data pipeline and editing components is the most important interaction in Flow designer. Flow is simply a collection of Components, which is the least important object in the system. App is the data pipeline composed of multiple flows and components. App has only global actions that have no direct impact to the components, so together with Flow, we can consider them as the secondary interactions. The reordered object map can help me make design decisions when I design the Flow Designer.</p>
+							<p class="txt--primary_on_light">The next step is to prioritize the objects and actions. There are three types of objects in Flow Designer: App, Flow, and Component. Component is the base unit of a data pipeline and editing components is the most important interaction in Flow designer. Flow is simply a collection of Components, which is the least important object in the system. App is the data pipeline composed of multiple flows and components. App has only global actions that have no direct impact to the components, so together with Flow, we can consider them as the secondary interactions. The reordered object map will help me decide the layout and interactions of the Flow Designer later.</p>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 margin--element_top" >
-							<img src="/img/work/striim_flow_designer/reordered_object_map.png" class="img-responsive center-block" alt="Reordered object map">
+							<img src="/img/work/striim_flow_designer/reordered_object_map.png" class="img-responsive center-block" alt="Previous flow designer's screenshot">
 							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Reordered based on how important each element is.</p>	
 						</div>
 					</div>
+
+
+
 				</div>
 			</div>
 		</div>
@@ -137,14 +140,32 @@ How does each object relate to other objects?
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<p class="txt--primary_on_light margin--element_top_xs">Now I have a better understanding of the system and it is the time to design the UI. However, since the new UI will be used for not only the Flow Designer but also other Striim products, I need to study all the existing interfaces/interactions and define a consistent UI architecture across the entire platform.</br></br>
+						<p class="txt--primary_on_light margin--element_top">Now I have a better understanding of the system and it is the time to design the UI. However, since the new UI will be used for not only the Flow Designer but also other Striim products, I need to study all the existing interfaces/interactions and define a consistent UI architecture across the entire platform.</br></br>
 
 Let’s take a break from the Flow Designer for awhile.</p>
 					</div>
 				</div>
 
-				<div class="row margin--element_top">
-					<div class="col-md-6 margin--element_top_sm">
+				<div class="row">
+					<div class="col-md-12 margin--element_top" >
+						<img src="/img/work/striim_flow_designer/striim_product_sitemap.png" class="img-responsive center-block" alt="Striim's product sitemap">
+						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Striim's product sitemap</p>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="txt--primary_on_light margin--element_top">Since the new UI architecture will be used for not only the flow designer but also other Striim products, I studied all the existing interfaces/interactions and discussed with the PMs to understand the possible new features.  </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid padding--element_bottom_lg">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-4 margin--element_top_lg">
 						<div class="img__wrapper">
 							<div class="web-view__browser_head">
 								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
@@ -156,19 +177,7 @@ Let’s take a break from the Flow Designer for awhile.</p>
 						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Flow Designer (Previous design)</p>
 					</div>
 
-					<div class="col-md-6 margin--element_top_sm">
-						<div class="img__wrapper">
-							<div class="web-view__browser_head">
-								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
-							</div>
-							<div class="divider--horizontal--even"></div>
-
-							<img src="/img/work/striim_flow_designer/previous_dashboard_design.jpg" class="img-responsive center-block" alt="Dashboard (Previous design)">
-						</div>	
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Dashboard (Previous design)</p>
-					</div>
-
-					<div class="col-md-6 margin--element_top_sm">
+					<div class="col-md-4 margin--element_top_lg">
 						<div class="img__wrapper">
 							<div class="web-view__browser_head">
 								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
@@ -180,7 +189,7 @@ Let’s take a break from the Flow Designer for awhile.</p>
 						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Health Monitor (Previous design)</p>
 					</div>
 
-					<div class="col-md-6 margin--element_top_sm">
+					<div class="col-md-4 margin--element_top_lg">
 						<div class="img__wrapper">
 							<div class="web-view__browser_head">
 								<img src="/img/global/icon_browser_head.png" class="img-responsive" alt="Browser head">
@@ -190,16 +199,9 @@ Let’s take a break from the Flow Designer for awhile.</p>
 							<img src="/img/work/striim_flow_designer/previous_admin_design.jpg" class="img-responsive center-block" alt="Management (Previous design)">
 						</div>	
 						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Management (Previous design)</p>
-					</div>	
+					</div>					
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="txt--primary_on_light margin--element_top">Striim has 4 major products: Flow Designer, Dashboard, Health Monitor and Management. The existing products still have many things to improve, but they give me some rough ideas about the functionality and the possible interactions/interfaces I can expect. </br></br>
-
-Based on the research, I was able to create the modularized UI architecture and define the usage and style for each module.</p>
-					</div>
-				</div>
-			</div>
+			</div>		
 		</div>
 	</div>
 
@@ -207,16 +209,30 @@ Based on the research, I was able to create the modularized UI architecture and 
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="row">
-					<div class="col-md-12 margin--element_top" >
-						<img src="/img/work/striim_flow_designer/architecture_layout.png" class="img-responsive center-block" alt="UI Architecture - Layout">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Define the usage of each module style.</p>	
+					<div class="col-md-12">
+						<h2 class="txt--subtitle">Define the UI Architecture</h2>
+						<p class="txt--primary_on_light margin--element_top_xs">Based on the research, I was able to create the UI architecture with fixed modules to maintains the design consistency across the platform, and the flexible modules and be used to accommodate various products’s UI requirements.  </p>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-12 margin--element_top_lg" >
+					<div class="col-md-12 margin--element_top" >
+						<img src="/img/work/striim_flow_designer/architecture_layout.png" class="img-responsive center-block" alt="UI Architecture - Layout">
+						<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Striim's product sitemap</p> -->	
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 margin--element_top" >
 						<img src="/img/work/striim_flow_designer/architecture_color.png" class="img-responsive center-block" alt="UI Architecture - Color">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Define the style of each module style: Smaller number has darker color and higher elevation.</p>	
+						<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Striim's product sitemap</p> -->	
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 margin--element_top" >
+						<img src="/img/work/striim_flow_designer/architecture_layer.png" class="img-responsive center-block" alt="UI Architecture - Layer">
+						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Layer diagram (The higher the layer is, the darker the color is.)</p>	
 					</div>
 				</div>
 			</div>
@@ -226,38 +242,44 @@ Based on the research, I was able to create the modularized UI architecture and 
 	<div class="work__background--differentiator">
 		<div class="container padding--element_lg">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<h2 class="txt--subtitle">Step 3: Bind Objects to the UI Architecture</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">The final step is to bind all the objects to the new UI architecture. All the flows and components are placed at the center of the canvas. The left tool bar lists the component icons, which can be dragged and dropped on the canvas to create new components. The right side panel shows the detail info of the selected component.</p>
+						<div class="col-md-8">
+							<h2 class="txt--subtitle">Implement UI Architecture to Flow Designer</h2>
+							<!-- <p class="txt--primary_on_light margin--element_top_xs">Instead of showing all the categories on one page, this page only shows three of them and leave a lot of white space. This layout intends to make users focus on every picture by eliminating unnecessary distraction.</p> -->
 						</div>
 					</div>
 
-<!-- 					<div class="row">
+					<div class="row">
 						<div class="col-md-12 margin--element_top" >
 							<img src="/img/work/striim_flow_designer/architecture_flow_designer.png" class="img-responsive center-block" alt="UI Architecture - Flow Designer">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Striim's product sitemap</p>	
-						</div>
-					</div> -->
-
-					<div class="row">
-						<div class="col-md-10 col-md-offset-1 margin--element_top" >
-							<img src="/img/work/striim_flow_designer/define_flow_designer_canvas.png" class="img-responsive center-block" alt="Define the canvas layout">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Important interactions are placed in the center of the page.</p>	
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<p class="txt--primary_on_light margin--element_top">All the secondary interactions are placed on the sub nav bar. Start/Stop is the most important action to an App, so it is centered in the sub nav bar. All other objects/actions are placed on the right side except for the flow map, which has relatively complicated settings and thus is positioned on the left side.</p>
+							<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Striim's product sitemap</p> -->	
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-md-10 col-md-offset-1 margin--element_top" >
+						<div class="col-md-12">
+							<p class="txt--primary_on_light margin--element_top">All the global operations are placed on the sub nav bar. Start/Stop is the most important operation to an App, so it is centered in the sub nav bar. Most global operations are placed on the right side except for the flow map, which has relatively complicated settings and is positioned on the left side.  </p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12 margin--element_top" >
 							<img src="/img/work/striim_flow_designer/define_flow_designer_sub_nav.png" class="img-responsive center-block" alt="Define the sub navigation bar layout">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Secondary interactions are place on the sub nav bar.</p>	
+							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Define the sub navigation bar layout</p>	
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-8">
+							<p class="txt--primary_on_light margin--element_top">All the flow and components are placed at the center of the canvas. The left toolbar lists all the components that can be dragged and dropped on the canvas to build the pipeline. The right side panel shows the detail info of the selected components. </p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12 margin--element_top" >
+							<img src="/img/work/striim_flow_designer/define_flow_designer_canvas.png" class="img-responsive center-block" alt="Define the canvas layout">
+							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Define the canvas layout</p>	
 						</div>
 					</div>
 				</div>
@@ -265,49 +287,35 @@ Based on the research, I was able to create the modularized UI architecture and 
 		</div>	
 	</div>
 
-	<div class="container padding--element_top_lg">
+	<div class="container padding--element_lg">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-offset-1 col-md-10">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h2 class="txt--subtitle">Edit Components</h2>
+					<div class="col-md-12">
+						<h2 class="txt--subtitle">Side Panel Design</h2>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1 margin--element_top" >
-						<img src="/img/work/striim_flow_designer/side_panel.gif" class="img-responsive center-block" alt="Animation showing how the side panel works">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">How the side panel works</p>	
+					<div class="col-md-12 margin--element_top" >
+						<img src="/img/work/striim_flow_designer/old_flow.png" class="img-responsive center-block" alt="Flow of the previous design">
+						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">5 steps to edit 2 components in the previous design.</p>	
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<p class="txt--primary_on_light margin--element_top">Editing components is the most important as well as the most frequent interaction. The problem of the previous design is: the component’s settings are in a popover. In order for the users to edit another component, they have to close current popover first and then click another component. To solve this problem, in the new design, the popover is replaced by the side panel. If users want to edit a different component, they can simply click that component and the content in the side panel will change accordingly. Moreover, since the side panel only takes a small portion of the screen, users can still see the overall data pipeline while they are editing an individual component. </p>
+					<div class="col-md-12">
+						<p class="txt--primary_on_light margin--element_top">The new side panel is one of the major UI updates. Compared with the previous popover modal window, side panel is clearly a more convenient and sophisticated option. Since the side panel only takes a small part of the screen, users will still be able to see the data pipeline they are working on. Moreover, if users want to edit a different component, all they need to do is just to click another component. The modal window design, on the other hand, requires users close the window first and then click the next component. </p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 margin--element_top" >
+						<img src="/img/work/striim_flow_designer/new_flow.png" class="img-responsive center-block" alt="Flow of the new design">
+						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">2 steps to edit 2 components in the new design.</p>	
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid padding--element_bottom_lg">
-		<div class="row">
-			<div class="col-md-12">
-
-				<div class="row">
-					<div class="col-md-12 margin--element_top_lg" >
-						<img src="/img/work/striim_flow_designer/old_flow.png" class="img-responsive center-block" alt="Flow of the previous design">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">In previous design, It takes 5 steps to edit 2 components.</p>	
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12 margin--element_top_lg" >
-						<img src="/img/work/striim_flow_designer/new_flow.png" class="img-responsive center-block" alt="Flow of the new design">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">In the new design, It takes only 2 steps to edit 2 components.</p>	
-					</div>
-				</div>
-			</div>		
 		</div>
 	</div>
 
@@ -317,7 +325,7 @@ Based on the research, I was able to create the modularized UI architecture and 
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<div class="col-md-8">
-							<h2 class="txt--subtitle">App Status</h2>
+							<h2 class="txt--subtitle">Status and Flow</h2>
 	<!-- 						<p class="txt--primary_on_light margin--element_top_xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non magna quis tortor egestas dignissim sit amet quis ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec dignissim quam pretium fermentum varius. Curabitur nec rutrum erat. Vivamus ut risus lorem. Nullam consequat sollicitudin efficitur. Suspendisse potenti. Integer aliquet dolor lectus, quis dictum arcu accumsan sit amet. Integer cursus gravida auctor. </p> -->
 						</div>
 					</div>
@@ -377,46 +385,32 @@ Based on the research, I was able to create the modularized UI architecture and 
 							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Running status</p>
 						</div>
 					</div>
+
+<!-- 					<div class="row">
+						<div class="col-md-8">
+							<p class="txt--primary_on_light margin--element_top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non magna quis tortor egestas dignissim sit amet quis ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec dignissim quam pretium fermentum varius. Curabitur nec rutrum erat. Vivamus ut risus lorem. Nullam consequat sollicitudin efficitur. Suspendisse potenti. Integer aliquet dolor lectus, quis dictum arcu accumsan sit amet. Integer cursus gravida auctor. </p>
+						</div>
+					</div> -->
+
+					<div class="row">
+						<div class="col-md-12 margin--element_top" >
+							<a href="/img/work/striim_flow_designer/flow_chart.png"><img src="/img/work/striim_flow_designer/flow_chart.png" class="img-responsive center-block" alt="Status and flow's flow chart"></a>
+							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Status and flow's flow chart</p>	
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>	
 	</div>
+
 
 	<div class="container padding--element_top_lg">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10">
 				<div class="row">
 					<div class="col-md-8">
-						<h2 class="txt--subtitle">Edit & Navigate Flow</h2>
-<!-- 						<p class="txt--primary_on_light margin--element_top_xs">During the business card design, I thought it would be extremely cool if all the information is aligned in one line. So I put the name and title on the front of the card and contact info on the back. The unique but elegant design perfectly matches Boutique Sui's overall style.</p> -->
-					</div>
-				</div>			
-			</div>
-		</div>
-	</div>
-
-	<div class="container-fluid padding--element_bottom_lg">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-12 margin--element_top_lg">
-
-						<a href="/img/work/striim_flow_designer/flow_chart.png"><img src="/img/work/striim_flow_designer/flow_chart.png" class="img-responsive center-block" alt="The flow chart of Flow"></a>
-
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">The flow chart of Flow</p>
-					</div>									
-				</div>
-			</div>		
-		</div>
-	</div>
-
-<!-- 	<div class="container padding--element_top_lg">
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				<div class="row">
-					<div class="col-md-8">
 						<h2 class="txt--subtitle">App List Page</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">During the business card design, I thought it would be extremely cool if all the information is aligned in one line. So I put the name and title on the front of the card and contact info on the back. The unique but elegant design perfectly matches Boutique Sui's overall style.</p>
+<!-- 						<p class="txt--primary_on_light margin--element_top_xs">During the business card design, I thought it would be extremely cool if all the information is aligned in one line. So I put the name and title on the front of the card and contact info on the back. The unique but elegant design perfectly matches Boutique Sui's overall style.</p> -->
 					</div>
 				</div>			
 			</div>
@@ -478,7 +472,7 @@ Based on the research, I was able to create the modularized UI architecture and 
 				</div>
 			</div>		
 		</div>
-	</div> -->
+	</div>
 
 
 	<div class="work__background--differentiator">

@@ -69,7 +69,7 @@
 
 <b>Multiple filters</b>: Show all the Caches under ‘myNameSpace‘ with the keyword ‘merchant‘.</br></br>
 
-<b>Multiple criteria</b>: Show all the ‘Cache‘ objects under ‘myNameSpace‘ and all the ‘Source‘ objects under any Namespace with the keyword ‘merchant‘.
+<b>Multiple criteria</b>: Show all the Caches under ‘myNameSpace‘ with the keyword ‘merchant‘ and all the Sources under any Namespace.
 					</p>
 				</div>
 			</div>
@@ -89,7 +89,7 @@
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
 					<h2 class="txt--bold txt--lg txt--primary_on_light">Option 2: Multiple filters</h2>
-					<p class="margin--element_top_xs">In Option 2, I replaced those object icons with 3 filter buttons below the search box. Users can create multiple filters by clicking any button and multi-select the options in the dropdown list. However, this design still has 2 major problems. The first one is those filters can only use ‘AND‘ criteria, so there is no way to do something like “Show all the ‘Caches‘ under ‘myNameSpace‘ and all the ‘Sources‘ objects under any Namespace“. The second problem is the interface only shows the number of the applied filters. </p>
+					<p class="margin--element_top_xs">In Option 2, I replaced those object icons with 3 filter buttons below the search box. Users can create multiple filters by clicking any button and multi-select the options in the dropdown list. However, this design still has 2 major problems. The first one is those filters are all in ‘AND‘ relation, so there is no way to do something like “Show all the Caches under ‘myNameSpace‘ and all the Sources under any Namespace“. The second problem is the interface only shows the number of the applied filters.</p>
 				</div>
 			</div>
 			<div class="row margin--element_top">

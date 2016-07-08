@@ -19,7 +19,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="txt--regular txt--xxl txt--primary_on_light">Shopping Cart UI Design</h1>
+						<h1 class="txt--regular txt--xxl txt--primary_on_light">'My Objects': A Study of Searching and Filtering</h1>
 					</div>
 				</div>
 
@@ -29,87 +29,88 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_top_lg">
+		<div class="container padding--element_lg">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<p>Recently I have been revamping the design of Bieyang’s mobile app. As an e-commerce application, the shopping cart is probably one of the most important pages to our users and it becomes critical for us to improve the users experience.</p>
+					<p>‘My Object‘ is a new feature we recently added to the Striim’s platform. It is essentially a list of different types of objects. However, the challenging part is the design of the filter and search functionality. During the process, I came up with 3 different options and it is quite interesting to see how the design evolved.</p>
 				</div>
 			</div>
 			<div class="row margin--element_top">
-				<div class="col-md-12">
-					<img src="/img/blog/shopping_cart/shopping_cart_ui.png" class="img-responsive center-block" alt="Selected work samples">			
-					<p class="text-center">Bieyang’s shopping cart design</p>
+				<div class="col-md-4">
+					<img src="/img/blog/my_objects/my_objects_v1.png" class="img-responsive center-block" alt="My Objects Option 1 Screenshot">			
+					<p class="text-center">Option 1</p>
 				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/my_objects/my_objects_v2.png" class="img-responsive center-block" alt="My Objects Option 2 Screenshot">			
+					<p class="text-center">Option 2</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/my_objects/my_objects_v3.png" class="img-responsive center-block" alt="My Objects Option 3 Screenshot">			
+					<p class="text-center">Option 3</p>
+				</div>				
 			</div>
 			<div class="row margin--element_top">
 				<div class="col-md-8 col-md-offset-2">
-					<p>Checkout is a long and complicated flow and I won’t cover everything in this article. Today I will only focus on the shopping cart page. Our goal was to simplify all the various inputs based on our users’ behavior, including:</br></br>
-					1. Delete items</br>
-					2. Edit quantity</br>
-					3. View item detail</br></br>
-					There are many shopping apps in the market and various shopping cart design. But basically the debate is alway between aesthetics and functionality(easy to use). We can put those designs into 2 categories. I will use Zara and Wish as the example of each category to analyze the difference of design intention.
+					<p>Before I start to design anything, the first thing I do is to extract all the related objects and study their relationship and properties. At Striim, there are 3 types of objects: Namespace, App and Components. ‘Namespace’ acts like a folder used to organize ‘Apps’ and ‘Component’, which can only be filtered by ‘Object Type‘. ‘App‘ is a data pipeline that consists of different ‘Components‘. It can be filtered by both ‘Object Type ‘ and ‘Namespace‘. There are 7 types of ‘Components‘: Source, Cache, Window, CQ, WactionStore, Alert and Type. All ‘Components’ can be filtered by ‘Object Type‘, ‘Namespace‘ or ‘App‘.
 					</p>
 				</div>
 			</div>
 
-
-		</div>	
-	</div>
-
-	<div class="work__background--differentiator">
-		<div class="container padding--element_lg">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="txt--bold txt--lg txt--primary_on_light">Zara: Aesthetics first functionality second.</h2>
-					<p class="margin--element_top_xs">Zara’s App uses ‘edit‘ button to view/hide ‘edit quantity’ and ‘delete item’ to keep a clean layout. However, the disadvantage is that users have to take extra clicks to edit quantity or delete items.</p>
-				</div>
-			</div>
 			<div class="row margin--element_top">
 				<div class="col-md-12">
-					<img src="/img/blog/shopping_cart/shopping_cart_zara.png" class="img-responsive center-block" alt="Selected work samples">			
+					<img src="/img/blog/my_objects/filter_relationship_diagram.png" class="img-responsive center-block" alt="Filter relationship diagram">			
+				</div>			
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-8 col-md-offset-2">
+					<p>To measure the functionality of the design, I created 3 user tasks from simple to complex:</br></br>
+
+<b>Single filter</b>: Show all the Caches with the keyword ‘merchant‘.</br></br>
+
+<b>Multiple filters</b>: Show all the Caches under ‘myNameSpace‘ with the keyword ‘merchant‘.</br></br>
+
+<b>Multiple criteria</b>: Show all the Caches under ‘myNameSpace‘ with the keyword ‘merchant‘ and all the Sources under any Namespace.
+					</p>
 				</div>
 			</div>
 
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="txt--bold txt--lg txt--primary_on_light">Wish: Functionality first aesthetics second.</h2>
-					<p class="margin--element_top_xs">On the contrary, Wish’s App simply puts everything on the page. Users can modify almost anything with just one click. Please note the word - ‘Almost‘: for the ‘edit quantity‘ button, although it looks like it is a one-click action, it actually takes 3 clicks to finish the task. And of course, too many buttons make the layout less sophisticated.</p>
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Option 1: Single filter</h2>
+					<p class="margin--element_top_xs">Since the ‘Object Type‘ is the only filter that can be applied to all objects, the idea of Option 1 is to emphasize this filter and make it really easy to use. So I lists all the object types on top, which allows users quickly filtering any object type by one simple click. But this design is limited to single filter and users can’t filter objects by ‘Namespace‘ or ‘App‘. </p>
 				</div>
 			</div>
 			<div class="row margin--element_top">
 				<div class="col-md-12">
-					<img src="/img/blog/shopping_cart/shopping_cart_wish.png" class="img-responsive center-block" alt="Selected work samples">			
+					<img src="/img/blog/my_objects/my_object_option1_flow.png" class="img-responsive center-block" alt="Option 1 flow chart">			
 				</div>
 			</div>
 
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="txt--bold txt--lg txt--primary_on_light">Functionality or aesthetics? Data drives design.</h2>
-					<p class="margin--element_top_xs">Personally, I am a big believer of ‘Form follows function.’ But a good design should not give up aesthetics because of functionality. Sounds like a dilemma? It is the challenge to the designers. Back to the topic, the problem I was facing is how to balance those 2 factors and deliver a product that meets our users’ need. To answer this question, I calculated the numbers of users who delete items, view item detail and edit quantity in the shopping cart page:</p>
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Option 2: Multiple filters</h2>
+					<p class="margin--element_top_xs">In Option 2, I replaced those object icons with 3 filter buttons below the search box. Users can create multiple filters by clicking any button and multi-select the options in the dropdown list. However, this design still has 2 major problems. The first one is those filters are all in ‘AND‘ relation, so there is no way to do something like “Show all the Caches under ‘myNameSpace‘ and all the Sources under any Namespace“. The second problem is the interface only shows the number of the applied filters.</p>
 				</div>
 			</div>
 			<div class="row margin--element_top">
 				<div class="col-md-12">
-					<img src="/img/blog/shopping_cart/shopping_cart_data.png" class="img-responsive center-block" alt="Selected work samples">			
-				</div>
-			</div>
-			<div class="row margin--element_top">
-				<div class="col-md-8 col-md-offset-2">
-					<p class="margin--element_top_xs">From the data above, we can easily see the weight of each action and the conclusion of the design: ‘delete items‘ and ‘view item detail‘ are commonly-used actions and users should use less clicks to accomplish the task; ‘Edit quantity‘ button is rarely used and it is ok to take extra steps. Looks like Wish is the winner? Yes and no. Yes, because it is easier to use functionality wise, and no, because its design can still be improved.</p>
+					<img src="/img/blog/my_objects/my_object_option2_flow.png" class="img-responsive center-block" alt="Option 2 flow chart">			
 				</div>
 			</div>
 
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="txt--bold txt--lg txt--primary_on_light">Bieyang: Data + innovation</h2>
-					<p class="margin--element_top_xs">Based on the data and aesthetic requirement, I want the page to be both easy to use and cleanlooking. Here is my solution: I keep the ‘delete’ button on the page, so users can delete any item with one click. However, I removed the ‘edit quantity‘ button to keep the layout less noisy. Users can edit the quantity in the detail page after they click the item.</p>
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Option 3: Multiple criteria</h2>
+					<p class="margin--element_top_xs">Filter with multiple criteria requires complicated interactions. What Option 2 does is merely a single criteria. To enable multiple-criteria filtering based on Option 2’s design logic, I will have to provide an ‘Add‘ button somewhere and ask users to repeat the flow every time they add a new criteria. The process works but the problem is those filters can potentially take a big chunk of space and users will see less objects in the list.</br></br>     
+
+To solve the problem, I integrated the filter with the search bar. (If you think about it, search is actually a type of filter, so it makes perfect sense to put them together!) When users click the search bar, a drop down will list 3 categories of filter and then users can follow the similar process in Option 2 to keep adding more ‘AND’ filters until they hit ‘Enter‘, which will end the current criteria and put it under the search bar. Users can add more ‘OR‘ criteria by repeating the previous process. Compared with the other 2 options, Option 3 solves the most complicated problem with the simplest UI - a search bar. </p>
 				</div>
 			</div>
 			<div class="row margin--element_top">
 				<div class="col-md-12">
-					<img src="/img/blog/shopping_cart/shopping_cart_bieyang.png" class="img-responsive center-block" alt="Selected work samples">			
+					<img src="/img/blog/my_objects/my_object_option3_flow.png" class="img-responsive center-block" alt="Option 3 flow chart">			
 				</div>
-			</div>
+			</div>			
 		</div>	
 	</div>
 

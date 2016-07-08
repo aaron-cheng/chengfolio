@@ -112,7 +112,7 @@ How does each object relate to other objects?
 
 					<div class="row">
 						<div class="col-md-12 margin--element_top">
-							<p class="txt--primary_on_light">The next step is to prioritize the objects and actions. There are three types of objects in Flow Designer: App, Flow, and Component. Component is the base unit of a data pipeline and editing components is the most important interaction in Flow designer. Flow is simply a collection of Components, which is the least important object in the system. App is the data pipeline composed of multiple flows and components. App has only global actions that have no direct impact to the components, so together with Flow, we can consider them as the secondary interactions. The reordered object map can help me make design decisions when I design the Flow Designer.</p>
+							<p class="txt--primary_on_light">The next step is to prioritize the objects and actions. There are three types of objects in Flow Designer: App, Flow, and Component. Component is the base unit of a data pipeline and editing components is the most important interaction in Flow designer. Flow is simply a collection of Components, which is the least important object in the system. App is the data pipeline composed of multiple flows and components. App has only global actions that have no direct impact to the components, so together with Flow, we can consider them as the secondary interactions. The reordered object map can help me make design decisions when I start working on the Flow Designer.</p>
 						</div>
 					</div>
 

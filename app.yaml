@@ -24,8 +24,7 @@ handlers:
     upload: v3/view/sitemap.xml
 
   - url: /
-#    script: v3/view/index.php
-    script: v3/view/blog/a_study_of_searching_and_filtering.php
+    script: v3/view/index.php
 
   - url: /work
     script: v3/view/work.php
