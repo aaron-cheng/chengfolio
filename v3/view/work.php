@@ -125,7 +125,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-md-4 margin--element_top_lg">
+					<div class="col-sm-6 col-md-4 margin--element_top">
 						<a href="/work/parking_housing" target="_top">
 							<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Parking & Housing Picture">
 							<h2 class="text-center margin--element_top_xs">Parking & Housing</h2>
