@@ -72,8 +72,11 @@ handlers:
   - url: /work/striim_flow_designer
     script: v3/view/work/striim_flow_designer.php
 
+  - url: /work/bieyang
+    script: v3/view/work/bieyang.php
+
   - url: /work/5th_avenue
-    script: v3/view/work/5th_avenue.php
+    script: v3/view/work/bieyang.php
 
   - url: /work/heymenu
     script: v3/view/work/heymenu.php

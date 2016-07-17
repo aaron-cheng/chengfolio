@@ -66,17 +66,17 @@
 						</a>
 					</div> -->
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="/work/striim_flow_designer" target="_top">
-							<img src="/img/work/work_img_striim_fd.png" class="img-responsive center-block" alt="Striim Flow Designer Screenshot">
-							<h2 class="text-center margin--element_top_xs">Striim - Flow Designer</h2>
+					<div class="col-sm-6 col-md-4 margin--element_top" >
+						<a href="/work/bieyang" target="_top">
+							<img src="/img/work/work_img_bieyang.png" class="img-responsive center-block" alt="Bieyang Screenshot">
+							<h2 class="text-center margin--element_top_xs">Bie Yang - E-commerce App</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
-						<a href="/work/5th_avenue" target="_top">
-							<img src="/img/work/work_img_5th-ave.png" class="img-responsive center-block" alt="5th Avenue Screenshot">
-							<h2 class="text-center margin--element_top_xs">5th Avenue App</h2>
+					<div class="col-sm-6 col-md-4 margin--element_top" >
+						<a href="/work/striim_flow_designer" target="_top">
+							<img src="/img/work/work_img_striim_fd.png" class="img-responsive center-block" alt="Striim Flow Designer Screenshot">
+							<h2 class="text-center margin--element_top_xs">Striim - Flow Designer</h2>
 						</a>
 					</div>
 
@@ -94,7 +94,7 @@
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-md-4 margin--element_top" >
+					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
 						<a href="/work/ivylla" target="_top">
 							<img src="/img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>

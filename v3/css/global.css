@@ -107,6 +107,16 @@ q{
 	list-style-position:outside;
 }
 
+.txt--ordered_list{
+	list-style-type: decimal;
+	list-style-position:outside;
+}
+
+.txt--ordered_list > li{
+	list-style-type: decimal;
+	list-style-position:outside;
+}
+
 .txt--xxl{
 	font-size: 32px;
 	line-height: 48px;
