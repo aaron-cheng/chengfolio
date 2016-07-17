@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Shopping Cart UI Design</title>
+	<title>A Study of Advanced Searching and Filtering</title>
 
 <?php include '../component/head.php';?>
 
@@ -19,7 +19,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="txt--regular txt--xxl txt--primary_on_light">'My Objects': A Study of Searching and Filtering</h1>
+						<h1 class="txt--regular txt--xxl txt--primary_on_light">A Study of Advanced Searching and Filtering</h1>
 					</div>
 				</div>
 

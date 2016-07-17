@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aaron Cheng - User Interface Designer</title>
-	<meta name="description" content="Aaron Cheng is a freelance User Interface Designer based in San Francisco. This is his Portfolio & Blog.">
+	<title>Design for One-handed Use</title>
 
-<?php include 'component/head.php';?>
+<?php include '../component/head.php';?>
 
-<?php include 'component/style.php';?>
-
+<?php include '../component/style.php';?>
 <style type="text/css">
 	.zone_base{
 		cursor: pointer;
@@ -22,7 +20,8 @@
 
 <body>
 
-<?php include 'component/nav.php';?>
+<?php include '../component/nav.php';?>
+
 <article>
 	<div class="container padding--element_lg">
 		<div class="row">
@@ -224,10 +223,17 @@ The green color indicates the ‘safe zone‘ in which it is easy to move my thu
 
 </article>
 
+<!-- <div class="work__background--differentiator"> -->
+	<div class="container padding--element_lg">
 
-<?php include 'component/footer.php';?>
+<?php include '../component/social.php';?>
 
-<?php include 'component/script.php';?>
+	</div>
+<!-- </div> -->
+
+<?php include '../component/footer.php';?>
+
+<?php include '../component/script.php';?>
 
 <script type="text/javascript">
 	$( ".zone_overlay" ).mouseenter(

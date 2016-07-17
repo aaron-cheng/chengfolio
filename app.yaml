@@ -97,6 +97,9 @@ handlers:
     script: v3/view/work/parking_housing.php
 
 # blog
+  - url: /blog/design_for_one-handed_use
+    script: v3/view/blog/design_for_one-handed_use.php
+
   - url: /blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer
     script: v3/view/blog/how_to_customize_google_map_and_export_high_quality_images_using_google_map_customizer.php
 

@@ -33,6 +33,27 @@
 			<div class="row margin--element_top">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
+						<a href="/blog/design_for_one-handed_use">
+							<div class="col-sm-9 margin--element_top">
+								<div class="row">
+									<div class="col-sm-12">
+										<h2 class="txt--bold txt--lg txt--primary_on_light">Mobile App Design for One-handed Use</h2>
+										<p class="txt--sm">July 12 2016</p>
+										<p class="pull-left margin--element_top_xs">In most iOS app design, some buttons are placed at those awkward locations, like top navigation bar, which is hard for our thumbs to reach. I want to use an e-commerce app design as an example to explore the possibility of creating a one-handed use design pattern for mobile apps. </p>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-sm-3 margin--element_top">
+								<img src="/img/blog/one_handed_use/cover.png" class="img-responsive center-block" alt="design_for_one-handed_use' screenshot">
+							</div>
+						</a>
+					</div>
+
+					<div class="divider--horizontal margin--element_top"></div>
+
+
+					<div class="row">
 						<a href="/blog/a_study_of_searching_and_filtering">
 							<div class="col-sm-9 margin--element_top">
 								<div class="row">

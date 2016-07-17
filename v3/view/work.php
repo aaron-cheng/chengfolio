@@ -80,6 +80,13 @@
 						</a>
 					</div>
 
+					<div class="col-sm-6 col-md-4 margin--element_top">
+						<a href="/work/boutique_sui" target="_top">
+							<img src="/img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
+							<h2 class="text-center margin--element_top_xs">Boutique Sui Website</h2>
+						</a>
+					</div>
+
 					<div class="col-sm-6 col-md-4 margin--element_top_lg" >
 						<a href="/work/heymenu" target="_top">
 							<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
@@ -101,12 +108,7 @@
 						</a>
 					</div> -->
 					
-					<div class="col-sm-6 col-md-4 margin--element_top">
-						<a href="/work/boutique_sui" target="_top">
-							<img src="/img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
-							<h2 class="text-center margin--element_top_xs">Boutique Sui Website</h2>
-						</a>
-					</div>
+
 					
 <!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="ambassador.php" target="_top">
@@ -123,20 +125,6 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-md-4 margin--element_top">
-						<a href="/work/pin" target="_top">
-							<img src="/img/work/work_img_pin.png" class="img-responsive center-block" alt="Pin">
-							<h2 class="text-center margin--element_top_xs">Pin</h2>
-						</a>
-					</div>
-
-					<div class="col-sm-6 col-md-4 margin--element_top">
-						<a href="/work/reclink" target="_top">
-							<img src="/img/work/work_img_reclink.png" class="img-responsive center-block" alt="RecLink Picture">
-							<h2 class="text-center margin--element_top_xs">RecLink</h2>
-						</a>
-					</div>
-
 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="/work/parking_housing" target="_top">
 							<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Parking & Housing Picture">
@@ -151,6 +139,19 @@
 						</a>
 					</div>
 					
+					<div class="col-sm-6 col-md-4 margin--element_top">
+						<a href="/work/pin" target="_top">
+							<img src="/img/work/work_img_pin.png" class="img-responsive center-block" alt="Pin">
+							<h2 class="text-center margin--element_top_xs">Pin</h2>
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4 margin--element_top">
+						<a href="/work/reclink" target="_top">
+							<img src="/img/work/work_img_reclink.png" class="img-responsive center-block" alt="RecLink Picture">
+							<h2 class="text-center margin--element_top_xs">RecLink</h2>
+						</a>
+					</div>					
 <!-- 					<div class="col-sm-6 col-md-4 margin--element_top_lg">
 						<a href="ambassador.php" target="_top">
 							<img src="/img/work/work_img_unisextoilet.png" class="img-responsive center-block" alt="Unisex Toilet Picture">
