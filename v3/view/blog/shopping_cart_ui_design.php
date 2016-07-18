@@ -29,7 +29,7 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_top_lg">
+		<div class="container padding--element_top">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<p>Recently I have been revamping the design of Bieyang’s mobile app. As an e-commerce application, the shopping cart is probably one of the most important pages to our users and it becomes critical for us to improve the users experience.</p>

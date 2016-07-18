@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_lg">
+		<div class="container padding--element_bottom_lg padding--element_top">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<h2 class="txt--bold txt--lg txt--primary_on_light">What does Google Map Customizer do?</h2>

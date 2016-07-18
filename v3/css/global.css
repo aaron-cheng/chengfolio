@@ -240,6 +240,11 @@ article a{
 	width: 100%;
 }
 
+.box--no_padding{
+	padding-right: 0;
+	padding-left: 0;
+}
+
 .divider--horizontal{
 	border-bottom: 1px solid #F0F0F0;
 	border-left: 26px transparent solid;
@@ -339,6 +344,11 @@ article a{
 .padding--element_top_lg{
 	padding-top: 120px;	
 }
+
+.padding--element_top{
+	padding-top: 70px;	
+}
+
 
 .padding--element_bottom_lg{
 	padding-bottom: 120px;

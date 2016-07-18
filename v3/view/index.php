@@ -29,7 +29,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="txt--regular txt--xxl txt--primary_on_light">Design for One-handed Use</h1>
+						<h1 class="txt--regular txt--xxl txt--primary_on_light">Mobile UI Design Pattern for One-handed Use</h1>
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_top_lg">
+		<div class="container padding--element_top">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<p>I remember before the smart phone was invented, I could use only one hand to type text messages and make calls. But now I have to use two hands to finish some tasks on my iPhone. The main reason is that the screen gets bigger and it is hard to reach the upper part. It sounds like an obvious problem, but why do we still insist putting those buttons at those awkward locations? I guess the answer from most people is ‘because everybody is doing that.‘ Well, I think now it is time to break the rule and start doing the right thing. I happen to be redesigning an e-commerce app recently and it is the perfect opportunity to explore the possibility of creating a one-handed use design pattern for mobile apps. </p>

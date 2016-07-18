@@ -29,7 +29,7 @@
 	</div>
 
 	<div class="work__background--differentiator">
-		<div class="container padding--element_lg">
+		<div class="container padding--element_bottom_lg padding--element_top">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<p>‘My Object‘ is a new feature we recently added to the Striim’s platform. It is essentially a list of different types of objects. However, the challenging part is the design of the filter and search functionality. During the process, I came up with 3 different options and it is quite interesting to see how the design evolved.</p>

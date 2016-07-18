@@ -13,8 +13,24 @@
 
 <?php include '../component/nav.php';?>
 	
-	<div class="container work__header__wrapper">
+	<div class="container-fluid box--no_padding hidden-sm hidden-xs">
 		<div class="row">
+			<div class="col-md-12" >
+				<img src="/img/work/bieyang/hero.png" class="img-responsive center-block" alt="Hero image">
+			</div>
+		</div>
+	</div>	
+
+	<div class="container-fluid box--no_padding hidden-md hidden-lg">
+		<div class="row">
+			<div class="col-md-12" >
+				<img src="/img/work/bieyang/hero_mobile.png" class="img-responsive center-block" alt="Hero image">
+			</div>
+		</div>
+	</div>
+	
+	<div class="container work__header__wrapper">
+<!-- 		<div class="row">
 			<div class="col-md-3 col-md-offset-2 margin--element_top_lg">
 				<img src="/img/work/bieyang/bieyang_logo.png" class="img-responsive center-block margin--element_top_lg" alt="Bieyang Logo">
 			</div>			
@@ -22,8 +38,7 @@
 			<div class="col-md-6 margin--element_top">
 				<img src="/img/work/bieyang/bieyang_launch.png" class="img-responsive center-block" alt="Bieyang Screenshot">
 			</div>
-		</div>
-
+		</div> -->
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 margin--element_top_sm">
 				<div class="row">
@@ -31,7 +46,7 @@
 						<h1 class="text-left txt--title">Bie Yang - E-commerce App Design</h1>
 						<p class="margin--element_top_sm">Chinese shoppers spent $10 billion in 2015 through cross-border e-commerce according to a report from Chinese research firm Analysys international and web-only retailer JD.com Inc. However, the shopping experience is awkward and difficult. Bieyang is founded with the vision to solve this problem. </br></br>
 
-I joined the company as the 2nd employee and started the project with literally nothing: no product, no funding and no office. I worked closely with the founders and PMs, defining product goals and key features. As the only designer in the team, I designed not only the entire app from wireframe to high-fidelity mockup, but also the company’s overall branding, logo and marketing website.</br></br>
+I joined the company as the 2nd employee and started the project with literally nothing: no product, no funding and no office. I worked closely with the founders and PMs, defining product goals and key features. As the only designer in the team, I designed not only the entire app from wireframe to high-fidelity mockup, but also the company’s overall branding, logo and marketing website. I grew with the company from zero asset to 2 million seed round funding and 2000 daily active users.</br></br>
 
 Note: The original app is in Chinese, all images on this page are translated to English for illustration purpose only.</p>
 					</div>
@@ -80,7 +95,7 @@ Note: The original app is in Chinese, all images on this page are translated to 
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">The problem:</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">Chinese shoppers spent $10 billion in 2015 through cross-border e-commerce and it has become the market with huge potential. But how can we find the niche market and what can we do to help our potential users? To answer those questions, we interviewed many people with the overseas online shopping experience and came with 3 personas representing 3 types of users.</br></br>
+						<p class="txt--primary_on_light margin--element_top_xs">Chinese shoppers spent $10 billion in 2015 through cross-border e-commerce and it has become the market with huge potential. But how can we find the niche market and what can we do to help our potential users? To answer those questions, we interviewed many people with the overseas online shopping experience and came up with 3 personas representing 3 types of users.</br></br>
 
 Our goal for creating these personas was to build an empathy for our users, which lays the foundation for building the product completely focused on solving the users’ problems.</p>
 					</div>
@@ -173,7 +188,7 @@ Our goal for creating these personas was to build an empathy for our users, whic
 					<div class="row">
 						<div class="col-md-12">
 							<h2 class="txt--subtitle">The Solution:</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">For the technical/business problems, the solutions are straight forward: We crawled every product from each merchants and used bots to automate the purchasing process so the users will always use one consistent interface to purchase from any merchant. We also got partnered with some concierge companies to handle the shipping.</br></br>
+							<p class="txt--primary_on_light margin--element_top_xs">For the technical/business problems, the solutions are straight forward: We crawled every product from each merchant and used bots to automate the purchasing process so the users will always use one consistent interface to purchase from any merchant. We also got partnered with some concierge companies to handle the shipping.</br></br>
 
 For the design problems, I categorized the solutions based on the 3 major stages during the shopping process: browsing, checkout and tracking orders. The diagram below shows the high-level sitemap of the product’s structure and strategy.
 </p>
@@ -244,7 +259,7 @@ For the design problems, I categorized the solutions based on the 3 major stages
 					<div class="row">
 						<div class="col-md-12">
 							<h2 class="txt--subtitle">Discovery</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">The 2 sections in the Discovery page: Trend and Deal, are designed for those who are not sure what exactly to buy. Trend has the original articles about the latest fashion news or introduction to new products. Full-width image layout helps arouse users’ interest therefore making purchasing decision. As for the Deal section, since deals refresh frequently everyday, I make the layout denser to accommodate more contents.</p>
+							<p class="txt--primary_on_light margin--element_top_xs">The 2 sections in the Discovery page: Trend and Deal, are designed for those who are not sure what exactly to buy. Trend has the original articles about the latest fashion news or the introduction of new products. Full-width image layout helps arouse users’ interest therefore making purchasing decision. As for the Deal section, since deals refresh frequently everyday, I make the layout denser to accommodate more contents.</p>
 						</div>
 					</div>	
 
@@ -269,7 +284,7 @@ For the design problems, I categorized the solutions based on the 3 major stages
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">Search</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">As what its name implies, Search tab is for those who know what they want. Besides search function, this page also provides Sort and comprehensive Filters including merchants, brands, price and discount to help users easily find they want.</p>
+						<p class="txt--primary_on_light margin--element_top_xs">As what its name implies, Search tab is for those who know what they want. Besides search function, this page also provides Sort and comprehensive Filters including merchants, brands, price and discount to help users easily find the items.</p>
 					</div>
 				</div>	
 
@@ -367,14 +382,35 @@ For the design problems, I categorized the solutions based on the 3 major stages
 				</div>		
 			</div>
 		</div>
+
+		<div class="row margin--element_top_lg">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="txt--subtitle">Checkout Flow</h2>
+					</div>
+				</div>	
+			</div>
+		</div>
+
 		<div class="row">
-			<div class="col-md-12 margin--element_top_lg" >
+			<div class="col-md-12 margin--element_top" >
 				<img src="/img/work/bieyang/checkout_flow.png" class="img-responsive center-block" alt="Checkout Flow">
 				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p> -->	
 			</div>	
 		</div>	
+
+		<div class="row margin--element_top_lg">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="txt--subtitle">Checkout Page Detail</h2>
+					</div>
+				</div>	
+			</div>
+		</div>
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 margin--element_top_lg" >
+			<div class="col-md-8 col-md-offset-2 margin--element_top" >
 				<img src="/img/work/bieyang/checkout_detail.png" class="img-responsive center-block" alt="Checkout Details">
 				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p> -->	
 			</div>	
