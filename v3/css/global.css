@@ -430,6 +430,17 @@ article a{
 	color:#000;
 }
 
+.btn--highlight{
+	color: #fff;
+	background-color: #00a2e3;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+}
+
 /*.btn__menu_expand{
 	margin-top: 0px;
 }*/

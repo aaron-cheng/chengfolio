@@ -12,9 +12,24 @@
 <body>
 
 <?php include '../component/nav.php';?>
-	
-	<div class="container work__header__wrapper">
+	<div class="container-fluid box--no_padding hidden-sm hidden-xs">
 		<div class="row">
+			<div class="col-md-12" >
+				<img src="/img/work/striim_flow_designer/hero.jpg" class="img-responsive center-block" alt="Hero image">
+			</div>
+		</div>
+	</div>	
+
+	<div class="container-fluid box--no_padding hidden-md hidden-lg">
+		<div class="row">
+			<div class="col-md-12" >
+				<img src="/img/work/striim_flow_designer/hero_mobile.jpg" class="img-responsive center-block" alt="Hero image">
+			</div>
+		</div>
+	</div>
+		
+	<div class="container work__header__wrapper">
+<!-- 		<div class="row">
 			<div class="col-md-3 col-md-offset-1 margin--element_top">
 				<img src="/img/work/striim_flow_designer/striim_flow_designer_logo.png" class="img-responsive center-block margin--element_top" alt="Striim Logo">
 			</div>			
@@ -22,10 +37,10 @@
 			<div class="col-md-8 margin--element_top_sm">
 				<img src="/img/work/work_img_striim_fd.png" class="img-responsive center-block" alt="Striim Flow Designer Screenshot">
 			</div>
-		</div>
+		</div> -->
 
 		<div class="row">
-			<div class="col-md-12 margin--element_top_xs">
+			<div class="col-md-12 margin--element_top">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<h1 class="text-left txt--title">Striim - Flow Designer</h1>
@@ -219,6 +234,12 @@ Based on the research, I was able to create the modularized UI architecture and 
 						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Define the style of each module style: Smaller number has darker color and higher elevation.</p>	
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="row margin--element_top">
+			<div class="col-md-offset-4 col-md-4">
+				<a class="btn btn--primary btn--highlight" href="http://www.chengfolio.com/work/striim_style_guide"><p class=" ">View Striim's Style Guide</p></a>
 			</div>
 		</div>
 	</div>

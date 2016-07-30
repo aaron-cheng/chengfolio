@@ -9,10 +9,10 @@
 <style type="text/css">
 	.zone_base{
 		cursor: pointer;
+		display: none;
 	}
 	.zone_overlay{
 		cursor: pointer;
-		display: none;
 	}
 </style>
 
@@ -117,6 +117,41 @@ The green color indicates the ‘safe zone‘ in which it is easy to move my thu
 
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘list of items’: Make the first item bigger or add informative content</h2>
+					<p class="margin--element_top_xs">List items stack from top to bottom. To avoid placing them in the red zone, we need to push them down. There are 2 ways of doing this without leaving an empty space: 
+
+1. Make the first item big enough so the bottom part can reach the safe zone. In the redesigned ‘Me‘ page, the user’s avatar is enlarged and the user can click its bottom part to edit the profile image. 
+
+2. Add informative content to the top. In the new shopping cart design, I moved shipping and tax fees on the top of the page to push the first item to the safe zone. However, you can notice that only the bottom part of the item is in the safe zone, to make it easy for users to click the ‘X‘ icon, I move it to the bottom and change it to ‘REMOVE‘.</p>
+				</div>
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="/img/blog/one_handed_use/old_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old me page with overlay">
+					<img src="/img/blog/one_handed_use/old_me.jpg" class="img-responsive center-block zone_base" alt="old me page">
+					<p class="text-center">Me (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new me page with overlay">
+					<img src="/img/blog/one_handed_use/new_me.jpg" class="img-responsive center-block zone_base" alt="new me page with">			
+					<p class="text-center">Me (New)</p>
+				</div>			
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="/img/blog/one_handed_use/old_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old shopping bag with overlay">
+					<img src="/img/blog/one_handed_use/old_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="old shopping bag">
+					<p class="text-center">Shopping Bag (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new shopping bag with overlay">
+					<img src="/img/blog/one_handed_use/new_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="new shopping bag with overlay">			
+					<p class="text-center">Shopping Bag (New)</p>
+				</div>			
+			</div>
+
+			<div class="row margin--element_top_lg">
+				<div class="col-md-8 col-md-offset-2">
 					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘Back button’: Popover window</h2>
 					<p class="margin--element_top_xs">Back button is one of the most used buttons on mobile app. Android phone even makes it a fixed physical key. However, it is placed at the top-left corner of the screen in iOS, which is extremely hard to reach. The idea of the solution comes from the popover window on desktop: to close the popover, we tend to click anywhere outside the popover other than the close button. In the new detail page design, I put the detail info in a big popover, which is actually the same size as the old design, but the dimmed status bar and tab bar makes it look like floating above the previous page.</p>
 				</div>
@@ -195,41 +230,6 @@ The green color indicates the ‘safe zone‘ in which it is easy to move my thu
 					<p class="text-center">Flow</p>
 				</div>		
 			</div> -->
-
-			<div class="row margin--element_top_lg">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘list of items’: Make the first item bigger or add informative content</h2>
-					<p class="margin--element_top_xs">List items stack from top to bottom. To avoid placing them in the red zone, we need to push them down. There are 2 ways of doing this without leaving an empty space: 
-
-1. Make the first item big enough so the bottom part can reach the safe zone. In the redesigned ‘Me‘ page, the user’s avatar is enlarged and the user can click its bottom part to edit the profile image. 
-
-2. Add informative content to the top. In the new shopping cart design, I moved shipping and tax fees on the top of the page to push the first item to the safe zone. However, you can notice that only the bottom part of the item is in the safe zone, to make it easy for users to click the ‘X‘ icon, I move it to the bottom and change it to ‘REMOVE‘.</p>
-				</div>
-			</div>
-			<div class="row margin--element_top">
-				<div class="col-md-4 col-md-offset-2">
-					<img src="/img/blog/one_handed_use/old_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old me page with overlay">
-					<img src="/img/blog/one_handed_use/old_me.jpg" class="img-responsive center-block zone_base" alt="old me page">
-					<p class="text-center">Me (Previous)</p>
-				</div>
-				<div class="col-md-4">
-					<img src="/img/blog/one_handed_use/new_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new me page with overlay">
-					<img src="/img/blog/one_handed_use/new_me.jpg" class="img-responsive center-block zone_base" alt="new me page with">			
-					<p class="text-center">Me (New)</p>
-				</div>			
-			</div>
-			<div class="row margin--element_top">
-				<div class="col-md-4 col-md-offset-2">
-					<img src="/img/blog/one_handed_use/old_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old shopping bag with overlay">
-					<img src="/img/blog/one_handed_use/old_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="old shopping bag">
-					<p class="text-center">Shopping Bag (Previous)</p>
-				</div>
-				<div class="col-md-4">
-					<img src="/img/blog/one_handed_use/new_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new shopping bag with overlay">
-					<img src="/img/blog/one_handed_use/new_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="new shopping bag with overlay">			
-					<p class="text-center">Shopping Bag (New)</p>
-				</div>			
-			</div>
 		</div>	
 	</div>
 
@@ -248,13 +248,13 @@ The green color indicates the ‘safe zone‘ in which it is easy to move my thu
 <?php include '../component/script.php';?>
 
 <script type="text/javascript">
-	$( ".zone_overlay" ).mouseleave(
+	$( ".zone_overlay" ).mouseenter(
 	  function() {
 	    $( ".zone_base" ).css("display","block");
 	    $( ".zone_overlay" ).css("display","none");
 	  }
 	);
-	$( ".zone_base" ).mouseenter(
+	$( ".zone_base" ).mouseleave(
 	  function() {
 	    $( ".zone_base" ).css("display","none");
 	    $( ".zone_overlay" ).css("display","block");
