@@ -186,7 +186,7 @@ The green color indicates the ‘safe zone‘ in which it is easy to move my thu
 				</div>		
 				<div class="col-md-4">
 					<img src="/img/blog/one_handed_use/new_search.gif" class="img-responsive center-block" alt="new search page flow">		
-					<p class="text-center">Flow (New)</p>
+					<p class="text-center">Search Flow (New)</p>
 				</div>	
 			</div>
 <!-- 			<div class="row margin--element_top">

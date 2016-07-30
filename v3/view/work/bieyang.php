@@ -317,6 +317,40 @@ For the design problems, I categorized the solutions based on the 3 major stages
 			</div>
 		</div>
 	</div>
+	<div class="container padding--element_bottom_lg">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="txt--subtitle">Introducing UI Pattern for One-handed Use</h2>
+						<p class="margin--element_top_sm">Users tend to switch back and forth frequently between item list and items’ detail page while doing shopping on mobile. However, in most Apps, the ‘back’ button in the detail page is located on the top left corner, which makes it very difficult to reach. Also jumping between different pages is not a very smooth user experience. </br></br> 
+						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </p>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+	<!-- 				<div class="col-md-6">
+						<h2 class="txt--subtitle margin--element_top_lg">Introducing UI Pattern for One-handed Use</h2>
+						<p class="margin--element_top_lg">Users tend to switch back and forth frequently between item list and items’ detail page while doing shopping on mobile. However, in most Apps, the ‘back’ button in the detail page is located on the top left corner, which makes it very difficult to reach. Also jumping between different pages is not a very smooth user experience. </br></br> 
+						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </p>
+					</div> -->
+					<div class="col-md-6 col-md-offset-3">
+						<img src="/img/work/bieyang/one_handed_use.gif" class="img-responsive center-block margin--element_top_lg" alt="One page display design animation">
+					</div>					
+				</div>
+			</div>
+		</div>
+
+		<div class="row margin--element_top">
+			<div class="col-md-offset-5 col-md-2">
+				<a class="btn btn--primary btn--highlight" href="http://www.chengfolio.com/blog/design_for_one-handed_use"><p class=" ">Read More</p></a>
+			</div>
+		</div>
+	</div>
 
 	<div class="work__background--differentiator">
 		<div class="container padding--element_lg">
