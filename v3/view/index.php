@@ -7,7 +7,15 @@
 <?php include 'component/head.php';?>
 
 <?php include 'component/style.php';?>
-
+<style type="text/css">
+	.zone_base{
+		cursor: pointer;
+	}
+	.zone_overlay{
+		cursor: pointer;
+		display: none;
+	}
+</style>
 
 </head>
 
@@ -15,483 +23,237 @@
 
 <?php include 'component/nav.php';?>
 
-<div class="container-fluid box--no_padding hidden-sm hidden-xs">
-		<div class="row">
-			<div class="col-md-12" >
-				<img src="/img/work/bieyang/hero.png" class="img-responsive center-block" alt="Hero image">
-			</div>
-		</div>
-	</div>	
-
-	<div class="container-fluid box--no_padding hidden-md hidden-lg">
-		<div class="row">
-			<div class="col-md-12" >
-				<img src="/img/work/bieyang/hero_mobile.png" class="img-responsive center-block" alt="Hero image">
-			</div>
-		</div>
-	</div>
-	
-	<div class="container work__header__wrapper">
-<!-- 		<div class="row">
-			<div class="col-md-3 col-md-offset-2 margin--element_top_lg">
-				<img src="/img/work/bieyang/bieyang_logo.png" class="img-responsive center-block margin--element_top_lg" alt="Bieyang Logo">
-			</div>			
-
-			<div class="col-md-6 margin--element_top">
-				<img src="/img/work/bieyang/bieyang_launch.png" class="img-responsive center-block" alt="Bieyang Screenshot">
-			</div>
-		</div> -->
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 margin--element_top_sm">
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="text-left txt--title">Bie Yang - E-commerce App Design</h1>
-						<p class="margin--element_top_sm">Chinese shoppers spent $10 billion in 2015 through cross-border e-commerce according to a report from Chinese research firm Analysys international and web-only retailer JD.com Inc. However, the shopping experience is awkward and difficult. Bieyang is founded with the vision to solve this problem. </br></br>
-
-I joined the company as the 2nd employee and started the project with literally nothing: no product, no funding and no office. I worked closely with the founders and PMs, defining product goals and key features. As the only designer in the team, I designed not only the entire app from wireframe to high-fidelity mockup, but also the company’s overall branding, logo and marketing website. I grew with the company from zero asset to 2 million seed round funding and 2000 daily active users.</br></br>
-
-Note: The original app is in Chinese, all images on this page are translated to English for illustration purpose only.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="work__background--differentiator">
-		<div class="container padding--element_lg margin--section_top">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">At a Glance:</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">Bieyang is an iOS app, which provides Chinese shoppers a platform that integrates with different merchants in U.S.. Users can enjoy the one-stop shopping experience from their favorite brands and Bieyang will handle everything behind the scene, including payment and shipping.</p>
-						</div>
-					</div>	
-
-					<div class="row">
-						<div class="col-sm-6 col-md-5 margin--element_top" >
-							<img src="/img/work/bieyang/discovery.png" class="img-responsive center-block" alt="Discovery">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/bieyang/product_list.png" class="img-responsive center-block" alt="Product List">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Product List</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 margin--element_top" >
-							<img src="/img/work/bieyang/brands.png" class="img-responsive center-block" alt="Brands">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Brands</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/bieyang/shopping_bag.png" class="img-responsive center-block" alt="Shopping Bag">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p>	
-						</div>				
-					</div>			
-				</div>
-			</div>
-		</div>
-	</div>
-
+<article>
 	<div class="container padding--element_lg">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="txt--subtitle">The problem:</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">Chinese shoppers spent $10 billion in 2015 through cross-border e-commerce and it has become the market with huge potential. But how can we find the niche market and what can we do to help our potential users? To answer those questions, we interviewed many people with the overseas online shopping experience and came up with 3 personas representing 3 types of users.</br></br>
-
-Our goal for creating these personas was to build an empathy for our users, which lays the foundation for building the product completely focused on solving the users’ problems.</p>
+						<h1 class="txt--regular txt--xxl txt--primary_on_light">Mobile UI for One-handed Use</h1>
 					</div>
-				</div>			
+				</div>
+
+
 			</div>
 		</div>
+	</div>
 
-		<div class="row">
-			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/persona_1.png" class="img-responsive center-block" alt="Persona 1">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	 -->
+	<div class="work__background--differentiator">
+		<div class="container padding--element_top_lg">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p>I remember before the smart phone was invented, I could use only one hand to type text messages and make calls. But now I have to use two hands to finish some tasks on my iPhone. The main reason is that the screen gets bigger and it is hard to reach the upper part. It sounds like an obvious problem, but why do we still insist putting those buttons at those awkward locations? I guess the answer from most people is ‘because everybody is doing that.‘ Well, I think now it is time to break the rule and start doing the right thing. I happen to be redesigning an e-commerce app recently and it is the perfect opportunity to explore the possibility of creating a one-handed use design pattern for mobile apps. </p>
+				</div>
 			</div>
-			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/persona_2.png" class="img-responsive center-block" alt="Persona 2">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Product List</p>	 -->
-			</div>
-			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/persona_3.png" class="img-responsive center-block" alt="Persona 3">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Brands</p> -->	
-			</div>			
-		</div>	
-
-		<div class="row margin--element_top">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<p class="txt--primary_on_light">With the help of the personas we created, we were able to identify our users’ pain points at each stage of the overseas online shopping process: browsing, checkout and shipping. Some of the problems are technical or business related and others are design challenges:</p>
-					</div>
-				</div>			
-			</div>
-		</div>
-
-		<div class="row">
-<!-- 			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/icon_browsing.png" class="img-responsive center-block" alt="Object map">
-				<p class="txt--primary_on_light text-center txt--bold">Browsing</p>	
-				<p class="txt--primary_on_light margin--element_top_sm txt--description">Technical/Business Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>Some merchants’ websites are blocked in China.</li>
-					<li>How to provide latest deals and fashion trends?</li>
-					<li>Keep updated with the merchant’s’ inventory.</li>
-				</ol>
-				<p class="txt--primary_on_light txt--description margin--element_top_sm">Design Challenge/Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>Inconsistent user experience from different merchants.</li>
-					<li>How to provide comprehensive browsing experience to meet the various users’ requirements.</li>
-				</ol>
-			</div>
-			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/icon_checkout.png" class="img-responsive center-block" alt="Object map">
-				<p class="txt--primary_on_light text-center txt--bold">Checkout</p>	
-				<p class="txt--primary_on_light margin--element_top_sm txt--description">Technical/Business Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>Most merchants’ don’t accept Alipay.</li>
-					<li>Some merchants don’t accept Chinese credit cards.</li>
-					<li>Each merchant has different checkout process.</li>
-				</ol>
-				<p class="txt--primary_on_light txt--description margin--element_top_sm">Design Challenge/Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>How to handle multiple merchants checkout, including free samples and promo code for multiple merchants.
-</li>
-				</ol>
-			</div>
-			<div class="col-md-4 margin--element_top" >
-				<img src="/img/work/bieyang/icon_shipping.png" class="img-responsive center-block" alt="Object map">
-				<p class="txt--primary_on_light text-center txt--bold">Shipping</p>	
-				<p class="txt--primary_on_light margin--element_top_sm txt--description">Technical/Business Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>Most merchants don’t provide international shipping.</li>
-					<li>Most concierge companies addresses are blocked by certain merchants.</li>
-				</ol>
-				<p class="txt--primary_on_light txt--description margin--element_top_sm">Design Challenge/Problem:</p>
-				<ol class="txt--description txt--bullet_list">
-					<li>China Customs requires the shoppers providing photo ID.</li>
-					<li>Design a comprehensive order tracking system for multiple merchants.</li>
-				</ol>
-			</div>	 -->	
-			<div class="col-md-12 margin--element_top" >
-				<img src="/img/work/bieyang/problems.png" class="img-responsive center-block" alt="Problems">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	 -->
+			<div class="row margin--element_top">
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/new_discovery.jpg" class="img-responsive center-block" alt="Discovery Page">			
+					<p class="text-center">Discovery Page</p>
+				</div>
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/new_search.jpg" class="img-responsive center-block" alt="Search Page">			
+					<p class="text-center">Search Page</p>
+				</div>
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/new_shopping_bag.jpg" class="img-responsive center-block" alt="Shopping Bag">			
+					<p class="text-center">Shopping Bag</p>
+				</div>
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/new_me.jpg" class="img-responsive center-block" alt="Me Page">			
+					<p class="text-center">Me Page</p>
+				</div>				
 			</div>
 		</div>	
 	</div>
-
 
 	<div class="work__background--differentiator">
 		<div class="container padding--element_lg">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">The Solution:</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">For the technical/business problems, the solutions are straight forward: We crawled every product from each merchant and used bots to automate the purchasing process so the users will always use one consistent interface to purchase from any merchant. We also got partnered with some concierge companies to handle the shipping.</br></br>
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Identify the ‘safe zone‘</h2>
+					<p class="margin--element_top_xs">Before we jump into the design, we need to figure out the ‘safe zone‘ on the screen. I use iPhone 6 for the test. Because if the design works on iPhone 6 and it should work better on smaller screens. Those smart phones bigger than iPhone 6 are designed for two-handed use and there is no need to worry about them. </br></br>
 
-For the design problems, I categorized the solutions based on the 3 major stages during the shopping process: browsing, checkout and tracking orders. The diagram below shows the high-level sitemap of the product’s structure and strategy.
-</p>
-						</div>
-					</div>
+The green color indicates the ‘safe zone‘ in which it is easy to move my thumb around. Within the blue area, it gets a little bit harder, but I am still able to reach any spot. The red zone is the area that is impossible for me to reach without moving my other fingers. So in our design, we should put all the buttons and other interactive elements within the green and blue area and stay away from the red zone.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 margin--element_top" >
-					<img src="/img/work/bieyang/solutions.png" class="img-responsive center-block" alt="Solutions">
-					<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	 -->
+			<div class="row margin--element_top">
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/green_zone.jpg" class="img-responsive center-block" alt="Easy zone">			
+					<p class="text-center">Easy</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/blue_zone.jpg" class="img-responsive center-block" alt="Ok zone">			
+					<p class="text-center">Ok</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/red_zone.jpg" class="img-responsive center-block" alt="Hard zone">			
+					<p class="text-center">Hard</p>
 				</div>
 			</div>
 
 			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">User Flow:</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">With the sitemap, the next step is to create the user flows, which helps the team understand how exactly the app will fulfill the multiple user objectives and what pages/features need to be designed/built. With the user flow, I can design the UI architecture with consistent user interface and reusable components to accommodate various features.</p>
-						</div>
-					</div>
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Find the problems</h2>
+					<p class="margin--element_top_xs">Now let’s take a look at some examples and find the problems we are gonna solve. Basically, there are 4 types of interactive elements often being used in the red zone: List of items, Back button, Sub navigation and Action buttons.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 margin--element_top" >
-					<img src="/img/work/bieyang/user_flow.png" class="img-responsive center-block" alt="User Flow">
-					<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	 -->
+			<div class="row margin--element_top">
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/fancy_screenshot.jpg" class="img-responsive center-block" alt="Fancy screenshot">			
+					<p class="text-center">Back button (Fancy: Detail)</p>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container padding--element_lg">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Branding/Logo Design</h2>
-					</div>
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/spring_screenshot.jpg" class="img-responsive center-block" alt="Spring screenshot">			
+					<p class="text-center">Sub Navigation (Spring: Shop)</p>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="txt--primary_on_light margin--element_top_xs">Most of the items our users purchased are luxury fashion goods. The app’s overall black and white tone as well as the minimalist design style brings a high-end look and feel.</br></br>
-						The graphics of the logo design is the modification of ‘b‘ and ‘y‘, which are the first letters of the app name - ‘bie yang’.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 margin--element_top" >
-						<img src="/img/work/bieyang/logo_concept.png" class="img-responsive center-block" alt="Logo Concept">
-						<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Discovery</p>	 -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 margin--element_top_lg" >
-				<img src="/img/work/bieyang/branding.jpg" class="img-responsive center-block" alt="Branding Design">
-				<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Branding Design</p>	
-			</div>
-		</div>
-	</div>
-
-	<div class="work__background--differentiator">
-		<div class="container padding--element_lg margin--section_top">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">Discovery</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">The 2 sections in the Discovery page: Trend and Deal, are designed for those who are not sure what exactly to buy. Trend has the original articles about the latest fashion news or the introduction of new products. Full-width image layout helps arouse users’ interest therefore making purchasing decision. As for the Deal section, since deals refresh frequently everyday, I make the layout denser to accommodate more contents.</p>
-						</div>
-					</div>	
-
-					<div class="row">
-						<div class="col-sm-6 col-md-5 margin--element_top" >
-							<img src="/img/work/bieyang/discovery.png" class="img-responsive center-block" alt="Trend">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Trend</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/bieyang/deal.png" class="img-responsive center-block" alt="Deal">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Deal</p>	
-						</div>			
-					</div>			
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container padding--element_lg">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Search</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">As what its name implies, Search tab is for those who know what they want. Besides search function, this page also provides Sort and comprehensive Filters including merchants, brands, price and discount to help users easily find the items.</p>
-					</div>
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/facebook_new_feed_screenshot.jpg" class="img-responsive center-block" alt="Facebook news feed">			
+					<p class="text-center">Buttons (Facebook: News Feed)</p>
 				</div>	
-
-				<div class="row">
-					<div class="col-sm-6 col-md-5 margin--element_top" >
-						<img src="/img/work/bieyang/product_list.png" class="img-responsive center-block" alt="Product List">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Product List</p>	
-					</div>
-					<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-						<img src="/img/work/bieyang/product _detail.png" class="img-responsive center-block" alt="Product Detail">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Product Detail</p>	
-					</div>		
-					<div class="col-sm-6 col-md-5 margin--element_top" >
-						<img src="/img/work/bieyang/filter_category.png" class="img-responsive center-block" alt="Filter by Category">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Filter by Category</p>	
-					</div>
-					<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-						<img src="/img/work/bieyang/filter_category_expanded.png" class="img-responsive center-block" alt="Filter by Category - Expanded">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Filter by Category - Expanded</p>	
-					</div>	
-					<div class="col-sm-6 col-md-5 margin--element_top" >
-						<img src="/img/work/bieyang/filter.png" class="img-responsive center-block" alt="Filter">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Filter</p>	
-					</div>
-					<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-						<img src="/img/work/bieyang/sort_by.png" class="img-responsive center-block" alt="Sort by">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Sort by</p>	
-					</div>		
+				<div class="col-md-3">
+					<img src="/img/blog/one_handed_use/facebook_screenshot.jpg" class="img-responsive center-block" alt="Facebook screenshot">			
+					<p class="text-center">List of items (Facebook: More)</p>
 				</div>			
 			</div>
-		</div>
-	</div>
-	<div class="container padding--element_bottom_lg">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Introducing UI Pattern for One-handed Use</h2>
-						<p class="margin--element_top_sm">Users tend to switch back and forth frequently between item list and items’ detail page while doing shopping on mobile. However, in most Apps, the ‘back’ button in the detail page is located on the top left corner, which makes it very difficult to reach. Also jumping between different pages is not a very smooth user experience. </br></br> 
-						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </p>
-					</div>
-				</div>			
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-	<!-- 				<div class="col-md-6">
-						<h2 class="txt--subtitle margin--element_top_lg">Introducing UI Pattern for One-handed Use</h2>
-						<p class="margin--element_top_lg">Users tend to switch back and forth frequently between item list and items’ detail page while doing shopping on mobile. However, in most Apps, the ‘back’ button in the detail page is located on the top left corner, which makes it very difficult to reach. Also jumping between different pages is not a very smooth user experience. </br></br> 
-						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </p>
-					</div> -->
-					<div class="col-md-6 col-md-offset-3">
-						<img src="/img/work/bieyang/one_handed_use.gif" class="img-responsive center-block margin--element_top_lg" alt="One page display design animation">
-					</div>					
-				</div>
-			</div>
-		</div>
-
-		<div class="row margin--element_top">
-			<div class="col-md-offset-5 col-md-2">
-				<a class="btn btn--primary btn--highlight" href="http://www.chengfolio.com/blog/design_for_one-handed_use"><p class=" ">Read More</p></a>
-			</div>
-		</div>
-	</div>
-
-	<div class="work__background--differentiator">
-		<div class="container padding--element_lg">
-			<div class="row">
+			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">Brands</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">Brands tab includes Merchants and Brands. Here users can view all the products from their favorite merchants or brands by clicking the logos. We integrated only limited number of merchants, so I can prepare consistent logos for each of them. But we have hundreds of brands, which is hard for me to find all of the logos. The solution is to list several popular brands taking the full screen and when users scroll up, the full brand list will move up from the bottom to cover the brand logos.</p>
-						</div>
-					</div>			
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘Back button’: Popover window</h2>
+					<p class="margin--element_top_xs">Back button is one of the most used buttons on mobile app. Android phone even makes it a fixed physical key. However, it is placed at the top-left corner of the screen in iOS, which is extremely hard to reach. The idea of the solution comes from the popover window on desktop: to close the popover, we tend to click anywhere outside the popover other than the close button. In the new detail page design, I put the detail info in a big popover, which is actually the same size as the old design, but the dimmed status bar and tab bar makes it look like floating above the previous page.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row">
-						<div class="col-sm-4 margin--element_top" >
-							<img src="/img/work/bieyang/merchants.png" class="img-responsive center-block" alt="Merchants">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Merchants</p>	
-						</div>
-						<div class="col-sm-4 margin--element_top" >
-							<img src="/img/work/bieyang/brands.png" class="img-responsive center-block" alt="Brands">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Brands</p>	
-						</div>		
-						<div class="col-sm-4 margin--element_top" >
-							<img src="/img/work/bieyang/brands_scroll_up.png" class="img-responsive center-block" alt="Brands - when scrolling up">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Brands - when scrolling up</p>	
-						</div>		
-					</div>	
+			<div class="row margin--element_top">
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/old_detail_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old detail page with overlay">
+					<img src="/img/blog/one_handed_use/old_detail.jpg" class="img-responsive center-block zone_base" alt="old detail page">
+					<p class="text-center">Detail (Previous)</p>
 				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="container padding--element_lg">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Checkout Process</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">Checkout is the most complicated process for a shopping app. Since we support multiple merchants checkout, this adds another layer of complication. Considering the free samples, promo code and several other potential checkout problems, we separated the checkout process of each merchant. We only allow users checking out one merchant at a time to avoid any confusion.</p>
-					</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_detail_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new detail page with overlay">
+					<img src="/img/blog/one_handed_use/new_detail.jpg" class="img-responsive center-block zone_base" alt="new detail page">			
+					<p class="text-center">Detail (New)</p>
 				</div>	
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_detail_flow.gif" class="img-responsive center-block" alt="new detail flow">			
+					<p class="text-center">Detail Flow (New)</p>
+				</div>							
+			</div>
+<!-- 			<div class="row margin--element_top">
+				<div class="col-md-8 col-md-offset-2">
+					<img src="/img/blog/one_handed_use/detail_flow.png" class="img-responsive center-block" alt="Detail page flow">
+					<p class="text-center">Flow</p>
+				</div>		
+			</div> -->
 
-				<div class="row">
-					<div class="col-sm-6 col-md-5 margin--element_top" >
-						<img src="/img/work/bieyang/shopping_bag.png" class="img-responsive center-block" alt="Shopping Bag">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p>	
-					</div>
-					<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-						<img src="/img/work/bieyang/checkout.png" class="img-responsive center-block" alt="Checkout">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Checkout</p>	
-					</div>		
-					<div class="col-sm-6 col-md-5 margin--element_top" >
-						<img src="/img/work/bieyang/payment.png" class="img-responsive center-block" alt="Payment">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Payment</p>	
-					</div>
-					<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-						<img src="/img/work/bieyang/confirmation.png" class="img-responsive center-block" alt="Confirmation">
-						<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Confirmation</p>	
-					</div>		
+			<div class="row margin--element_top_lg">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘Sub navigation’: Enable left-right swiping</h2>
+					<p class="margin--element_top_xs">It is relatively easy to solve this problem. All we need to do is to enable users swiping left and right to switch among different tabs. In the new ‘Discovery’ design, I changed the style of the sub navigation to make it look like more swipeable. </p>
+				</div>
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/old_discovery_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old discovery page with overlay">
+					<img src="/img/blog/one_handed_use/old_discovery.jpg" class="img-responsive center-block zone_base" alt="old discovery page">
+					<p class="text-center">Discovery (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_discovery_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new discovery page with overlay">
+					<img src="/img/blog/one_handed_use/new_discovery.jpg" class="img-responsive center-block zone_base" alt="new discovery page">			
+					<p class="text-center">Discovery (New)</p>
+				</div>		
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_discovery_flow.gif" class="img-responsive center-block" alt="new search page flow">		
+					<p class="text-center">Discovery Flow (New)</p>
 				</div>		
 			</div>
-		</div>
 
-		<div class="row margin--element_top_lg">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Checkout Flow</h2>
-					</div>
-				</div>	
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12 margin--element_top" >
-				<img src="/img/work/bieyang/checkout_flow.png" class="img-responsive center-block" alt="Checkout Flow">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p> -->	
-			</div>	
-		</div>	
-
-		<div class="row margin--element_top_lg">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="txt--subtitle">Checkout Page Detail</h2>
-					</div>
-				</div>	
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 margin--element_top" >
-				<img src="/img/work/bieyang/checkout_detail.png" class="img-responsive center-block" alt="Checkout Details">
-				<!-- <p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Shopping Bag</p> -->	
-			</div>	
-		</div>
-	</div>
-
-	<div class="work__background--differentiator">
-		<div class="container padding--element_lg margin--section_top">
-			<div class="row">
+			<div class="row margin--element_top_lg">
 				<div class="col-md-8 col-md-offset-2">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="txt--subtitle">My Orders</h2>
-							<p class="txt--primary_on_light margin--element_top_xs">Each order is separated by merchant. For every order, we provide item-level tracking  because merchants sometimes ship items in separated packages with separated tracking number even all items are purchased within one order. </p>
-						</div>
-					</div>	
-
-					<div class="row">
-						<div class="col-sm-6 col-md-5 margin--element_top" >
-							<img src="/img/work/bieyang/me.png" class="img-responsive center-block" alt="Me">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Me</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/bieyang/order_list.png" class="img-responsive center-block" alt="Order List">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Order List</p>	
-						</div>		
-						<div class="col-sm-6 col-md-5 margin--element_top" >
-							<img src="/img/work/bieyang/order_detail.png" class="img-responsive center-block" alt="Order Detail">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Order Detail</p>	
-						</div>
-						<div class="col-sm-6 col-md-5 col-md-offset-2 margin--element_top" >
-							<img src="/img/work/bieyang/tracking.png" class="img-responsive center-block" alt="Tracking Detail">
-							<p class="txt--primary_on_light margin--element_top_xs txt--img_caption">Tracking Detail</p>	
-						</div>									
-					</div>			
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘Action buttons’: Move everything to the tab bar</h2>
+					<p class="margin--element_top_xs">Back button is one of the most used buttons on mobile app. Android phone even makes it a fixed physical key. However, it is placed at the top-left corner of the screen in iOS, which is extremely hard to reach. The idea of the solution comes from the popover window on desktop: to close the popover, we tend to click anywhere outside the popover other than the close button. In the new detail page design, I put the detail info in a big popover, which is actually the same size as the old design, but the dimmed status bar and tab bar makes it look like floating above the previous page.</p>
 				</div>
 			</div>
-		</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/old_search_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old search page with overlay">
+					<img src="/img/blog/one_handed_use/old_search.jpg" class="img-responsive center-block zone_base" alt="old search page">
+					<p class="text-center">Search (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_search_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new search page with overlay">
+					<img src="/img/blog/one_handed_use/new_search.jpg" class="img-responsive center-block zone_base" alt="new search page">			
+					<p class="text-center">Search (New)</p>
+				</div>		
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_search.gif" class="img-responsive center-block" alt="new search page flow">		
+					<p class="text-center">Search Flow (New)</p>
+				</div>	
+			</div>
+<!-- 			<div class="row margin--element_top">
+				<div class="col-md-10 col-md-offset-1">
+					<img src="/img/blog/one_handed_use/search_flow.png" class="img-responsive center-block" alt="search page flow">
+					<p class="text-center">Flow</p>
+				</div>		
+			</div> -->
+
+			<div class="row margin--element_top_lg">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="txt--bold txt--lg txt--primary_on_light">Solution for ‘list of items’: Make the first item bigger or add informative content</h2>
+					<p class="margin--element_top_xs">List items stack from top to bottom. To avoid placing them in the red zone, we need to push them down. There are 2 ways of doing this without leaving an empty space: 
+
+1. Make the first item big enough so the bottom part can reach the safe zone. In the redesigned ‘Me‘ page, the user’s avatar is enlarged and the user can click its bottom part to edit the profile image. 
+
+2. Add informative content to the top. In the new shopping cart design, I moved shipping and tax fees on the top of the page to push the first item to the safe zone. However, you can notice that only the bottom part of the item is in the safe zone, to make it easy for users to click the ‘X‘ icon, I move it to the bottom and change it to ‘REMOVE‘.</p>
+				</div>
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="/img/blog/one_handed_use/old_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old me page with overlay">
+					<img src="/img/blog/one_handed_use/old_me.jpg" class="img-responsive center-block zone_base" alt="old me page">
+					<p class="text-center">Me (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_me_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new me page with overlay">
+					<img src="/img/blog/one_handed_use/new_me.jpg" class="img-responsive center-block zone_base" alt="new me page with">			
+					<p class="text-center">Me (New)</p>
+				</div>			
+			</div>
+			<div class="row margin--element_top">
+				<div class="col-md-4 col-md-offset-2">
+					<img src="/img/blog/one_handed_use/old_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="old shopping bag with overlay">
+					<img src="/img/blog/one_handed_use/old_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="old shopping bag">
+					<p class="text-center">Shopping Bag (Previous)</p>
+				</div>
+				<div class="col-md-4">
+					<img src="/img/blog/one_handed_use/new_shopping_bag_overlay.jpg" class="img-responsive center-block zone_overlay" alt="new shopping bag with overlay">
+					<img src="/img/blog/one_handed_use/new_shopping_bag.jpg" class="img-responsive center-block zone_base" alt="new shopping bag with overlay">			
+					<p class="text-center">Shopping Bag (New)</p>
+				</div>			
+			</div>
+		</div>	
 	</div>
+
+</article>
 
 
 <?php include 'component/footer.php';?>
 
 <?php include 'component/script.php';?>
-
+<script type="text/javascript">
+	$( ".zone_overlay" ).mouseleave(
+	  function() {
+	    $( ".zone_base" ).css("display","block");
+	    $( ".zone_overlay" ).css("display","none");
+	  }
+	);
+	$( ".zone_base" ).mouseenter(
+	  function() {
+	    $( ".zone_base" ).css("display","none");
+	    $( ".zone_overlay" ).css("display","block");
+	  }
+	);	
+</script>
 
 </body>
 </html>

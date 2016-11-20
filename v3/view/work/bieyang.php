@@ -324,7 +324,11 @@ For the design problems, I categorized the solutions based on the 3 major stages
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">Introducing UI Pattern for One-handed Use</h2>
 						<p class="margin--element_top_sm">Users tend to switch back and forth frequently between item list and items’ detail page while doing shopping on mobile. However, in most Apps, the ‘back’ button in the detail page is located on the top left corner, which makes it very difficult to reach. Also jumping between different pages is not a very smooth user experience. </br></br> 
-						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </p>
+						To solve those two problems, I came up with the UI for one-handed use. Once user clicks any item, the picture will be enlarged to take the same space as a regular page. The tab bar and navigation bar will move away, but the top and bottom of the category page is still visible and dimed as the background. To close the detail page, users can simply tap anywhere on the bottom part. The animation and layout make the user feel he/she can navigate without leaving the category page. The intuitive interaction makes the switching much easier and faster. </br></br> 
+						If you are interested in the Mobile UI for One-handed Use, you can find more information in the blog - <a href="http://www.chengfolio.com/blog/design_for_one-handed_use" class="txt--highlight txt--bold">Mobile UI for One-handed Use</a> </p>
+
+
+
 					</div>
 				</div>			
 			</div>
@@ -392,7 +396,8 @@ For the design problems, I categorized the solutions based on the 3 major stages
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="txt--subtitle">Checkout Process</h2>
-						<p class="txt--primary_on_light margin--element_top_xs">Checkout is the most complicated process for a shopping app. Since we support multiple merchants checkout, this adds another layer of complication. Considering the free samples, promo code and several other potential checkout problems, we separated the checkout process of each merchant. We only allow users checking out one merchant at a time to avoid any confusion.</p>
+						<p class="txt--primary_on_light margin--element_top_xs">Checkout is the most complicated process for a shopping app. Since we support multiple merchants checkout, this adds another layer of complication. Considering the free samples, promo code and several other potential checkout problems, we separated the checkout process of each merchant. We only allow users checking out one merchant at a time to avoid any confusion. </br></br> 
+						If you want to know more about the design process, there is a seperated blog post about the shopping bag design: <a href="http://www.chengfolio.com/blog/shopping_cart_ui_design" class="txt--highlight txt--bold">Shopping Cart UI Design</a></p>
 					</div>
 				</div>	
 

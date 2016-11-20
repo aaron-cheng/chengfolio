@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mobile UI Design Pattern for One-handed Use</title>
+	<title>Mobile UI for One-handed Use</title>
 
 <?php include '../component/head.php';?>
 
@@ -28,7 +28,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 class="txt--regular txt--xxl txt--primary_on_light">Mobile UI Design Pattern for One-handed Use</h1>
+						<h1 class="txt--regular txt--xxl txt--primary_on_light">Mobile UI for One-handed Use</h1>
 					</div>
 				</div>
 
