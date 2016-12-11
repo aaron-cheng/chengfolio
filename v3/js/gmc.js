@@ -3,6 +3,7 @@ function initialize()
   var mapProp = {
     center: new google.maps.LatLng(37.74869169564006, -122.41571655273435),
     zoom:13,
+    tilt:0,
     panControl:false,
     zoomControl:false,
     mapTypeControl:true,

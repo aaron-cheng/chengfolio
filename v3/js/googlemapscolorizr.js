@@ -54,8 +54,8 @@ function googlemapcolorizer()
 			zoom: 13,
 
 			mapTypeId: 'Styled',
-			disableDefaultUI: true
-
+			disableDefaultUI: true,
+			tilt:0,
 
 			// styles: kk,
 
