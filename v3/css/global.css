@@ -36,9 +36,9 @@ F0F0F0 - Footer background color
 body  {
   font-family: "Open Sans", Microsoft YaHei, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 300;
-  line-height: 1.8;
-  color: #999;
+  font-weight: 400;
+  line-height: 2.2em;
+  color: #575757;
   background-color: #F6F6F6;
 }
 
@@ -53,13 +53,13 @@ ul,ol,li{
 
 h1, h2, h3, h4, h5, h6{
 	font-family: "Open Sans", Microsoft YaHei, Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 18px;
+	font-weight:400;
+	font-size: 1.6em;
 	margin: 0;
 }
 
 a{
-	color: #999;
+	color: #575757;
 }
 
 a:hover, a:focus{
@@ -110,6 +110,7 @@ q{
 .txt--ordered_list{
 	list-style-type: decimal;
 	list-style-position:outside;
+	padding-left: 40px;
 }
 
 .txt--ordered_list > li{
@@ -151,14 +152,29 @@ q{
 .txt--title{
 	font-size: 32px;
 	line-height: 48px;
-	font-weight: 300;
+	font-weight: 700;
 	color: #3E3E3E;
 }
 
-.txt--subtitle{
-	font-size: 24px;
-	line-height: 32px;
+.txt--project_title h2{
+	font-size: 18px;
+	line-height: 24px;
 	font-weight: 400;
+	color: #575757;
+}
+
+.txt--project_title:hover h2{
+	opacity: 0.9;
+}
+
+.txt--project_title:hover img{
+	opacity: 0.9;
+}
+
+.txt--subtitle{
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 700;
 	color: #3E3E3E;
 }
 
@@ -179,9 +195,8 @@ q{
 }
 
 article p{
-	font-size: 18px;
 	color: #3E3E3E;
-	line-height: 1.8;
+	line-height: 2.2;
 }
 
 .txt--primary_on_dark{
@@ -260,7 +275,7 @@ article a{
 }
 
 .img__wrapper{
-	box-shadow: 0 1px 6px rgba(0,0,0,.1);
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
 /*	border-width: 1px;
 	border-style: solid;
 	border-color: #F6F6F6;*/
@@ -472,7 +487,7 @@ article a{
 	top: 0;	
 	padding-top: 15px;
 	padding-bottom: 5px;
-	z-index: 100;
+	z-index: 9;
 	opacity: 0.95;
 	background-color: #F6F6F6;
 }

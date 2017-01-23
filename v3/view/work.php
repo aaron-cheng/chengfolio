@@ -66,36 +66,43 @@
 						</a>
 					</div> -->
 
-					<div class="col-sm-6 col-lg-4 margin--element_top" >
-						<a href="/work/bieyang" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg" >
+						<a href="/work/bieyang" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_bieyang.png" class="img-responsive center-block" alt="Bieyang Screenshot">
 							<h2 class="text-center margin--element_top_xs">Bie Yang - E-commerce App</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-lg-4 margin--element_top" >
-						<a href="/work/striim_flow_designer" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg" >
+						<a href="/work/striim_health_monitor" target="_top" class="txt--project_title">
+							<img src="/img/work/work_img_striim_health_monitor.png" class="img-responsive center-block" alt="Striim Health Monitor Screenshot">
+							<h2 class="text-center margin--element_top_xs ">Striim - Health Monitor</h2>
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg" >
+						<a href="/work/striim_flow_designer" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_striim_fd.png" class="img-responsive center-block" alt="Striim Flow Designer Screenshot">
 							<h2 class="text-center margin--element_top_xs">Striim - Flow Designer</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-lg-4 margin--element_top">
-						<a href="/work/boutique_sui" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg">
+						<a href="/work/boutique_sui" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_boutiquesui.png" class="img-responsive center-block" alt="Boutique Sui Screenshot">
 							<h2 class="text-center margin--element_top_xs">Boutique Sui Website</h2>
 						</a>
 					</div>
 
 					<div class="col-sm-6 col-lg-4 margin--element_top_lg" >
-						<a href="/work/heymenu" target="_top">
+						<a href="/work/heymenu" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_heymenu.png" class="img-responsive center-block" alt="HeyMenu Screenshot">
 							<h2 class="text-center margin--element_top_xs">HeyMenu</h2>
 						</a>
 					</div>
 
 					<div class="col-sm-6 col-lg-4 margin--element_top_lg" >
-						<a href="/work/ivylla" target="_top">
+						<a href="/work/ivylla" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_ivylla.png" class="img-responsive center-block" alt="Ivylla Home Page">
 							<h2 class="text-center margin--element_top_xs">Ivylla Web Application</h2>
 						</a>
@@ -118,36 +125,36 @@
 					</div> -->
 				</div>
 
-				<div class="row">
+				<div class="row margin--section_top">
 					<div class="col-md-12">
 						<h1 class="txt--title margin--section_top text-center">Industrial Design</h1>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-sm-6 col-lg-4 margin--element_top">
-						<a href="/work/parking_housing" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg">
+						<a href="/work/parking_housing" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_parkinghousing.png" class="img-responsive center-block" alt="Parking & Housing Picture">
 							<h2 class="text-center margin--element_top_xs">Parking & Housing</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-lg-4 margin--element_top">
-						<a href="/work/grabby_mouse" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg">
+						<a href="/work/grabby_mouse" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_grabbymouse.png" class="img-responsive center-block" alt="Grabby Mouse Picture">
 							<h2 class="text-center margin--element_top_xs">Grabby Mouse</h2>
 						</a>
 					</div>
 					
-					<div class="col-sm-6 col-lg-4 margin--element_top">
-						<a href="/work/pin" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg">
+						<a href="/work/pin" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_pin.png" class="img-responsive center-block" alt="Pin">
 							<h2 class="text-center margin--element_top_xs">Pin</h2>
 						</a>
 					</div>
 
-					<div class="col-sm-6 col-lg-4 margin--element_top">
-						<a href="/work/reclink" target="_top">
+					<div class="col-sm-6 col-lg-4 margin--element_top_lg">
+						<a href="/work/reclink" target="_top" class="txt--project_title">
 							<img src="/img/work/work_img_reclink.png" class="img-responsive center-block" alt="RecLink Picture">
 							<h2 class="text-center margin--element_top_xs">RecLink</h2>
 						</a>

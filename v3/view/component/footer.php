@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row margin--element_top_xs">
 				<div class="col-sm-9 col-md-7 col-md-offset-1 margin--element_bottom_xs">
-					<p class="footer__copyright">Copyright &#169 2016, Aaron Cheng's Portfolio, All rights reserved.</p>
+					<p class="footer__copyright">Copyright &#169 2017, Aaron Cheng's Portfolio, All rights reserved.</p>
 				</div>
 
 				<div class="col-xs-4 col-sm-1 margin--element_bottom_xs">
