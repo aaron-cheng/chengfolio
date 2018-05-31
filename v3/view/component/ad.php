@@ -1,3 +1,18 @@
+<div class="ad">
+	<p class="ad__close" id="ad__close" style="color:#fff;">X</p>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- FloatAds -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-9907920768590335"
+	     data-ad-slot="9031427465"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>	
+
+
 <!-- <div class="ad">
 	<p class="ad__close" id="ad__close" style="color:#fff;">X</p>
 	<a id="ad__img" href="http://www.amazon.com/Certified-Braided-Tangle-Free-Lightning-Charging/dp/B017VPDGPM?keywords=lightning+cable" onClick="ga('send', 'event', 'ad', 'click', 'gotoamazon');">
