@@ -1,5 +1,5 @@
 <div class="ad">
-	<p class="ad__close" id="ad__close" style="color:#fff;">X</p>
+	<!-- <p class="ad__close" id="ad__close" style="color:#fff;">X</p> -->
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- FloatAds -->
 	<ins class="adsbygoogle"

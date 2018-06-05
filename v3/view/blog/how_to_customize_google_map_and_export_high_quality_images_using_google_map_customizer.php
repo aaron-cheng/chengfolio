@@ -31,13 +31,13 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<h2 class="txt--bold txt--lg txt--primary_on_light">What does Google Map Customizer do?</h2>
-					<p class="margin--element_top">1. Google Map Customizer is made by Aaron Cheng. The code is based on <a class="txt--blog_highlight txt--regular" href="https://maps.google.com/">Google Maps</a> and <a class="txt--blog_highlight txt--regular" href="http://software.stadtwerk.org/google_maps_colorizr/">Google Maps Colorizr</a>.</br></br>
+					<p class="margin--element_top">
 
-					2. Google Map Customizer lets you customize the colors on a Google Map. You can select customizations for any map aspects you want, such as the natural landscape. For this aspect you can enter the HEX code of the color you want it to be filled with.</br></br> 
+					1. Google Map Customizer lets you customize the colors on a Google Map. You can select customizations for any map aspects you want, such as the natural landscape. For this aspect you can enter the HEX code of the color you want it to be filled with.</br></br> 
 
-					3. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. You can simply zoom into the level of detail you want and setup the window dimensions big enough to capture the site area you need. Then all you need to do is to grab the screen shot.</br></br>
-					<a id="screenshottools" href="#screenshottools"><p>&ensp;</p></a></p>
-					<p>There are many third-party tools:</br>
+					2. Google Map Customizer lets you get large, high resolution satellite maps, typical Google maps and custom maps made by Google Map Engine. You can simply zoom into the level of detail you want and setup the window dimensions big enough to capture the site area you need. Then all you need to do is to grab the screen shot.</br></br>
+					<!-- <a id="screenshottools" href="#screenshottools"><p>&ensp;</p></a></p> -->
+					There are many third-party tools:</br>
 					<a class="txt--blog_highlight txt--regular" href="https://addons.mozilla.org/en-US/firefox/addon/fireshot/">FireShot</a> plugin for Firefox; <a class="txt--blog_highlight txt--regular" href="https://chrome.google.com/webstore/detail/capture-webpage-screensho/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=en-US">FireShot</a> for Chrome or Adobe Acrobat’s <a class="txt--blog_highlight txt--regular" href="http://www.adobe.com/products/acrobat/convert-html-to-pdf.html">PDF toolbar</a> to convert HTML to PDF.</p>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 					<h2 class="txt--bold txt--lg txt--primary_on_light">Attribution</h2>
 					<p class="margin--element_top">In Google Maps Customizer you can find two types of maps: satellite map and customizable map. The data behind these two layers come from different places:</br></br>
 					Google Maps: I make use of Google Maps V3 to display the satellite map.</br></br>
-					Marc Köster: Marc produces Google Maps Colorizr. Google Maps Colorizr is licensed under a Creative Commons Attribution-Noncommercial 3.0 Unported License (http://creativecommons.org/licenses/by-nc/3.0/). The customizable map is a modification of Google Maps Colorizr.</p>
+					</p>
 				</div>
 			</div>
 		</div>	

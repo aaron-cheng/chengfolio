@@ -12,7 +12,8 @@
 
 		<link href="/css/gmc.css" rel="stylesheet">
 
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> -->
+		<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBUuJHxSC7ahW4ZxtVyAq5VrnzAVTgSm7U"></script>
 		<script type="text/javascript" src="/js/ZeroClipboard.js"></script>
 		<script type='text/javascript' src="/js/googlemapscolorizr.js"></script>
 	</head>
